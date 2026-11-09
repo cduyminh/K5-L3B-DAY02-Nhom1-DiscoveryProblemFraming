@@ -1,0 +1,176 @@
+# Báo cáo cá nhân — 2A202603981_BuiPhanThanhPhuc
+
+## 1. Thông tin học viên
+
+- Họ tên: Bùi Phan Thanh Phúc
+- MSSV: 2A202603981
+- Email trường (không bắt buộc):
+- Tên nhóm: Nhóm 1
+- Link repo nhóm: https://github.com/cduyminh/K5-L3B-DAY02-Nhom1-DiscoveryProblemFraming
+
+---
+
+## 2. Scan problem (CP1)
+
+|   # | Lăng kính                         | Job Story: Khi… tôi muốn… để…                                                                                               | Ai chịu ảnh hưởng? | Dấu hiệu thật                                                                                                                          |
+| --: | --------------------------------- | --------------------------------------------------------------------------------------------------------------------------- | ------------------ | -------------------------------------------------------------------------------------------------------------------------------------- |
+|   1 | Cần đọc, tổng hợp nhiều thông tin | Khi cần mua một món trên Shopee (ví dụ khăn), tôi muốn biết shop nào đáng mua nhất, để không mua nhầm hàng kém hoặc giá cao | Tôi                | Bấm giờ 3 lần mua gần nhất: 32', 38', 35' (TB 35'). Khoảng 1 lần/tuần. Mua nhầm 2 lần trong 3 tháng, 1 lần mất 85.000đ vì màu khác ảnh |
+|   2 | Tốn thời gian                     | Khi vừa họp nhóm xong, tôi muốn có danh sách việc, người phụ trách và hạn, để không ai bỏ sót                               | Cả nhóm (4 người)  | Họp 1 buổi/tuần, viết lại ghi chú khoảng 30'/buổi. Tuần trước bỏ sót 1 việc (phần slide), có tin nhắn nhóm làm bằng chứng              |
+|   3 | Lặp lại                           | Khi tới hạn nộp lab, tôi muốn có sẵn khung báo cáo đúng format, để không dựng lại từ đầu                                    | Tôi                | Khoảng 20'/lab, 1 lần/tuần. Có 3 file khung cũ trong Drive                                                                             |
+|   4 | Pain từ người khác                | Khi người thân cần mua một món online, họ muốn có người chọn hộ shop đáng tin, để không mua nhầm                            | Mẹ tôi, tôi        | Mẹ nhờ chọn hộ khoảng 2 lần/tháng, khoảng 30'/lần. Có tin nhắn Zalo                                                                    |
+|   5 | Cần đọc, tổng hợp nhiều thông tin | Khi phải đọc tài liệu dài của khóa, tôi muốn nắm nhanh phần liên quan tới lab, để không phải lục lại từng phần              | Tôi                | Khoảng 45'/lần, 2 lần/tuần. Slide dài hơn 60 trang                                                                                     |
+
+**Nếu có dùng AI để gợi ý thêm:**
+
+- Giữ lại: dòng 2–5 do AI gợi ý, vì chúng đủ 4 lăng kính và tôi cũng gặp thật.
+- Bỏ: mua đồ trên Facebook và đặt đồ ăn, vì tần suất thấp hơn Shopee và quy trình khó đo hơn.
+
+---
+
+## 3. Top 3 Problem Cards + quy trình nháp (CP2)
+
+### Bảng chọn top 3
+
+| Rank | Problem                | Vì sao chọn                                        | Điều còn chưa chắc                                   |
+| ---: | ---------------------- | -------------------------------------------------- | ---------------------------------------------------- |
+|    1 | Mua đồ Shopee (#1)     | Quy trình rõ, đo được bằng bấm giờ, tôi có số thật | Sàn đã có lọc sao và tóm tắt đánh giá: còn thiếu gì? |
+|    2 | Việc sau họp nhóm (#2) | Cả nhóm bị ảnh hưởng, có bằng chứng tin nhắn       | Chỉ 1 lần/tuần, impact có đủ lớn không?              |
+|    3 | Đọc tài liệu dài (#5)  | Gặp thường xuyên khi làm lab                       | "Nắm nhanh" đo thế nào?                              |
+
+### Problem Card #1
+
+| Trường                        | Nội dung                                                                                                       |
+| ----------------------------- | -------------------------------------------------------------------------------------------------------------- |
+| Job Story                     | Khi cần mua một món trên Shopee, tôi muốn biết shop nào đáng mua nhất, để không mua nhầm hàng kém hoặc giá cao |
+| Actor                         | Tôi, người mua cá nhân                                                                                         |
+| Thời điểm / bối cảnh          | Khi cần mua một món có nhiều shop bán cùng loại (ví dụ khăn)                                                   |
+| Quy trình hiện tại (3–7 bước) | 1 Tìm từ khóa · 2 Mở nhiều shop cùng loại · 3 Đọc đánh giá từng shop · 4 So giá + phí ship · 5 Chọn, đặt       |
+| Bottleneck                    | Bước 3, đọc đánh giá từng shop: 17' trên tổng 35'                                                              |
+| Impact                        | Khoảng 35'/tuần. Mua nhầm 2 lần trong 3 tháng, mất 85.000đ một lần                                             |
+| Success metric                | Baseline 35' → target 17' (≤50%). Đo bằng tự bấm giờ 5 lần mua                                                 |
+| Phương án không dùng AI       | Lọc theo sao + số đơn đã bán; checklist giấy                                                                   |
+| Giả thuyết về AI              | Dùng tóm tắt đánh giá có sẵn của sàn để tham khảo, người quyết định                                            |
+| Cảm nhận nhanh                | Rule                                                                                                           |
+
+Quy trình nháp hiện tại:
+
+```text
+[1 Tìm từ khóa: 3'] → [2 Mở nhiều shop: 8'] → [3 Đọc đánh giá từng shop: 17'] ← BOTTLENECK
+→ [4 So giá + ship: 5'] → [5 Chọn, đặt: 2']   Tổng: 35'
+```
+
+### Problem Card #2
+
+| Trường                        | Nội dung                                                                                                                 |
+| ----------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| Job Story                     | Khi vừa họp nhóm xong, tôi muốn có danh sách việc, người phụ trách và hạn, để không ai bỏ sót                            |
+| Actor                         | Thành viên nhóm ghi chú sau họp                                                                                          |
+| Thời điểm / bối cảnh          | Ngay sau mỗi buổi họp nhóm lab                                                                                           |
+| Quy trình hiện tại (3–7 bước) | 1 Nhớ lại nội dung họp · 2 Tách việc cụ thể từ ghi chú · 3 Gán người + hạn · 4 Viết lại gửi nhóm · 5 Nhắc người chưa làm |
+| Bottleneck                    | Bước 2, tách việc từ ghi chú lộn xộn: 10' trên tổng 30'                                                                  |
+| Impact                        | 30'/buổi. Tuần trước bỏ sót 1 việc, nộp trễ phần slide 1 ngày                                                            |
+| Success metric                | Baseline 30'/buổi → target 15'. Đo bằng tự bấm giờ 4 buổi họp                                                            |
+| Phương án không dùng AI       | Mẫu biên bản có cột Việc / Người / Hạn, điền ngay trong họp                                                              |
+| Giả thuyết về AI              | Nháp danh sách việc từ ghi chú họp, người duyệt trước khi gửi                                                            |
+| Cảm nhận nhanh                | Workflow                                                                                                                 |
+
+```text
+[1 Nhớ lại nội dung họp: 5'] → [2 Tách việc cụ thể: 10'] ← BOTTLENECK → [3 Gán người + hạn: 5']
+→ [4 Viết lại gửi nhóm: 7'] → [5 Nhắc người chưa làm: 3']   Tổng: 30'
+```
+
+### Problem Card #3
+
+| Trường                        | Nội dung                                                                                                       |
+| ----------------------------- | -------------------------------------------------------------------------------------------------------------- |
+| Job Story                     | Khi phải đọc tài liệu dài của khóa, tôi muốn nắm nhanh phần liên quan tới lab, để không phải lục lại từng phần |
+| Actor                         | Tôi, học viên làm lab                                                                                          |
+| Thời điểm / bối cảnh          | Trước và trong lúc làm lab                                                                                     |
+| Quy trình hiện tại (3–7 bước) | 1 Mở tài liệu · 2 Đọc lướt toàn bộ · 3 Tìm phần liên quan tới lab · 4 Ghi ý cần dùng · 5 Quay lại tra khi làm  |
+| Bottleneck                    | Bước 3, tìm phần liên quan tới lab: 20' trên tổng 45'                                                          |
+| Impact                        | 45'/lần, 2 lần/tuần, khoảng 90'/tuần                                                                           |
+| Success metric                | Baseline 45' → target 20', tìm được đoạn liên quan trong ≤10'. Đo bằng tự bấm giờ                              |
+| Phương án không dùng AI       | Đọc mục lục + tìm từ khóa của đề lab                                                                           |
+| Giả thuyết về AI              | Tóm tắt phần liên quan tới đề lab, người kiểm tra lại                                                          |
+| Cảm nhận nhanh                | Workflow                                                                                                       |
+
+```text
+[1 Mở tài liệu: 2'] → [2 Đọc lướt toàn bộ: 15'] → [3 Tìm phần liên quan lab: 20'] ← BOTTLENECK
+→ [4 Ghi ý cần dùng: 5'] → [5 Quay lại tra khi làm: 3']   Tổng: 45'
+```
+
+### Card muốn pitch nhất
+
+- Card số: 1
+- Vì sao: quy trình rõ nhất, tôi đã bấm giờ thật nên có baseline
+- Câu hỏi muốn nhóm phản biện: Nếu sàn đã có sẵn tóm tắt đánh giá, bài này còn đáng làm không?
+
+### AI đã phản biện card thế nào
+
+| Điểm yếu AI chỉ ra                                           | Đồng ý?         | Đã sửa gì                                                                                                                |
+| ------------------------------------------------------------ | --------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| Sàn đã có lọc sao, số đơn và tóm tắt đánh giá: còn thiếu gì? | Đồng ý một phần | Mở thử app: tóm tắt chỉ cho từng sản phẩm, không so được giữa các shop. Tôi thu hẹp vấn đề thành "so sánh giữa các shop" |
+| Chưa có baseline đo thật                                     | Đồng ý          | Bấm giờ 3 lần mua, ra 32', 38', 35'. Thay con số đoán 30' bằng TB 35'                                                    |
+| "Nắm nhanh" ở card 3 chưa đo được                            | Đồng ý          | Đổi thành "tìm được đoạn liên quan trong ≤10 phút"                                                                       |
+
+---
+
+## 4. Tôi đã tham gia phần nào (CP3 → CP7)
+
+| Hoạt động                  | Tôi đã làm gì?                                                                                         | Kết quả / ảnh hưởng tới bài nhóm                                                                   |
+| -------------------------- | ------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------- |
+| Pitch Problem Card         | Pitch card "Mua đồ Shopee" trong 2 phút, đưa số bấm giờ 35'                                            | Vào shortlist 3 candidate                                                                          |
+| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: hỏi Lan "Việc nhắc deadline bạn đo mất bao lâu, hay ước chừng?"                    | Lan bấm giờ lại, sửa từ 20' xuống 12'                                                              |
+| Nhận phản biện             | Câu hỏi tôi nhận được: Huy hỏi "Sàn đã có tóm tắt đánh giá, mình làm thêm gì?"                         | Tôi đã sửa gì: thu hẹp từ "chọn shop tốt nhất" thành "so sánh giữa các shop", thêm phương án No AI |
+| Gom cluster / cây OST      | Đề xuất cluster "So sánh trước khi chọn"; gạch nhánh "công cụ tóm tắt" vì là solution                  | Cây OST còn 3 nhánh pain                                                                           |
+| Chọn candidate problem     | Chấm điểm 3 candidate, đề xuất Shopee vì có baseline                                                   | Nhóm chọn Shopee, loại "Việc sau họp" (tần suất thấp) và "Đọc tài liệu" (khó đo)                   |
+| Kiểm chứng / research      | Phỏng vấn 1 bạn học ngoài nhóm (bạn Hà, 4 lần mua/tháng); mở và đọc thử trang tóm tắt đánh giá của sàn | Nhóm thấy 2/3 người được phỏng vấn mất 20–40'                                                      |
+| Quy trình nhóm             | Vẽ quy trình hiện tại 5 bước và tương lai 4 bước                                                       | Nhóm dùng làm bản cuối                                                                             |
+| Problem Statement          | Viết trường Boundary (người đọc ≥5 đánh giá thấp sao trước khi đặt)                                    | Giữ nguyên trong v1                                                                                |
+| Mức can thiệp AI           | Đề xuất Rule thay vì Workflow vì sàn đã có tóm tắt                                                     | Nhóm chọn Rule                                                                                     |
+| Quyết định                 | Đề xuất Not Yet vì chưa đủ baseline từ người khác                                                      | Nhóm chốt Not Yet                                                                                  |
+
+---
+
+## 5. Dùng AI
+
+| Checkpoint                     | Tôi dùng AI để làm gì?                      | AI hữu ích ở đâu?                                        | AI sai hoặc hời hợt ở đâu?                         | Tôi sửa gì bằng nhận định của mình?                             |
+| ------------------------------ | ------------------------------------------- | -------------------------------------------------------- | -------------------------------------------------- | --------------------------------------------------------------- |
+| CP1 Scan                       | Gợi ý thêm 4 dòng scan                      | Nhắc tôi việc "người thân nhờ chọn hộ", tôi chưa nghĩ ra | Trả lời nhầm câu hỏi về CP1, và số phút do AI đoán | Tôi nói rõ mình cần kiến thức nền; thay số đoán bằng số bấm giờ |
+| CP2 Problem Card               | Soạn nháp 3 card, đóng vai "PM hoài nghi"   | Chỉ ra baseline đang dựa vào ước chừng                   | Đoán bước nghẽn của card 2 và 3                    | Giữ bước nghẽn card 1 vì tôi đã đo, sửa card 3                  |
+| CP4 Research                   | Soạn câu hỏi Mom Test, tìm giải pháp có sẵn | Tìm ra Shopee đã có tính năng tóm tắt đánh giá bằng AI   | Nguồn là blog bên thứ ba, link chưa kiểm           | Tự mở app Shopee kiểm có hiển thị thật không                    |
+| CP5 Quy trình                  | Soạn nháp quy trình trước/sau               | Nhanh, đúng khung                                        | Gộp "đọc đánh giá" và "so giá" thành 1 bước        | Tách lại vì bottleneck nằm ở đọc đánh giá                       |
+| CP5–6 Problem Statement        | Soạn nháp v0 và v1                          | Gợi ý thêm metric "số lần mua nhầm không tăng"           | Metric ban đầu chỉ đo thời gian                    | Giữ metric chất lượng ở v1                                      |
+| CP6 Mức can thiệp / quyết định | Soạn nháp mức Rule và quyết định Not Yet    | So sánh được 4 mức                                       | Chấm rủi ro Value "Cao" khi chưa có phỏng vấn      | Giữ "Cao" vì thấy hợp lý, ghi rõ lý do                          |
+
+---
+
+## 6. Reflection (CP7)
+
+**6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
+Nghe các bạn pitch, tôi nhận ra phần lớn card đều là việc "đọc rồi tóm lại" hoặc "nhắc việc", giống card của tôi. Lan pitch việc nhắc deadline nhóm, nhưng khi tôi hỏi bạn đo mất bao lâu thì Lan trả lời là ước chừng 20 phút. Điều đó làm tôi thấy card của mình cũng đang dựa nhiều vào ước chừng, nên sau buổi pitch tôi đi bấm giờ lại 3 lần mua.
+
+**6.2. Nhóm có lúc nào bị "solution-first" không? Lúc đó nhóm nhận ra và xử lý thế nào?**
+Có. Lúc đầu nhóm gọi vấn đề là "cần một công cụ tóm tắt đánh giá Shopee". Khi vẽ cây OST, Minh Anh chỉ ra cụm đó là giải pháp chứ không phải pain, và nhóm gạch nó đi, thay bằng "thông tin đánh giá người bán nằm rải rác, khó so sánh". Sau đó nhóm mới quay lại viết Problem Statement.
+
+**6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
+Có. Tôi định làm một công cụ tự động tóm tắt đánh giá. Huy hỏi: "Sàn đã có tóm tắt đánh giá rồi, mình làm thêm gì?". Tôi mở thử app, thấy sàn có tóm tắt nhưng chỉ cho từng sản phẩm, không so được giữa các shop. Tôi đổi hướng sang bảng so sánh có ngưỡng lọc cố định và đưa việc đó vào mức Rule.
+
+**6.4. Kết quả kiểm chứng có làm tôi bất ngờ không? Điều gì?**
+Có. Tôi tưởng ai cũng mất thời gian ở bước đọc đánh giá. Nhưng anh Đạt nói chỉ nhìn số sao và số đơn là đủ, anh chưa từng mua nhầm. Hai người còn lại mất 20–40 phút. Vì vậy nhóm thêm phương án No AI cho người mua ít và ghi lại đây là tín hiệu phản bác.
+
+**6.5. Điều khó nhất khi viết Problem Statement là gì?**
+Khó nhất là Success Metric. Tôi viết "nhanh hơn" nhưng nhóm yêu cầu có baseline, nên tôi phải bấm giờ thật mới có con số 35 phút. Phần Boundary cũng khó vì tôi phải quyết định rõ công cụ không được làm gì.
+
+**6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
+Nếu làm lại, tôi sẽ bấm giờ trước khi pitch thay vì sau. Tôi cũng sẽ phản biện mạnh hơn ở bước chấm điểm: nhóm cho điểm "Pain có bằng chứng" khá cao dù chưa có phỏng vấn, tôi nên hỏi "bằng chứng ở đâu" ngay lúc đó.
+
+**6.7. Hiểu bài:** Vấn đề là khi mua đồ trên Shopee, tôi mất khoảng 35 phút mỗi lần vì phải đọc đánh giá của từng shop, trong đó bước đọc đánh giá chiếm 17 phút. Quy trình có 5 bước và nghẽn ở bước 3. Metric là đưa thời gian xuống ≤50% baseline (≤17 phút) mà số lần mua nhầm không tăng, đo bằng tự bấm giờ. Boundary: công cụ không chọn hay đặt hàng thay tôi, và tôi đọc ít nhất 5 đánh giá thấp sao tận gốc trước khi đặt. Mức can thiệp là Rule: bộ lọc cố định và bảng so sánh, có thể dùng thêm tóm tắt có sẵn của sàn. Quyết định là Not Yet vì chưa đủ baseline từ người khác. Nếu đo xong mà dưới 10 phút mỗi lần thì No-Go và kết luận không cần AI.
+
+---
+
+## 7. Tài liệu tham khảo
+
+- https://www.bigseller.com/blog/articleDetails/3050.htm (chưa kiểm)
+- https://extscope.org/extension/ajalfmcbjjomclnamliamgnohklnfeom (chưa kiểm)
+- https://developer.chrome.com/docs/ai/evaluate-reviews?hl=vi (chưa kiểm)
