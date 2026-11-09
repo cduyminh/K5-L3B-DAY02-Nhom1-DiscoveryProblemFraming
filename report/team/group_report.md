@@ -33,15 +33,15 @@
 
 ### 2.2. Cluster
 
-> Gom theo dạng của nỗi đau, không theo lĩnh vực. Đủ 12 candidate của 4 thành viên.
+Nhóm 4 người, 12 candidate.
 
 | Cluster | Các candidate | Pattern chung |
 |---|---|---|
-| A. Câu hỏi nằm chờ vì không có người trực | #1 Phụ huynh hỏi lịch học / xin nghỉ (Minh) · #2 Phụ huynh mới hỏi đăng ký, học thử (Minh) | Tin đến bất kỳ giờ nào, câu trả lời thường đã có sẵn, nhưng phải chờ người rảnh mới gửi được. Thời gian mất nằm ở bước chờ, không ở bước tra cứu (trả lời tay trung vị 0,1–0,7 phút, nhưng 10% chậm nhất chờ 80–784 phút) |
-| B. Thông tin kẹt giữa hai bên, phải hỏi lại | #3 Bài tập, nhận xét từ giáo viên tới phụ huynh (Minh) · #12 Báo lỗi mơ hồ từ xưởng/tester tới dev (Bảo) | Một bên có ngữ cảnh (giáo viên, người báo lỗi), một bên cần nó (phụ huynh, dev); thiếu thông tin nên phải hỏi lại và chờ (#3: phụ huynh nhắn lại 12 lần trong 16,9 ngày; #12: chờ 2–4 giờ, ~60% ca hỏi vòng 2) |
-| C. Nguồn thô phải làm lại bằng tay thành dạng có cấu trúc | #4 Catalog brand → listing 3 sàn (Hải Quân) · #5 Buổi học → ghi chú có cấu trúc (Hải Quân) · #8 Ghi chú họp → danh sách việc, người, hạn (Phúc) · #10 Bản vẽ/đặc tả → bảng BOM báo giá (Bảo) | Nguồn lộn xộn (catalog, slide và recording, ghi chú họp, PDF scan/Excel tự do) phải viết lại bằng tay theo một khuôn định sẵn. Bước tốn nhất là tách và nhập thông tin (#10: 50/120 phút; #8: 10/30 phút; #4: 10–20 phút/SKU/sàn, ước tính) |
-| D. Phải đọc nhiều hoặc đọc dài để tìm và so sánh | #6 Paper → bảng so sánh tài liệu liên quan (Hải Quân) · #7 So sánh đánh giá giữa nhiều shop Shopee (Phúc) · #9 Tìm phần liên quan tới lab trong tài liệu dài (Phúc) | Thông tin cần có nằm rải trong nhiều nguồn hoặc một nguồn dài; người dùng đọc lại để tìm hoặc so sánh. Bước tốn nhất là đọc để lọc (#7: 20–50/30–60 phút; #9: 20/45 phút; #6: 30 phút/bài) |
-| E. Đối soát chuyển khoản với đơn | #11 Đối chiếu chuyển khoản VietQR với mã đơn và đợt trả (Bảo) | Giao dịch ngân hàng ghi nội dung thiếu hoặc sai mã nên phải dò tay và hỏi lại (22/30 phút/ngày). Cùng pattern với CP1 #4 của Minh (học phí chuyển khoản sai tên học sinh, không vào top 3) |
+| A — Trả lời câu hỏi lặp lại | Phụ huynh hỏi lịch / xin nghỉ (#1), phụ huynh mới hỏi đăng ký (#2) | Câu trả lời đã có sẵn nhưng phải chờ người trực mới gửi được |
+| B — Hỏi lại vì thiếu thông tin | Nhận xét giáo viên → phụ huynh (#3), báo lỗi mơ hồ → dev (#12) | Một bên có ngữ cảnh, bên kia phải hỏi lại và chờ |
+| C — Chuyển nguồn thô sang khuôn chuẩn | Listing 3 sàn (#4), ghi chú buổi học (#5), việc sau họp (#8), bảng BOM báo giá (#10) | Đọc nguồn lộn xộn rồi nhập lại bằng tay theo một khuôn |
+| D — Đọc nhiều để tìm, so sánh | So sánh paper (#6), so sánh shop Shopee (#7), tìm phần cần cho lab (#9) | Thông tin nằm rải trong nhiều nguồn hoặc một tài liệu dài |
+| E — Đối soát chuyển khoản | Khớp chuyển khoản VietQR với mã đơn (#11) | Nội dung chuyển khoản thiếu hoặc sai mã nên phải dò tay |
 
 ### 2.3. Opportunity Solution Tree rút gọn
 
