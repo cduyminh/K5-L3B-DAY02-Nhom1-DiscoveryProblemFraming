@@ -33,8 +33,8 @@
 
 | Rank | Problem                | Vì sao chọn                                        | Điều còn chưa chắc                                   |
 | ---: | ---------------------- | -------------------------------------------------- | ---------------------------------------------------- |
-|    1 | Mua đồ Shopee (#1)     | Quy trình rõ, đo được bằng bấm giờ, tôi có số thật | Sàn đã có lọc sao và tóm tắt đánh giá: còn thiếu gì? |
-|    2 | Việc sau họp nhóm (#2) | Cả nhóm bị ảnh hưởng, có bằng chứng tin nhắn       | Chỉ 1 lần/tuần, impact có đủ lớn không?              |
+|    1 | Mua đồ Shopee (#1)     | Quy trình rõ | Sàn đã có lọc sao và tóm tắt đánh giá: còn thiếu gì? |
+|    2 | Việc sau họp nhóm (#2) | Cả nhóm bị ảnh hưởng       | Chỉ 1 lần/tuần, impact có đủ lớn không?              |
 |    3 | Đọc tài liệu dài (#5)  | Gặp thường xuyên khi làm lab                       | "Nắm nhanh" đo thế nào?                              |
 
 ### Problem Card #1
@@ -45,8 +45,8 @@
 | Actor                         | Tôi, người mua cá nhân                                                                                         |
 | Thời điểm / bối cảnh          | Khi cần mua một món có nhiều shop bán cùng loại (ví dụ khăn)                                                   |
 | Quy trình hiện tại (3–7 bước) | 1 Tìm từ khóa · 2 Mở nhiều shop cùng loại · 3 Đọc đánh giá từng shop · 4 So giá + phí ship · 5 Chọn, đặt       |
-| Bottleneck                    | Bước 3, đọc đánh giá từng shop: 17' trên tổng 35'                                                              |
-| Impact                        | Khoảng 35'/tuần. Mua nhầm 2 lần trong 3 tháng, mất 85.000đ một lần                                             |
+| Bottleneck                    | Bước 3, đọc đánh giá từng shop: 20' đến 50'                                                              |
+| Impact                        | Khoảng 50'-120'/tháng.                                         |
 | Success metric                | Baseline 35' → target 17' (≤50%). Đo bằng tự bấm giờ 5 lần mua                                                 |
 | Phương án không dùng AI       | Lọc theo sao + số đơn đã bán; checklist giấy                                                                   |
 | Giả thuyết về AI              | Dùng tóm tắt đánh giá có sẵn của sàn để tham khảo, người quyết định                                            |
