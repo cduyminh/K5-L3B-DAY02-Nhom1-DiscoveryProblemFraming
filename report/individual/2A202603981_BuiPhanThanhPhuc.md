@@ -118,16 +118,16 @@ Quy trình nháp hiện tại:
 
 | Hoạt động                  | Tôi đã làm gì?                                                                                         | Kết quả / ảnh hưởng tới bài nhóm                                                                   |
 | -------------------------- | ------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------- |
-| Pitch Problem Card         | Pitch card "Mua đồ Shopee" trong 2 phút, đưa số bấm giờ 35'                                            | Vào shortlist 3 candidate                                                                          |
-| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: hỏi Lan "Việc nhắc deadline bạn đo mất bao lâu, hay ước chừng?"                    | Lan bấm giờ lại, sửa từ 20' xuống 12'                                                              |
-| Nhận phản biện             | Câu hỏi tôi nhận được: Huy hỏi "Sàn đã có tóm tắt đánh giá, mình làm thêm gì?"                         | Tôi đã sửa gì: thu hẹp từ "chọn shop tốt nhất" thành "so sánh giữa các shop", thêm phương án No AI |
-| Gom cluster / cây OST      | Đề xuất cluster "So sánh trước khi chọn"; gạch nhánh "công cụ tóm tắt" vì là solution                  | Cây OST còn 3 nhánh pain                                                                           |
-| Chọn candidate problem     | Chấm điểm 3 candidate, đề xuất Shopee vì có baseline                                                   | Nhóm chọn Shopee, loại "Việc sau họp" (tần suất thấp) và "Đọc tài liệu" (khó đo)                   |
-| Kiểm chứng / research      | Phỏng vấn 1 bạn học ngoài nhóm (bạn Hà, 4 lần mua/tháng); mở và đọc thử trang tóm tắt đánh giá của sàn | Nhóm thấy 2/3 người được phỏng vấn mất 20–40'                                                      |
-| Quy trình nhóm             | Vẽ quy trình hiện tại 5 bước và tương lai 4 bước                                                       | Nhóm dùng làm bản cuối                                                                             |
-| Problem Statement          | Viết trường Boundary (người đọc ≥5 đánh giá thấp sao trước khi đặt)                                    | Giữ nguyên trong v1                                                                                |
-| Mức can thiệp AI           | Đề xuất Rule thay vì Workflow vì sàn đã có tóm tắt                                                     | Nhóm chọn Rule                                                                                     |
-| Quyết định                 | Đề xuất Not Yet vì chưa đủ baseline từ người khác                                                      | Nhóm chốt Not Yet                                                                                  |
+| Pitch Problem Card | | |
+| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: | |
+| Nhận phản biện | Câu hỏi tôi nhận được: | Tôi đã sửa gì: |
+| Gom cluster / cây OST | | |
+| Chọn candidate problem | | |
+| Kiểm chứng / research | | |
+| Quy trình nhóm | | |
+| Problem Statement | | |
+| Mức can thiệp AI | | |
+| Quyết định | | |
 
 ---
 
