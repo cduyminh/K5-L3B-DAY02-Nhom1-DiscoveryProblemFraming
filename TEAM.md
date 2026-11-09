@@ -4,7 +4,7 @@
 
 ## Thông tin nhóm
 
-- Tên nhóm:
+- Tên nhóm: Nhom1
 - Candidate problem nhóm chọn (1 câu):
 - Quyết định cuối (Go / Not Yet / No-Go):
 
@@ -12,8 +12,8 @@
 
 | STT | Họ và tên | MSSV | Vai trò trong nhóm | Tài khoản GitHub |
 |---:|---|---|---|---|
-| 1 | | | | |
-| 2 | | | | |
+| 1 | Cao Duy Minh | 2A202603988 | Nhóm trưởng | cduyminh |
+| 2 | Nguyễn Văn Hải Quân | 2A202603994 | | haiquanng |
 | 3 | | | | |
 | 4 | | | | |
 
