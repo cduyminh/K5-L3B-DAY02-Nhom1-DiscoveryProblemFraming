@@ -37,101 +37,113 @@ Bối cảnh: tôi đồng sáng lập và vận hành Trung tâm Anh ngữ Chă
 
 ## 3. Top 3 Problem Cards + quy trình nháp (CP2)
 
+Số liệu trong mục này lấy từ log Zalo của trung tâm 23/10–9/11/2026 (16,9 ngày). "Trả lời tay" là tin do người gửi từ điện thoại, dùng làm baseline cho cách làm cũ. Chủ đề tin lọc bằng từ khoá nên là ước lượng.
+
 ### Bảng chọn top 3
 
 | Rank | Problem | Vì sao chọn | Điều còn chưa chắc |
 |---:|---|---|---|
-| 1 | Trả lời câu hỏi lặp lại của phụ huynh, kể cả ngoài giờ (#1 + #2) | Xảy ra hằng ngày, quy trình vẽ được, đo được bằng lịch sử Zalo | Bao nhiêu % câu hỏi thật sự có đáp án cố định (lịch, phòng, học phí) và bao nhiêu % cần người quyết |
-| 2 | Khớp khoản chuyển khoản học phí với học sinh (#4) | Sai là mất tiền hoặc nhắc nhầm phụ huynh đã đóng; có sao kê làm bằng chứng | Có thể chỉ cần quy định cú pháp chuyển khoản + đối chiếu tự động, không cần gì phức tạp |
-| 3 | Nhận xét của giáo viên tới phụ huynh (#6) | Pain từ người khác (giáo viên), lặp lại mỗi buổi | Phụ huynh có đọc nhận xét không; giáo viên có chịu nhập ở một chỗ không |
+| 1 | Phụ huynh hỏi lịch học, xin nghỉ, kể cả ngoài giờ (#1 + #2) | Nhiều nhất và đều nhất: ≈174 tin phụ huynh/tuần; có baseline thật từ log; tôi trực tiếp chịu | Bao nhiêu % câu hỏi có đáp án cố định, bao nhiêu % cần người quyết |
+| 2 | Phụ huynh mới hỏi đăng ký, học thử, kiểm tra đầu vào (#9) | Chủ đề nhiều nhất (39 tin riêng + 10 tin nhóm) và gắn trực tiếp với doanh thu; trả lời tay chậm nhất (10% chờ > 13 giờ) | Trả lời chậm có thật làm mất học viên không: log chưa cho biết ai cuối cùng đăng ký |
+| 3 | Bài tập, nhận xét, kết quả học tập giữa giáo viên và phụ huynh (#6) | Pain từ giáo viên và phụ huynh; 56 tin trong 16,9 ngày; phụ huynh phải nhắn lại 12 lần trước khi được trả lời | Phụ huynh có đọc nhận xét không; giáo viên có chịu ghi ở một chỗ không |
+
+**Loại khỏi top 3:** #4 khớp chuyển khoản: chưa có số liệu (cần sao kê) và có thể giải bằng cú pháp chuyển khoản, chưa cần phân tích sâu. #3 học phí: chỉ 8 tin trong 16,9 ngày và trả lời tay gần như ngay (trung vị 0 phút), pain nhỏ. #5 thông báo đổi lịch: log cho thấy 14 tin "giống hệt nhau" chủ yếu là câu trả lời mẫu dùng lại cách nhau nhiều ngày, không phải một thông báo gửi hàng loạt, nên gộp làm bằng chứng cho card #1.
 
 ### Problem Card #1
 
 | Trường | Nội dung |
 |---|---|
-| Job Story | Khi phụ huynh nhắn Zalo hỏi lịch học, phòng học, giáo viên hay học phí của con (kể cả tối muộn và cuối tuần), tôi muốn trả lời đúng và ngay, để phụ huynh không phải hỏi lại và con không đi nhầm giờ |
-| Actor | Quản lý trung tâm phụ trách tài khoản Zalo của trung tâm (hiện là tôi) |
-| Thời điểm / bối cảnh | Cả ngày, dồn vào trước giờ học buổi tối và tối muộn; cao điểm đầu tháng và khi đổi lịch |
-| Quy trình hiện tại (3–7 bước) | 1. Nhận tin Zalo · 2. Xác định phụ huynh của học sinh nào · 3. Mở lịch/sổ lớp tra thông tin · 4. Soạn câu trả lời · 5. Gửi · 6. Nếu cần người khác (giáo viên, kế toán) thì hỏi lại rồi mới trả lời |
-| Bottleneck (bước nào, mất bao nhiêu phút) | Bước 2–3: nhận ra phụ huynh là của học sinh nào và tra đúng lớp, thời gian mỗi tin chưa đo (ước lượng của tôi: vài phút); ngoài giờ thì 10% tin chờ hơn 13,7 giờ |
-| Impact (nếu không giải thì sao) | ≈174 tin phụ huynh/tuần, trong đó ≈20 tin/tuần về lịch học và xin nghỉ; khi trả lời tay, 10% tin chờ hơn 5,5 giờ (331 phút); 18 cụm tin không ai trả lời trong 16,9 ngày |
-| Success metric (baseline → target) | Thời gian từ lúc phụ huynh hỏi tới lúc nhận câu trả lời đúng: giảm phân vị 90 (10% tin chậm nhất) từ 331 phút khi trả lời tay (baseline: log Zalo 23/10–9/11/2026) xuống dưới 60 phút, và số tin không được trả lời từ 18 về 0; tỷ lệ trả lời sai không tăng |
-| Phương án không dùng AI | Ghim bảng lịch học và học phí trong nhóm Zalo từng lớp; tin nhắn trả lời mẫu; tra cứu bằng mã học sinh |
-| Giả thuyết về AI (nếu có) | Hiểu câu hỏi viết tự do của phụ huynh, tra đúng dữ liệu của học sinh rồi soạn câu trả lời; câu hỏi ngoài phạm vi chuyển cho người |
+| Job Story | Khi phụ huynh nhắn Zalo hỏi lịch học, phòng học hay xin cho con nghỉ (kể cả tối muộn và cuối tuần), tôi muốn trả lời đúng và ngay, để phụ huynh không phải nhắn lại và con không đi nhầm giờ |
+| Actor | Quản lý trung tâm trực tài khoản Zalo của trung tâm (hiện là tôi) |
+| Thời điểm / bối cảnh | Cao điểm 8–11h và 14–17h; 12,3% tin đến lúc 21h–7h; 46,7% đến vào cuối tuần |
+| Quy trình hiện tại (3–7 bước) | 1. Tin đến · 2. Chờ người trực mở Zalo và đọc · 3. Nhận ra phụ huynh của học sinh nào, tra lịch/sổ lớp · 4. Soạn trả lời (thường dùng lại câu mẫu) · 5. Gửi · 6. Nếu là xin nghỉ: ghi lại và báo giáo viên |
+| Bottleneck (bước nào, mất bao nhiêu phút) | Bước 2, chờ người đọc tin. Khi có người trực, tra và trả lời rất nhanh (trung vị 0,1 phút với câu hỏi lịch, 0,7 phút với xin nghỉ). Nhưng 10% tin chậm nhất chờ 80,6 phút (lịch) và 374 phút (xin nghỉ); phụ huynh nhắn thêm 14 tin trong lúc chờ |
+| Impact (nếu không giải thì sao) | ≈20 tin/tuần về lịch học và xin nghỉ, trong tổng ≈174 tin phụ huynh/tuần. Trả lời tay: 10% tin chờ > 331 phút; 18 cụm tin không ai trả lời trong 16,9 ngày. Xin nghỉ trả lời muộn thì giáo viên không biết trước |
+| Success metric (baseline → target) | Phân vị 90 thời gian trả lời câu hỏi lịch/xin nghỉ: giảm từ 80,6 / 374 phút (trả lời tay, log 23/10–9/11/2026) xuống dưới 15 phút; số tin không được trả lời từ 18 về 0; đo lại trên log Zalo 2 tuần |
+| Phương án không dùng AI | Ghim lịch học trong nhóm Zalo từng lớp; bộ câu trả lời mẫu; phân ca trực Zalo buổi tối và cuối tuần |
+| Giả thuyết về AI (nếu có) | Hiểu câu hỏi viết tự do, nhận ra học sinh, tra lịch và trả lời ngay; xin nghỉ thì ghi nhận và báo giáo viên; câu ngoài phạm vi chuyển cho người |
 | Cảm nhận nhanh | Workflow |
 
 Quy trình nháp hiện tại:
 
 ```text
-HIỆN TẠI — ≈174 tin phụ huynh/tuần; trả lời tay: trung vị 0,4 phút nhưng 10% chờ > 331 phút
+HIỆN TẠI — ≈20 tin lịch/xin nghỉ mỗi tuần (trả lời tay)
 
-[1 Nhận tin: 0'] → [2 Nhận ra phụ huynh của HS nào: x'] → [3 Tra lịch/sổ lớp: x'] ← BOTTLENECK
-→ [4 Soạn trả lời: x'] → [5 Gửi: 0'] → (nếu cần) [6 Hỏi GV/kế toán rồi trả lời: x']
-Ngoài giờ (12,3% tin): 10% chờ > 820 phút (13,7 giờ) đến sáng hôm sau ← BOTTLENECK thứ hai
+[1 Tin đến]
+→ [2 Chờ người trực đọc: trung vị 0,1–0,7' | 10% chậm nhất 80,6' (lịch), 374' (xin nghỉ)] ← BOTTLENECK
+→ [3–5 Tra lịch + soạn + gửi: phần lớn < 5' (p75 1,1' và 4,8')]
+→ [6 Xin nghỉ: ghi lại, báo giáo viên: chưa đo]
+Trong lúc chờ: phụ huynh nhắn thêm 14 tin (7 về lịch, 7 về xin nghỉ)
 ```
 
 ### Problem Card #2
 
 | Trường | Nội dung |
 |---|---|
-| Job Story | Khi phụ huynh chuyển khoản học phí với nội dung ghi thiếu hoặc sai tên học sinh, tôi muốn khớp đúng khoản tiền với học sinh, để sổ học phí không sai và không nhắc nhầm người đã đóng |
-| Actor | Kế toán / quản lý trung tâm |
-| Thời điểm / bối cảnh | Đầu kỳ học phí, cuối mỗi ngày đối soát |
-| Quy trình hiện tại (3–7 bước) | 1. Mở sao kê ngân hàng · 2. Đọc nội dung chuyển khoản · 3. Đoán học sinh nào (tên, số tiền, tên người chuyển) · 4. Nhắn hỏi lại phụ huynh nếu không chắc · 5. Ghi vào sổ học phí · 6. Gửi xác nhận cho phụ huynh |
-| Bottleneck (bước nào, mất bao nhiêu phút) | Bước 3–4: khoản ghi sai/thiếu nội dung mất thời gian mỗi khoản chưa đo (cần sao kê), có khi phải chờ phụ huynh trả lời |
-| Impact (nếu không giải thì sao) | số khoản sai nội dung/tháng và số lần nhắc nhầm: chưa đo (cần sao kê 1 tháng); 8 tin phụ huynh hỏi về học phí/chuyển khoản trong 16,9 ngày |
-| Success metric (baseline → target) | Tỷ lệ khoản chuyển khoản khớp tự động đúng học sinh: tăng từ baseline (chưa đo, lấy từ sao kê 1 tháng) lên ≥ 95%, đo trên sao kê 1 tháng; số lần nhắc nhầm = 0 |
-| Phương án không dùng AI | Quy định cú pháp nội dung (mã HS + gói học phí) và mã QR có sẵn nội dung; đối chiếu tự động theo cú pháp |
-| Giả thuyết về AI (nếu có) | Với khoản sai cú pháp: đề xuất học sinh khả năng cao nhất để kế toán xác nhận |
-| Cảm nhận nhanh | Rule |
+| Job Story | Khi phụ huynh mới nhắn hỏi đăng ký, học thử hay kiểm tra đầu vào, tôi muốn trả lời đủ thông tin ngay lần đầu, để họ không chờ rồi đi tìm trung tâm khác |
+| Actor | Quản lý trung tâm phụ trách tuyển sinh qua Zalo (hiện là tôi) |
+| Thời điểm / bối cảnh | Quanh khai giảng và kỳ tuyển sinh; một cuộc hỏi kéo dài nhiều ngày |
+| Quy trình hiện tại (3–7 bước) | 1. Phụ huynh mới nhắn hỏi · 2. Chờ người trực đọc · 3. Hỏi lại tuổi, trình độ, mục tiêu của con · 4. Gửi thông tin lớp, lịch, học phí · 5. Hẹn học thử / kiểm tra đầu vào · 6. Nhắc lại cho tới khi chốt |
+| Bottleneck (bước nào, mất bao nhiêu phút) | Bước 2, chờ người đọc: trả lời tay trung vị 0,1 phút nhưng 10% chậm nhất chờ 783,9 phút (≈13 giờ), lâu nhất 986 phút; phụ huynh nhắn thêm 8 tin trong lúc chờ |
+| Impact (nếu không giải thì sao) | 39 tin riêng + 10 tin nhóm trong 16,9 ngày; 8 cuộc trò chuyện tuyển sinh, mỗi cuộc trung vị 104 tin (11 tin từ phụ huynh), dài nhất 661 tin; trả lời chậm có nguy cơ mất học viên mới (chưa đo được tỷ lệ chốt) |
+| Success metric (baseline → target) | Phân vị 90 thời gian trả lời tin tuyển sinh: giảm từ 783,9 phút (trả lời tay, log 23/10–9/11/2026) xuống dưới 15 phút; theo dõi thêm tỷ lệ cuộc hỏi chốt được lịch học thử (baseline: chưa đo) |
+| Phương án không dùng AI | Tin nhắn tự động chào phụ huynh mới kèm bảng thông tin lớp/học phí và form đăng ký học thử |
+| Giả thuyết về AI (nếu có) | Hỏi đúng thông tin còn thiếu (tuổi, trình độ, mục tiêu), gợi ý lớp phù hợp và hẹn lịch; quản lý duyệt khi chốt học phí |
+| Cảm nhận nhanh | Workflow |
 
 Quy trình nháp hiện tại:
 
 ```text
-HIỆN TẠI — phút/khoản sai nội dung: chưa đo
+HIỆN TẠI — 8 cuộc trò chuyện tuyển sinh / 16,9 ngày, trung vị 104 tin mỗi cuộc
 
-[1 Mở sao kê: x'] → [2 Đọc nội dung: x'] → [3 Đoán học sinh: x'] ← BOTTLENECK
-→ [4 Hỏi lại phụ huynh: chờ x giờ] → [5 Ghi sổ: x'] → [6 Gửi xác nhận: x']
+[1 Phụ huynh mới hỏi]
+→ [2 Chờ người trực đọc: trung vị 0,1' | 10% chậm nhất 783,9'] ← BOTTLENECK
+→ [3 Hỏi lại tuổi, trình độ, mục tiêu: nhiều lượt tin]
+→ [4 Gửi thông tin lớp, lịch, học phí] → [5 Hẹn học thử / kiểm tra đầu vào]
+→ [6 Nhắc lại tới khi chốt: chưa đo]
 ```
 
 ### Problem Card #3
 
 | Trường | Nội dung |
 |---|---|
-| Job Story | Khi giáo viên vừa dạy xong một buổi và cần báo điểm danh, bài tập, nhận xét, tôi muốn thông tin đó tới đúng phụ huynh, để giáo viên không phải nhắn riêng từng nhà |
-| Actor | Giáo viên đứng lớp (người nhập), quản lý trung tâm (người chuyển tiếp) |
-| Thời điểm / bối cảnh | Ngay sau mỗi buổi học, thường buổi tối |
-| Quy trình hiện tại (3–7 bước) | 1. Giáo viên ghi điểm danh/nhận xét · 2. Gửi cho quản lý hoặc tự nhắn từng phụ huynh · 3. Quản lý chuyển tiếp cho phụ huynh từng học sinh · 4. Phụ huynh hỏi lại thì quản lý hỏi giáo viên |
-| Bottleneck (bước nào, mất bao nhiêu phút) | Bước 2–3: nhắn riêng/chuyển tiếp từng phụ huynh, số phút/lớp/buổi chưa đo |
-| Impact (nếu không giải thì sao) | 56 tin về bài tập/nhận xét/kết quả trong 16,9 ngày (45 riêng + 11 nhóm, lọc từ khoá, ước lượng); số lớp, số buổi và số phụ huynh không nhận được: chưa đo |
-| Success metric (baseline → target) | Thời gian giáo viên + quản lý dành để gửi nhận xét: từ baseline (chưa đo, cần bấm giờ 1 tuần) xuống dưới 5 phút/lớp/buổi; tỷ lệ phụ huynh nhận được nhận xét trong ngày ≥ 90% |
-| Phương án không dùng AI | Biểu mẫu nhận xét chung + gửi hàng loạt theo danh sách lớp |
+| Job Story | Khi giáo viên dạy xong một buổi và phụ huynh muốn biết bài tập, nhận xét hay kết quả của con, tôi muốn thông tin tới đúng phụ huynh trong ngày, để phụ huynh không phải nhắn hỏi lại |
+| Actor | Giáo viên đứng lớp (người có thông tin) và quản lý trung tâm (người trả lời phụ huynh trên Zalo) |
+| Thời điểm / bối cảnh | Sau mỗi buổi học, thường buổi tối |
+| Quy trình hiện tại (3–7 bước) | 1. Phụ huynh nhắn hỏi bài tập / nhận xét / kết quả · 2. Chờ người trực đọc · 3. Nếu chưa có thông tin: hỏi giáo viên · 4. Chuyển câu trả lời cho phụ huynh |
+| Bottleneck (bước nào, mất bao nhiêu phút) | Bước 2–3: trả lời tay trung vị 0,1 phút nhưng 10% chậm nhất chờ 80,6 phút, lâu nhất 820 phút; phụ huynh nhắn thêm 12 tin trong lúc chờ; 1 tin không được trả lời |
+| Impact (nếu không giải thì sao) | 45 tin riêng + 11 tin nhóm về bài tập/nhận xét/kết quả trong 16,9 ngày; số phút giáo viên mất cho mỗi lớp: chưa đo |
+| Success metric (baseline → target) | Số tin phụ huynh phải nhắn lại trước khi được trả lời: giảm từ 12 (16,9 ngày) xuống ≤ 2; phân vị 90 thời gian trả lời: từ 80,6 phút xuống dưới 15 phút; đo trên log Zalo 2 tuần |
+| Phương án không dùng AI | Giáo viên đăng bài tập vào nhóm Zalo lớp sau mỗi buổi theo mẫu cố định |
 | Giả thuyết về AI (nếu có) | Từ ghi chú ngắn của giáo viên, soạn nhận xét riêng cho từng học sinh để giáo viên duyệt trước khi gửi |
-| Cảm nhận nhanh | Workflow |
+| Cảm nhận nhanh | Rule hoặc Workflow |
 
 Quy trình nháp hiện tại:
 
 ```text
-HIỆN TẠI — phút/lớp/buổi: chưa đo
+HIỆN TẠI — 56 tin bài tập/nhận xét / 16,9 ngày
 
-[1 GV ghi điểm danh + nhận xét: x'] → [2 GV gửi quản lý hoặc nhắn từng nhà: x'] ← BOTTLENECK
-→ [3 Quản lý chuyển tiếp từng phụ huynh: x'] → [4 Trả lời câu hỏi lại: x']
+[1 Phụ huynh hỏi]
+→ [2 Chờ người trực đọc: trung vị 0,1' | 10% chậm nhất 80,6', lâu nhất 820'] ← BOTTLENECK
+→ [3 Hỏi giáo viên nếu chưa có thông tin: chưa đo]
+→ [4 Trả lời phụ huynh]
+Trong lúc chờ: phụ huynh nhắn thêm 12 tin
 ```
 
 ### Card muốn pitch nhất
 
 - Card số: 1
-- Vì sao: xảy ra hằng ngày, tôi trực tiếp chịu, có lịch sử Zalo để đo baseline thật
-- Câu hỏi muốn nhóm phản biện: bao nhiêu phần câu hỏi của phụ huynh thật sự trả lời được bằng tra cứu cố định (lịch, phòng, học phí), và nếu phần lớn là vậy thì có cần gì hơn một trang tra cứu không?
+- Vì sao: tần suất cao nhất, có baseline thật từ log Zalo, và chính tôi là người trực
+- Câu hỏi muốn nhóm phản biện: nếu bottleneck là "không có người trực" chứ không phải "tra cứu chậm", thì phân ca trực tối và cuối tuần có đủ không, hay vẫn cần hệ thống trả lời thay?
 
 ### AI đã phản biện card thế nào
 
 | Điểm yếu AI chỉ ra | Đồng ý? | Đã sửa gì |
 |---|---|---|
-| Card #1 gộp hai vấn đề (trả lời lặp lại và trả lời ngoài giờ), metric dễ bị lẫn | Đồng ý | Giữ chung một card nhưng tách hai bottleneck và đo riêng thời gian chờ ngoài giờ |
-| Baseline chưa có số đo, mới là cảm nhận | Đồng ý | Đếm lại lịch sử Zalo 2 tuần trước khi nộp (ô `[…]`) |
-| Card #2 có thể giải bằng cú pháp chuyển khoản + QR, không cần AI | Đồng ý | Đổi cảm nhận nhanh thành Rule, ghi phương án không AI làm phương án chính |
-| Card #3 chưa chắc phụ huynh đọc nhận xét | Đồng ý một phần | Thêm vào "điều còn chưa chắc", kiểm chứng ở CP4 |
+| Bản đầu ghi bottleneck là "tra lịch mất vài phút", không có số | Đồng ý | Đo lại trên log: tra và trả lời chỉ mất trung vị 0,1–0,7 phút; bottleneck thật là chờ người đọc tin (10% chờ 80–374 phút). Sửa bottleneck của cả 3 card thành bước "chờ người trực" |
+| Card khớp chuyển khoản không có dữ liệu và có thể chỉ cần quy định cú pháp | Đồng ý | Loại khỏi top 3, thay bằng card tuyển sinh có số liệu |
+| "Thông báo gửi hàng loạt" có thể là đếm nhầm | Đồng ý | Kiểm tra lại: các tin trùng là câu trả lời mẫu dùng lại cách nhau nhiều ngày. Bỏ card thông báo, dùng làm bằng chứng câu hỏi lặp lại cho card #1 |
+| Card tuyển sinh chưa chứng minh được trả lời chậm làm mất học viên | Đồng ý một phần | Ghi vào "điều còn chưa chắc", đưa tỷ lệ chốt học thử vào metric phụ, kiểm chứng ở CP4 |
 
 ---
 
