@@ -33,11 +33,13 @@
 
 ### 2.2. Cluster
 
+> Gom theo dạng của nỗi đau, không theo lĩnh vực. Bản tạm với 6 candidate của 2 thành viên đã nộp; sẽ bổ sung khi các thành viên còn lại push.
+
 | Cluster | Các candidate | Pattern chung |
 |---|---|---|
-| A | | |
-| B | | |
-| C | | |
+| A. Câu hỏi nằm chờ vì không có người trực | #1 Phụ huynh hỏi lịch học / xin nghỉ (Minh) · #2 Phụ huynh mới hỏi đăng ký, học thử (Minh) | Tin đến bất kỳ giờ nào, câu trả lời thường đã có sẵn, nhưng phải chờ người rảnh mới gửi được. Thời gian mất nằm ở bước chờ, không ở bước tra cứu (trả lời tay trung vị 0,1–0,7 phút, nhưng 10% chậm nhất chờ 80–784 phút) |
+| B. Thông tin kẹt giữa hai bên | #3 Bài tập, nhận xét từ giáo viên tới phụ huynh (Minh) | Một bên có thông tin (giáo viên), một bên cần (phụ huynh), ở giữa có người chuyển tiếp; bên cần phải nhắn hỏi lại (12 lần trong 16,9 ngày). Gần với A vì câu hỏi của phụ huynh cũng nằm chờ |
+| C. Nguồn thô phải làm lại bằng tay thành dạng có cấu trúc | #4 Catalog brand → listing 3 sàn (Hải Quân) · #5 Buổi học → ghi chú có cấu trúc (Hải Quân) · #6 Paper → bảng so sánh tài liệu liên quan (Hải Quân) | Đọc nguồn dài hoặc lộn xộn, rút các trường thông tin, viết lại theo một chuẩn định sẵn, rồi sau đó phải tra lại. #5 và #6 gần như cùng một việc (đọc một lần, tra lại về sau); #4 có thêm quy ước và luật của từng sàn |
 
 ### 2.3. Opportunity Solution Tree rút gọn
 
