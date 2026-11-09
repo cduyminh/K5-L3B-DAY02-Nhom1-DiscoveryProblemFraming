@@ -45,18 +45,18 @@
 | Actor                         | Tôi, người mua cá nhân                                                                                         |
 | Thời điểm / bối cảnh          | Khi cần mua một món có nhiều shop bán cùng loại (ví dụ khăn)                                                   |
 | Quy trình hiện tại (3–7 bước) | 1 Tìm từ khóa · 2 Mở nhiều shop cùng loại · 3 Đọc đánh giá từng shop · 4 So giá + phí ship · 5 Chọn, đặt       |
-| Bottleneck                    | Bước 3, đọc đánh giá từng shop: 20' đến 50'                                                              |
+| Bottleneck                    | Bước 3, đọc đánh giá từng shop: 20' đến 50' trên tổng 30' đến 60'/lần                                          |
 | Impact                        | Khoảng 50'-120'/tháng.                                         |
-| Success metric                | Baseline 35' → target 17' (≤50%). Đo bằng tự bấm giờ 5 lần mua                                                 |
-| Phương án không dùng AI       | Lọc theo sao + số đơn đã bán; checklist giấy                                                                   |
+| Success metric                | Baseline 30'-60'/lần → target 15'-30'/lần (≤50%)                                             |
+| Phương án không dùng AI       | Lọc theo sao + số đơn đã bán; checklist                                                                    |
 | Giả thuyết về AI              | Dùng tóm tắt đánh giá có sẵn của sàn để tham khảo, người quyết định                                            |
 | Cảm nhận nhanh                | Rule                                                                                                           |
 
 Quy trình nháp hiện tại:
 
 ```text
-[1 Tìm từ khóa: 3'] → [2 Mở nhiều shop: 8'] → [3 Đọc đánh giá từng shop: 17'] ← BOTTLENECK
-→ [4 So giá + ship: 5'] → [5 Chọn, đặt: 2']   Tổng: 35'
+[1 Tìm từ khóa] → [2 Mở nhiều shop] → [3 Đọc đánh giá từng shop: 20'-50'] ← BOTTLENECK
+→ [4 So giá + ship] → [5 Chọn, đặt]   Tổng: 30'-60'/lần
 ```
 
 ### Problem Card #2
