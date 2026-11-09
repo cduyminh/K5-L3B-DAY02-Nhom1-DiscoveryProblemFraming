@@ -24,22 +24,23 @@
 | 4 | Nguyễn Văn Hải Quân | Khi nhận catalog của một brand mới, tôi muốn có listing đúng quy ước của từng sàn Shopee, TikTok Shop, Lazada cho mọi SKU, để mở bán đúng hẹn mà không bị sàn từ chối | Nhân sự vận hành tại enabler (vận hành gian hàng thay brand) | Bước 3–4: viết lại tiêu đề và điền thuộc tính 3 lần cho 3 sàn; ước tính 10–20 phút/SKU/sàn (nguồn ngoài, chưa bấm giờ); lần onboard gần nhất 240 SKU × 3 sàn = 720 listing trong 4 ngày, 14 listing bị từ chối | |
 | 5 | Nguyễn Văn Hải Quân | Khi vừa học xong một buổi ở lớp AI Thực Chiến 20K, tôi muốn ghi chú của buổi đó được sắp xếp gọn vào đúng chỗ, để tuần sau tra lại được mà không phải xem lại cả buổi | Học viên lớp 20K | Bước 3, viết lại ghi chú có cấu trúc, trong tổng 45 phút/buổi (chưa tách phút của bước); hơn 10 lần/tuần phải mở lại slide/recording | |
 | 6 | Nguyễn Văn Hải Quân | Khi viết phần tài liệu liên quan cho bài CAR, tôi muốn nắm nhanh phương pháp, dữ liệu và hạn chế của từng bài báo, để so sánh được với hướng của mình | Sinh viên làm nghiên cứu và thầy hướng dẫn | Bước 3–4, đọc sâu phương pháp và thực nghiệm, trong tổng 30 phút/bài (chưa tách phút của bước); 7–10 bài; 2–3 lần mở lại bài đã đọc | |
-| 7 | | | | | |
-| 8 | | | | | |
-| 9 | | | | | |
+| 7 | Bùi Phan Thanh Phúc | Khi cần mua một món trên Shopee có nhiều shop cùng bán, tôi muốn biết shop nào đáng mua nhất, để không mua nhầm hàng kém hoặc giá cao | Người mua cá nhân | Bước 3, đọc đánh giá từng shop: 17 phút trong tổng 35 phút/lần (bấm giờ 3 lần: 32, 38, 35 phút); 2–3 lần/tháng | |
+| 8 | Bùi Phan Thanh Phúc | Khi vừa họp nhóm xong, tôi muốn có danh sách việc, người phụ trách và hạn, để không ai bỏ sót | Thành viên nhóm ghi chú sau họp | Bước 2, tách việc cụ thể từ ghi chú lộn xộn: 10 phút trong tổng 30 phút/buổi; tuần trước bỏ sót 1 việc, nộp trễ slide 1 ngày | |
+| 9 | Bùi Phan Thanh Phúc | Khi phải đọc tài liệu dài của khóa, tôi muốn tìm nhanh phần liên quan tới lab, để không phải lục lại từng phần | Học viên làm lab | Bước 3, tìm phần liên quan tới lab: 20 phút trong tổng 45 phút/lần; 2 lần/tuần ≈ 90 phút/tuần | |
 | 10 | | | | | |
 | 11 | | | | | |
 | 12 | | | | | |
 
 ### 2.2. Cluster
 
-> Gom theo dạng của nỗi đau, không theo lĩnh vực. Bản tạm với 6 candidate của 2 thành viên đã nộp; sẽ bổ sung khi các thành viên còn lại push.
+> Gom theo dạng của nỗi đau, không theo lĩnh vực. Bản tạm với 9 candidate của 3 thành viên đã nộp; sẽ bổ sung khi thành viên còn lại push.
 
 | Cluster | Các candidate | Pattern chung |
 |---|---|---|
 | A. Câu hỏi nằm chờ vì không có người trực | #1 Phụ huynh hỏi lịch học / xin nghỉ (Minh) · #2 Phụ huynh mới hỏi đăng ký, học thử (Minh) | Tin đến bất kỳ giờ nào, câu trả lời thường đã có sẵn, nhưng phải chờ người rảnh mới gửi được. Thời gian mất nằm ở bước chờ, không ở bước tra cứu (trả lời tay trung vị 0,1–0,7 phút, nhưng 10% chậm nhất chờ 80–784 phút) |
 | B. Thông tin kẹt giữa hai bên | #3 Bài tập, nhận xét từ giáo viên tới phụ huynh (Minh) | Một bên có thông tin (giáo viên), một bên cần (phụ huynh), ở giữa có người chuyển tiếp; bên cần phải nhắn hỏi lại (12 lần trong 16,9 ngày). Gần với A vì câu hỏi của phụ huynh cũng nằm chờ |
-| C. Nguồn thô phải làm lại bằng tay thành dạng có cấu trúc | #4 Catalog brand → listing 3 sàn (Hải Quân) · #5 Buổi học → ghi chú có cấu trúc (Hải Quân) · #6 Paper → bảng so sánh tài liệu liên quan (Hải Quân) | Đọc nguồn dài hoặc lộn xộn, rút các trường thông tin, viết lại theo một chuẩn định sẵn, rồi sau đó phải tra lại. #5 và #6 gần như cùng một việc (đọc một lần, tra lại về sau); #4 có thêm quy ước và luật của từng sàn |
+| C. Nguồn thô phải làm lại bằng tay thành dạng có cấu trúc | #4 Catalog brand → listing 3 sàn (Hải Quân) · #5 Buổi học → ghi chú có cấu trúc (Hải Quân) · #8 Ghi chú họp → danh sách việc, người, hạn (Phúc) | Nguồn lộn xộn (catalog, slide và recording, ghi chú họp) phải viết lại bằng tay theo một khuôn định sẵn. Bước tốn nhất là tách thông tin ra khỏi nguồn (#8: 10/30 phút; #4: 10–20 phút/SKU/sàn, ước tính) |
+| D. Phải đọc nhiều hoặc đọc dài để tìm và so sánh | #6 Paper → bảng so sánh tài liệu liên quan (Hải Quân) · #7 So sánh đánh giá giữa nhiều shop Shopee (Phúc) · #9 Tìm phần liên quan tới lab trong tài liệu dài (Phúc) | Thông tin cần có nằm rải trong nhiều nguồn hoặc một nguồn dài; người dùng đọc lại để tìm hoặc so sánh. Bước tốn nhất là đọc để lọc (#7: 17/35 phút; #9: 20/45 phút; #6: 30 phút/bài) |
 
 ### 2.3. Opportunity Solution Tree rút gọn
 
