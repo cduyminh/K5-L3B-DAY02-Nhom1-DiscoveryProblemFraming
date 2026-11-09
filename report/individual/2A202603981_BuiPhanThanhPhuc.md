@@ -68,8 +68,8 @@ Quy trình nháp hiện tại:
 | Thời điểm / bối cảnh          | Ngay sau mỗi buổi họp nhóm lab                                                                                           |
 | Quy trình hiện tại (3–7 bước) | 1 Nhớ lại nội dung họp · 2 Tách việc cụ thể từ ghi chú · 3 Gán người + hạn · 4 Viết lại gửi nhóm · 5 Nhắc người chưa làm |
 | Bottleneck                    | Bước 2, tách việc từ ghi chú lộn xộn: 10' trên tổng 30'                                                                  |
-| Impact                        | 30'/buổi. Tuần trước bỏ sót 1 việc, nộp trễ phần slide 1 ngày                                                            |
-| Success metric                | Baseline 30'/buổi → target 15'. Đo bằng tự bấm giờ 4 buổi họp                                                            |
+| Impact                        | 30'/buổi.                                                       |
+| Success metric                | Baseline 30'/buổi → target 15'.                                                         |
 | Phương án không dùng AI       | Mẫu biên bản có cột Việc / Người / Hạn, điền ngay trong họp                                                              |
 | Giả thuyết về AI              | Nháp danh sách việc từ ghi chú họp, người duyệt trước khi gửi                                                            |
 | Cảm nhận nhanh                | Workflow                                                                                                                 |
