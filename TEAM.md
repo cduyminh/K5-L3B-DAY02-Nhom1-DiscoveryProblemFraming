@@ -15,7 +15,7 @@
 | 1 | Cao Duy Minh | 2A202603988 | Nhóm trưởng | cduyminh |
 | 2 | Nguyễn Văn Hải Quân | 2A202603994 | | haiquanng |
 | 3 | Bùi Phan Thanh Phúc | 2A202603981 | | Jancaster1234 |
-| 4 | | | | |
+| 4 | Nguyễn Khắc Bảo | 2A202604072 | | invzble-z |
 
 Không ghi email hay số điện thoại vào bảng này, vì repo có thể để public.
 
