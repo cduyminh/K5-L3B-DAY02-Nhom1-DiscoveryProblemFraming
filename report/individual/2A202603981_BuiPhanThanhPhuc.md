@@ -110,8 +110,7 @@ Quy trình nháp hiện tại:
 | Điểm yếu AI chỉ ra                                           | Đồng ý?         | Đã sửa gì                                                                                                                |
 | ------------------------------------------------------------ | --------------- | ------------------------------------------------------------------------------------------------------------------------ |
 | Sàn đã có lọc sao, số đơn và tóm tắt đánh giá: còn thiếu gì? | Đồng ý một phần | Mở thử app: tóm tắt chỉ cho từng sản phẩm, không so được giữa các shop. Tôi thu hẹp vấn đề thành "so sánh giữa các shop" |
-| Chưa có baseline đo thật                                     | Đồng ý          | Bấm giờ 3 lần mua, ra 32', 38', 35'. Thay con số đoán 30' bằng TB 35'                                                    |
-| "Nắm nhanh" ở card 3 chưa đo được                            | Đồng ý          | Đổi thành "tìm được đoạn liên quan trong ≤10 phút"                                                                       |
+| Chưa có baseline đo thật                                     | Đồng ý          | Hiện chỉ ước chừng 30'-60'/lần. Sẽ bấm giờ 5 lần mua để có baseline thật                                                   |
 
 ---
 
