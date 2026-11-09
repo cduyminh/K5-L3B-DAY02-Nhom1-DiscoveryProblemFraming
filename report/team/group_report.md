@@ -45,18 +45,21 @@ Nhóm 4 người, 12 candidate.
 
 ### 2.3. Opportunity Solution Tree rút gọn
 
-Gốc là **1 outcome**. Nhánh là **opportunity** (nhu cầu, pain), không phải tính năng hay công cụ.
+Dựng theo candidate đang dẫn đầu (#4 Listing 3 sàn, 3/3 phiếu); sẽ cập nhật nếu nhóm chốt candidate khác.
 
 ```text
-OUTCOME: 
-├── Opportunity A: 
-├── Opportunity B: 
-└── Opportunity C: 
+OUTCOME: Giảm thời gian từ lúc nhận catalog brand tới lúc mở bán đủ SKU trên 3 sàn, mà tỷ lệ listing bị sàn từ chối không tăng
+├── Opportunity: Catalog brand lộn xộn và lệch nhau giữa các file (PDF, Excel, ảnh), phải đối chiếu tay
+├── Opportunity: Cùng một SKU phải viết lại tiêu đề và thuộc tính 3 lần theo 3 quy ước sàn khác nhau
+├── Opportunity: Câu quảng cáo vi phạm bị bỏ sót, listing bị từ chối hoặc đình chỉ (14/720 listing ở lần onboard gần nhất)
+└── Opportunity: Ảnh, video phải chỉnh lại cho đúng chuẩn từng sàn (câu hỏi của Bào, chưa có số liệu)
 ```
 
 Những ý đã gạch bỏ vì là solution đội lốt opportunity:
 
--
+- "Tool tạo listing đa sàn bằng AI"
+- "Phần mềm quản lý đa kênh"
+- "File đăng hàng loạt của sàn"
 
 ### 2.4. Chấm điểm shortlist (1–5)
 
