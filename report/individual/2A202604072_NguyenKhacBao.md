@@ -4,7 +4,7 @@
 
 ## 1. Thông tin học viên
 
-- Họ tên: Nguyễn Khắc Bảo
+- Họ tên: Nguyễn Khắc Bào
 - MSSV: 2A202604072
 - Email trường (không bắt buộc, repo có thể để public):
 - Tên nhóm: Nhóm 1
