@@ -102,7 +102,7 @@ Quy trình nháp hiện tại:
 ### Card muốn pitch nhất
 
 - Card số: 1
-- Vì sao: quy trình rõ nhất, tôi đã bấm giờ thật nên có baseline
+- Vì sao: quy trình rõ nhất
 - Câu hỏi muốn nhóm phản biện: Nếu sàn đã có sẵn tóm tắt đánh giá, bài này còn đáng làm không?
 
 ### AI đã phản biện card thế nào
