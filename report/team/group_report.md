@@ -109,7 +109,7 @@ Bảng tạm: 3/4 người đã chấm qua form (Minh, Phúc, Bào; còn Hải Q
 
 | Trường | Nội dung |
 |---|---|
-| Người được hỏi (vai trò, không ghi tên thật) | Người từng làm vận hành gian hàng thuê (đơn vị vận hành gian hàng cho nhãn hàng), đã rời ngành một thời gian. Không phải thành viên nhóm. Hỏi trực tiếp, 2 lần (lần 2 để hỏi lại thời gian mỗi mặt hàng) |
+| Người được hỏi (vai trò, không ghi tên thật) | Người từng làm vận hành gian hàng thuê (đơn vị vận hành gian hàng cho nhãn hàng), đã rời ngành một thời gian. Không phải thành viên nhóm. Hỏi 2 lần (lần 2 để hỏi lại thời gian mỗi mặt hàng); hình thức hỏi: Nhắn tin|
 | Câu nói đáng nhớ nhất | Làm sao để cạnh tranh được với những nền tảng đã tồn tại trong thời gian dài rồi? |
 | Lần gần nhất gặp vấn đề này: chuyện gì đã xảy ra? | Mở gian hàng mới cho một nhãn hàng có 240 mặt hàng, phải đưa lên cả ba sàn. Cùng một mặt hàng phải viết lại ba lần theo ba bộ quy ước khác nhau. Có 14 trong 720 tin bị sàn từ chối |
 | Hiện đang xử lý bằng cách nào (workaround)? | Làm tay: đối chiếu hồ sơ, chọn ngành hàng, viết tiêu đề, điền trường, rồi rà câu chữ bằng mắt trước khi đăng |
@@ -287,24 +287,32 @@ Vì sao:
 
 | Rủi ro | Câu hỏi | Mức độ rủi ro (Thấp = an toàn / TB / Cao = nguy hiểm) | Lý do / bằng chứng |
 |---|---|---|---|
-| **Value** | Người dùng có thật sự cần và sẽ dùng không? | | |
-| **Usability** | Người dùng có dùng được, có hiểu và sửa được đầu ra của AI không? | | |
-| **Feasibility** | Có đủ dữ liệu, công cụ, kỹ năng để làm không? | | |
-| **Viability** | Có hợp chi phí, pháp lý, quy định tổ chức không? Ai vận hành? | | |
+| **Value** | Người dùng có thật sự cần và sẽ dùng không? | Cao | Toàn bộ con số đau (240, 80–140 giờ, 14/720) đến từ một người đã rời ngành, chưa ai đang làm xác nhận. Sapo đã quảng cáo làm đúng việc này nhưng nhóm chưa mở bản dùng thử |
+| **Usability** | Người dùng có dùng được, có hiểu và sửa được đầu ra của AI không? | TB | Giao diện là bảng danh sách bản nháp, gần với việc họ vốn làm. Nhưng chưa ai thử, và chưa đo xem soát nhanh hơn viết bao nhiêu |
+| **Feasibility** | Có đủ dữ liệu, công cụ, kỹ năng để làm không? | Thấp (phần Shopee) / TB (cả ba sàn) | Bản chạy thử đã chạy được; quy ước Shopee có từ tài liệu gốc; chi phí máy khoảng 0,0029 đô mỗi mặt hàng (≈ 0,70 đô cho 240 mặt hàng, theo bảng giá Gemini 2.5 Flash — 〔cần dẫn link bảng giá〕). Còn thiếu quy ước TikTok Shop và Lazada |
+| **Viability** | Có hợp chi phí, pháp lý, quy định tổ chức không? Ai vận hành? | Cao | (a) Đối thủ đã phủ một nửa quy trình; (b) chưa biết đơn vị vận hành có được phép đưa dữ liệu sản phẩm của nhãn hàng vào công cụ AI bên ngoài hay không; (c) chưa rõ ai trả tiền |
 
 ### 8.2. Kết luận
 
-**Quyết định:** Go / Not Yet / No-Go
+**Quyết định:** Not Yet
 
-**Lý do:**
+**Lý do:** Nút thắt có vẻ thật và lớn, kỹ thuật làm được, chi phí máy rất thấp. Nhưng hai rủi ro cao đều chưa có bằng chứng chống lưng: (1) toàn bộ con số đau từ một người đã rời ngành, chưa đo lại; (2) Sapo công khai làm phần tương tự mà nhóm chưa mở bản dùng thử, và chưa biết đơn vị vận hành có được phép đưa dữ liệu nhãn hàng ra ngoài hay không. Xây thêm khi chưa kiểm hai điều này là đặt cược vào phần yếu nhất.
 
-**Nếu Go — pilot nhỏ nhất:**
+**Nếu Go — pilot nhỏ nhất:** Chạy 20 mặt hàng thật của một nhãn hàng, chỉ cho một sàn (Shopee, vì đã có quy ước từ tài liệu gốc), bản nháp tiêu đề và mô tả do AI dựng, một nhân sự vận hành soát và duyệt. So giờ công và tỷ lệ bị từ chối với cách làm tay trên 20 mặt hàng tương đương.
 
 **Nếu Not Yet — cần kiểm chứng gì trước:**
+1. Bấm giờ từng bước với một người đang làm nghề, trên 5 mặt hàng thật (kiểm giả định 1).
+2. Mở bản dùng thử Sapo và BigSeller, thử 5 mặt hàng, ghi lại họ viết ra tiêu đề và mô tả gì (kiểm giả định 2).
+3. Hỏi một đơn vị vận hành xem họ có được phép đưa dữ liệu sản phẩm của nhãn hàng vào công cụ AI bên ngoài không (kiểm giả định 6).
+4. Vào Trung tâm người bán TikTok Shop và Lazada để lấy quy ước tiêu đề thật (kiểm giả định 5).
 
-**Nếu No-Go — nên làm gì thay AI:**
+**Nếu No-Go — nên làm gì thay AI:** Làm bảng quy ước ba sàn theo ngành hàng + mẫu tiêu đề điền sẵn + danh sách kiểm tra câu cấm (không dùng AI), cộng bộ soi ký tự và từ cấm bằng luật cố định. Đây là mức Rule trong bảng so sánh 4 mức và đã giải quyết một phần bước 5.
 
 **Ngưỡng dừng** (nếu sau … mà … thì quay về …):
+- Nếu sau khi bấm giờ với người đang làm nghề mà mỗi mặt hàng cho cả ba sàn dưới 10 phút → nút thắt không còn như mô tả → quay về mức No AI (bảng quy ước + mẫu điền sẵn).
+- Nếu sau khi mở bản dùng thử Sapo hoặc BigSeller mà thấy họ đã dựng được tiêu đề và mô tả dùng ngay cho cả ba sàn → đã có người làm → quay về chọn lại bài toán (ví dụ bước đối chiếu hồ sơ lệch ở bước 1).
+- Nếu sau khi thử 100 mặt hàng mà dưới 30% bản nháp được duyệt không sửa 〔đề xuất〕 → người sửa nhiều hơn tự viết → quay về mức Rule.
+- Nếu đơn vị vận hành không được phép đưa dữ liệu nhãn hàng ra công cụ AI bên ngoài và không có cách chạy tại chỗ → không bán được → quay về mức Rule.
 
 ---
 
