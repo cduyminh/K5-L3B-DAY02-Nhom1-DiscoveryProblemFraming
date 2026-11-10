@@ -170,6 +170,6 @@ Nếu làm lại, tôi sẽ bấm giờ trước khi pitch thay vì sau. Tôi c�
 
 ## 7. Tài liệu tham khảo
 
-- https://www.bigseller.com/blog/articleDetails/3050.htm (chưa kiểm)
-- https://extscope.org/extension/ajalfmcbjjomclnamliamgnohklnfeom (chưa kiểm)
-- https://developer.chrome.com/docs/ai/evaluate-reviews?hl=vi (chưa kiểm)
+- https://www.bigseller.com/blog/articleDetails/3050.htm 
+- https://extscope.org/extension/ajalfmcbjjomclnamliamgnohklnfeom 
+- https://developer.chrome.com/docs/ai/evaluate-reviews?hl=vi 
