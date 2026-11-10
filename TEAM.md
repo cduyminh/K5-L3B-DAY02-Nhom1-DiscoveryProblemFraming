@@ -78,3 +78,26 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 **Điều mình học được từ phần nhóm:**
 
 -
+
+### NguyenVanHaiQuan-2A202603994
+
+**Phần việc phụ trách:**
+
+- CP4 — Kiểm chứng (bản đồ giả định, interview snapshot) và research giải pháp đã có
+- CP6 — Quyết định Go / Not Yet / No-Go (mục 8)
+
+**Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
+
+- Pitch 3 Problem Card (listing đa sàn từ catalog, ghi chú buổi học 20K, đọc paper cho bài CAR); card listing đa sàn trở thành candidate nhóm chọn. Cung cấp số liệu nền cho bài (240 mặt hàng, 720 tin, 80–140 giờ công, 14 tin bị từ chối) và bản chạy thử LênSàn (dữ liệu mô phỏng)
+- Mục 3.1: bản đồ giả định 6 mục kèm ảnh; mục 3.2: interview snapshot, bảng tổng hợp có tín hiệu phản bác (BigSeller phủ một phần quy trình, Sapo quảng cáo gợi ý mô tả theo từng sàn) và 4 điều nhóm đã sửa sau kiểm chứng; mục 3.3: bảng research 4 nguồn có link
+- Mục 8: bốn rủi ro, kết luận Not Yet, pilot nhỏ nhất, bốn việc cần kiểm chứng trước, bốn ngưỡng dừng
+
+**Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
+
+- `group_report.md` mục 3 (3.1–3.3) và mục 8; một dòng trong bảng pitch mục 2.1 (hàng 4–6)
+- `report/assets/cp4-assumption-map.svg`
+- Commit: `0323039` (mục 3, ảnh bản đồ giả định); `4c5657c` (mục 8); `4ea13c0`, `308fa57`, `626f20c` (CP1–CP2 trong báo cáo cá nhân); `9ade33b`, `8b75f39`, `02bf814` (báo cáo cá nhân)
+
+**Điều mình học được từ phần nhóm:**
+
+- Qua quá trình làm việc nhóm, tôi học được cách lắng nghe, tiếp nhận những góc nhìn khác nhau và phản biện để nhìn nhận vấn đề khách quan hơn. Tôi nhận ra rằng việc xác định đúng nỗi đau của người dùng quan trọng hơn việc nhanh chóng đưa ra một giải pháp. Bên cạnh đó, tôi cũng học được cách phối hợp, chia sẻ thông tin và sử dụng các công cụ AI để hỗ trợ quá trình nghiên cứu, kiểm chứng vấn đề.
