@@ -119,7 +119,7 @@ Quy trình nháp hiện tại:
 | Hoạt động                  | Tôi đã làm gì?                                                                                         | Kết quả / ảnh hưởng tới bài nhóm                                                                   |
 | -------------------------- | ------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------- |
 | Pitch Problem Card | Thêm 3 Problem Card của tôi vào bảng pitch (`group_report.md` 2.1) | Card của tôi nằm trong 12 candidate để nhóm gom cluster và chấm điểm |
-| Phản biện bài của bạn khác | Đặt câu hỏi phản biện trên Google Form. Câu hỏi tôi đã đặt: 〔câu hỏi cụ thể〕 | 〔ảnh hưởng tới bài nhóm〕 |
+| Phản biện bài của bạn khác | Đặt câu hỏi phản biện trên Google Form. |  |
 | Nhận phản biện | Câu hỏi tôi nhận được: 〔câu hỏi〕 | Tôi đã sửa gì: 〔sửa gì〕 |
 | Gom cluster / cây OST | Không phụ trách (Minh làm, mục 2.2–2.3) | — |
 | Chọn candidate problem | Chấm 7 tiêu chí cho các candidate trên Google Form (mục 2.4) | Điểm của tôi nằm trong bảng chấm điểm nhóm dùng để chọn candidate #4 |
