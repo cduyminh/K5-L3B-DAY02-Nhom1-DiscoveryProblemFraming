@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1206 488" width="1206" height="488" font-family="Inter, 'Segoe UI', Arial, sans-serif">
+<rect width="1206" height="488" fill="#FFFFFF"/>
+<text x="34" y="40" font-size="20" font-weight="700" fill="#16191D">Quy trình hiện tại — đưa hàng của một nhãn hàng lên ba sàn</text>
+<text x="34" y="66" font-size="13.5" fill="#4D545C">20–35 phút cho mỗi mặt hàng tính cả ba sàn. Một lần mở gian hàng mới: 240 mặt hàng thành 720 tin đăng, tốn 80–140 giờ công trong 4 ngày.</text>
+<text x="34" y="88" font-size="12.5" fill="#848B93">Thời gian của từng bước chưa tách riêng — cần bấm giờ trên 5 mặt hàng thật trước khi dùng con số này để tính hiệu quả.</text>
+<rect x="34" y="116" width="178" height="232" rx="10" fill="#F4F3F1" stroke="#DDE0E3" stroke-width="1.5"/>
+<circle cx="56" cy="139" r="12" fill="#C8CDD2"/>
+<text x="56" y="144" font-size="12.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">1</text>
+<text font-size="12.8" font-weight="600" fill="#4D545C"><tspan x="48" y="172.0">Nhận hồ sơ sản phẩm,</tspan><tspan x="48" y="187.5">đối chiếu các bản lệch</tspan><tspan x="48" y="203.0">nhau</tspan></text>
+<text x="48" y="230" font-size="10" font-weight="700" fill="#848B93" letter-spacing="0.4">AI LÀM</text>
+<text font-size="11.3" fill="#4D545C"><tspan x="48" y="243.5">Nhân sự vận hành</tspan></text>
+<text x="48" y="264" font-size="10" font-weight="700" fill="#848B93" letter-spacing="0.4">ĐẦU VÀO</text>
+<text font-size="11.3" fill="#4D545C"><tspan x="48" y="278.0">Bản PDF, bảng tính, ảnh do</tspan><tspan x="48" y="290.5">nhãn hàng gửi</tspan></text>
+<text x="48" y="311" font-size="10" font-weight="700" fill="#848B93" letter-spacing="0.4">ĐẦU RA</text>
+<text font-size="11.3" fill="#4D545C"><tspan x="48" y="325.0">Một bản dữ liệu thống nhất</tspan></text>
+<path d="M214,232.0 l9,0 M219,228.0 l4,4 l-4,4" stroke="#B9BFC5" stroke-width="1.6" fill="none"/>
+<rect x="226" y="116" width="178" height="232" rx="10" fill="#F4F3F1" stroke="#DDE0E3" stroke-width="1.5"/>
+<circle cx="248" cy="139" r="12" fill="#C8CDD2"/>
+<text x="248" y="144" font-size="12.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">2</text>
+<text font-size="12.8" font-weight="600" fill="#4D545C"><tspan x="240" y="172.0">Chọn ngành hàng cho</tspan><tspan x="240" y="187.5">từng sàn</tspan></text>
+<text x="240" y="214" font-size="10" font-weight="700" fill="#848B93" letter-spacing="0.4">AI LÀM</text>
+<text font-size="11.3" fill="#4D545C"><tspan x="240" y="228.0">Nhân sự vận hành</tspan></text>
+<text x="240" y="248" font-size="10" font-weight="700" fill="#848B93" letter-spacing="0.4">ĐẦU VÀO</text>
+<text font-size="11.3" fill="#4D545C"><tspan x="240" y="262.5">Bản dữ liệu + cây ngành</tspan><tspan x="240" y="275.0">hàng ba sàn</tspan></text>
+<text x="240" y="296" font-size="10" font-weight="700" fill="#848B93" letter-spacing="0.4">ĐẦU RA</text>
+<text font-size="11.3" fill="#4D545C"><tspan x="240" y="309.5">Ba đường dẫn ngành hàng</tspan></text>
+<path d="M406,232.0 l9,0 M411,228.0 l4,4 l-4,4" stroke="#B9BFC5" stroke-width="1.6" fill="none"/>
+<rect x="418" y="116" width="178" height="232" rx="10" fill="#FDF2E7" stroke="#B4530F" stroke-width="1.5"/>
+<circle cx="440" cy="139" r="12" fill="#B4530F"/>
+<text x="440" y="144" font-size="12.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">3</text>
+<text font-size="12.8" font-weight="600" fill="#6B3A10"><tspan x="432" y="172.0">Viết tiêu đề theo quy</tspan><tspan x="432" y="187.5">ước riêng từng sàn</tspan></text>
+<text x="432" y="214" font-size="10" font-weight="700" fill="#848B93" letter-spacing="0.4">AI LÀM</text>
+<text font-size="11.3" fill="#4D545C"><tspan x="432" y="228.0">Nhân sự vận hành</tspan></text>
+<text x="432" y="248" font-size="10" font-weight="700" fill="#848B93" letter-spacing="0.4">ĐẦU VÀO</text>
+<text font-size="11.3" fill="#4D545C"><tspan x="432" y="262.5">Bản dữ liệu + quy ước ba</tspan><tspan x="432" y="275.0">sàn</tspan></text>
+<text x="432" y="296" font-size="10" font-weight="700" fill="#848B93" letter-spacing="0.4">ĐẦU RA</text>
+<text font-size="11.3" fill="#4D545C"><tspan x="432" y="309.5">Ba tiêu đề khác nhau</tspan></text>
+<path d="M598,232.0 l9,0 M603,228.0 l4,4 l-4,4" stroke="#B9BFC5" stroke-width="1.6" fill="none"/>
+<rect x="610" y="116" width="178" height="232" rx="10" fill="#FDF2E7" stroke="#B4530F" stroke-width="1.5"/>
+<circle cx="632" cy="139" r="12" fill="#B4530F"/>
+<text x="632" y="144" font-size="12.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">4</text>
+<text font-size="12.8" font-weight="600" fill="#6B3A10"><tspan x="624" y="172.0">Điền các trường bắt</tspan><tspan x="624" y="187.5">buộc của từng sàn</tspan></text>
+<text x="624" y="214" font-size="10" font-weight="700" fill="#848B93" letter-spacing="0.4">AI LÀM</text>
+<text font-size="11.3" fill="#4D545C"><tspan x="624" y="228.0">Nhân sự vận hành, hỏi lại</tspan><tspan x="624" y="240.5">nhãn hàng</tspan></text>
+<text x="624" y="261" font-size="10" font-weight="700" fill="#848B93" letter-spacing="0.4">ĐẦU VÀO</text>
+<text font-size="11.3" fill="#4D545C"><tspan x="624" y="275.0">Danh sách trường bắt buộc</tspan></text>
+<text x="624" y="296" font-size="10" font-weight="700" fill="#848B93" letter-spacing="0.4">ĐẦU RA</text>
+<text font-size="11.3" fill="#4D545C"><tspan x="624" y="309.5">Ba bộ thông tin</tspan></text>
+<path d="M790,232.0 l9,0 M795,228.0 l4,4 l-4,4" stroke="#B9BFC5" stroke-width="1.6" fill="none"/>
+<rect x="802" y="116" width="178" height="232" rx="10" fill="#FBECEB" stroke="#A3302B" stroke-width="1.5"/>
+<circle cx="824" cy="139" r="12" fill="#A3302B"/>
+<text x="824" y="144" font-size="12.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">5</text>
+<text font-size="12.8" font-weight="600" fill="#A3302B"><tspan x="816" y="172.0">Rà lại câu chữ có nguy</tspan><tspan x="816" y="187.5">cơ vi phạm</tspan></text>
+<text x="816" y="214" font-size="10" font-weight="700" fill="#848B93" letter-spacing="0.4">AI LÀM</text>
+<text font-size="11.3" fill="#4D545C"><tspan x="816" y="228.0">Nhân sự vận hành</tspan></text>
+<text x="816" y="248" font-size="10" font-weight="700" fill="#848B93" letter-spacing="0.4">ĐẦU VÀO</text>
+<text font-size="11.3" fill="#4D545C"><tspan x="816" y="262.5">Tiêu đề và mô tả</tspan></text>
+<text x="816" y="283" font-size="10" font-weight="700" fill="#848B93" letter-spacing="0.4">ĐẦU RA</text>
+<text font-size="11.3" fill="#4D545C"><tspan x="816" y="297.0">Danh sách câu phải sửa</tspan></text>
+<path d="M982,232.0 l9,0 M987,228.0 l4,4 l-4,4" stroke="#B9BFC5" stroke-width="1.6" fill="none"/>
+<rect x="994" y="116" width="178" height="232" rx="10" fill="#F4F3F1" stroke="#DDE0E3" stroke-width="1.5"/>
+<circle cx="1016" cy="139" r="12" fill="#C8CDD2"/>
+<text x="1016" y="144" font-size="12.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">6</text>
+<text font-size="12.8" font-weight="600" fill="#4D545C"><tspan x="1008" y="172.0">Đưa lên sàn và chờ</tspan><tspan x="1008" y="187.5">duyệt</tspan></text>
+<text x="1008" y="214" font-size="10" font-weight="700" fill="#848B93" letter-spacing="0.4">AI LÀM</text>
+<text font-size="11.3" fill="#4D545C"><tspan x="1008" y="228.0">Nhân sự vận hành, rồi tới</tspan><tspan x="1008" y="240.5">sàn</tspan></text>
+<text x="1008" y="261" font-size="10" font-weight="700" fill="#848B93" letter-spacing="0.4">ĐẦU VÀO</text>
+<text font-size="11.3" fill="#4D545C"><tspan x="1008" y="275.0">Tin đăng đã hoàn chỉnh</tspan></text>
+<text x="1008" y="296" font-size="10" font-weight="700" fill="#848B93" letter-spacing="0.4">ĐẦU RA</text>
+<text font-size="11.3" fill="#4D545C"><tspan x="1008" y="309.5">Tin đăng chờ duyệt</tspan></text>
+<rect x="34" y="378" width="1138" height="40" rx="8" fill="#FDF2E7"/>
+<text x="50" y="403" font-size="13" fill="#6B3A10"><tspan font-weight="700">Nút thắt:</tspan> bước 3 và bước 4 — cùng một mặt hàng phải làm lại ba lần theo ba quy ước và ba bộ trường bắt buộc khác nhau.</text>
+<rect x="34" y="428" width="1138" height="40" rx="8" fill="#FBECEB"/>
+<text x="50" y="453" font-size="13" fill="#A3302B"><tspan font-weight="700">Điểm rủi ro:</tspan> bước 5 rà bằng mắt nên hay bị bỏ khi gấp. Sót một câu vi phạm thì tin đăng bị từ chối hoặc bị tạm ngừng — lần gần nhất có 14 trong 720 tin bị từ chối (1,9%).</text>
+</svg>

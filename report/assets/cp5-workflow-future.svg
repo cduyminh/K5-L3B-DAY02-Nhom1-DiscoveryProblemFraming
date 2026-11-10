@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 606" width="1180" height="606" font-family="Inter, 'Segoe UI', Arial, sans-serif">
+<rect width="1180" height="606" fill="#FFFFFF"/>
+<text x="34" y="40" font-size="20" font-weight="700" fill="#16191D">Quy trình mong muốn — máy dựng bản nháp, người quyết cái gì được đăng</text>
+<text x="34" y="66" font-size="13.5" fill="#4D545C">Mức can thiệp: quy trình cố định có AI ở vài bước. Nút thắt chuyển từ việc ngồi viết sang việc ngồi soát.</text>
+<rect x="172" y="92" width="974" height="112" rx="8" fill="#FBFAF8"/>
+<text x="34" y="153.0" font-size="12.5" font-weight="700" fill="#848B93" letter-spacing="0.6">MÁY TỰ LÀM</text>
+<rect x="172" y="214" width="974" height="112" rx="8" fill="#FBFAF8"/>
+<text x="34" y="275.0" font-size="12.5" font-weight="700" fill="#848B93" letter-spacing="0.6">LUẬT CỐ ĐỊNH</text>
+<rect x="172" y="336" width="974" height="112" rx="8" fill="#EDF4F0"/>
+<text x="34" y="397.0" font-size="12.5" font-weight="700" fill="#2D6A4A" letter-spacing="0.6">NGƯỜI QUYẾT</text>
+<line x1="800" y1="82" x2="800" y2="456" stroke="#B4530F" stroke-width="2" stroke-dasharray="7 5"/>
+<text x="790" y="80" font-size="11.5" font-weight="700" fill="#848B93" text-anchor="end">CÒN LÀ BẢN NHÁP</text>
+<text x="810" y="80" font-size="11.5" font-weight="700" fill="#B4530F">ĐÃ ĐƯỢC NGƯỜI DUYỆT</text>
+<rect x="188" y="109" width="188" height="78" rx="8" fill="#FFFFFF" stroke="#DDE0E3" stroke-width="1.5"/>
+<text font-size="12.4" font-weight="600" fill="#4D545C"><tspan x="200" y="131.0">Đọc hồ sơ thành một bản</tspan><tspan x="200" y="145.5">dữ liệu</tspan></text>
+<text x="200" y="172.0" font-size="10.8" fill="#848B93">báo rõ chỗ hai nguồn lệch nhau</text>
+<rect x="390" y="109" width="188" height="78" rx="8" fill="#FFFFFF" stroke="#DDE0E3" stroke-width="1.5"/>
+<text font-size="12.4" font-weight="600" fill="#4D545C"><tspan x="402" y="131.0">Gợi ý ngành hàng cho từng</tspan><tspan x="402" y="145.5">sàn</tspan></text>
+<text x="402" y="172.0" font-size="10.8" fill="#848B93">kèm mức chắc chắn từ 0 đến 1</text>
+<rect x="592" y="109" width="188" height="78" rx="8" fill="#FFFFFF" stroke="#DDE0E3" stroke-width="1.5"/>
+<text font-size="12.4" font-weight="600" fill="#4D545C"><tspan x="604" y="131.0">Dựng tiêu đề theo quy ước</tspan><tspan x="604" y="145.5">từng sàn</tspan></text>
+<rect x="390" y="231" width="188" height="78" rx="8" fill="#FFFFFF" stroke="#DDE0E3" stroke-width="1.5"/>
+<text font-size="12.4" font-weight="600" fill="#4D545C"><tspan x="402" y="253.0">Soi độ dài, ký tự cấm, từ</tspan><tspan x="402" y="267.5">cấm</tspan></text>
+<rect x="592" y="231" width="188" height="78" rx="8" fill="#FFFFFF" stroke="#DDE0E3" stroke-width="1.5"/>
+<text font-size="12.4" font-weight="600" fill="#4D545C"><tspan x="604" y="253.0">Gạch chân câu có nguy cơ</tspan><tspan x="604" y="267.5">vi phạm</tspan></text>
+<rect x="818" y="231" width="196" height="78" rx="8" fill="#FFFFFF" stroke="#DDE0E3" stroke-width="1.5"/>
+<text font-size="12.4" font-weight="600" fill="#4D545C"><tspan x="830" y="253.0">Xuất tệp đăng hàng loạt</tspan></text>
+<rect x="818" y="353" width="196" height="78" rx="8" fill="#E4EFE9" stroke="#2D6A4A" stroke-width="2"/>
+<text font-size="12.4" font-weight="700" fill="#2D6A4A"><tspan x="830" y="375.0">Soát từng tin rồi bấm</tspan><tspan x="830" y="389.5">duyệt</tspan></text>
+<text x="830" y="416.0" font-size="10.8" fill="#2D6A4A">chốt chặn chất lượng</text>
+<path d="M900,353 l0,-24" stroke="#2D6A4A" stroke-width="2" fill="none"/>
+<path d="M900,325 l-5,9 l10,0 z" fill="#2D6A4A"/>
+<rect x="34" y="474" width="1112" height="58" rx="8" fill="#FDF2E7"/>
+<text x="50" y="498" font-size="12.5" fill="#6B3A10"><tspan font-weight="700">RANH GIỚI — máy không được phép:</tspan> tự đẩy tin lên sàn · tự chọn khi hai nguồn hồ sơ lệch nhau · tự điền số công bố, xuất xứ, hạn dùng</text>
+<text x="50" y="518" font-size="12.5" fill="#6B3A10">(thiếu thì để trống và ghi “cần hỏi lại nhãn hàng”) · bỏ qua ngành hàng có mức chắc chắn dưới 0,8 mà không hỏi người.</text>
+<rect x="34" y="542" width="1112" height="40" rx="8" fill="#F4F3F1"/>
+<text x="50" y="567" font-size="12.5" fill="#4D545C"><tspan font-weight="700" fill="#16191D">KHI MÁY HỎNG:</tspan> hệ thống vẫn xuất được tệp đăng hàng loạt với các ô lấy thẳng từ hồ sơ gốc, người điền tay phần còn lại — không ai phải dừng việc.</text>
+</svg>

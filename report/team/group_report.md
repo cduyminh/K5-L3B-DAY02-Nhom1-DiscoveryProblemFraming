@@ -148,39 +148,40 @@ Bảng tạm: 3/4 người đã chấm qua form (Minh, Phúc, Bào; còn Hải Q
 
 ### 4.1. Quy trình hiện tại
 
-Sơ đồ (ASCII, Mermaid hoặc link ảnh trong `report/assets/`):
-
-```text
-
-```
+![Quy trình hiện tại — Lên Sàn](../assets/cp5-workflow-current.svg)
 
 | Bước | Actor | Input | Output | Thời gian / tần suất | Ghi chú |
 |---:|---|---|---|---|---|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
-| 4 | | | | | |
-| 5 | | | | | |
+| 1 | Nhân sự vận hành | Hồ sơ sản phẩm (PDF, bảng tính, ảnh) từ nhãn hàng | Một bản dữ liệu thống nhất | Chưa đo riêng | Các nguồn hay lệch nhau |
+| 2 | Nhân sự vận hành | Bản dữ liệu + cây ngành hàng ba sàn | Ba đường dẫn ngành hàng | Chưa đo riêng | |
+| 3 | Nhân sự vận hành | Bản dữ liệu + quy ước ba sàn | Ba tiêu đề khác nhau | Chưa đo riêng | **Nút thắt**: viết lại ba lần |
+| 4 | Nhân sự vận hành, hỏi lại nhãn hàng | Danh sách trường bắt buộc | Ba bộ thông tin | Chưa đo riêng | Thiếu thông tin thì phải chờ nhãn hàng |
+| 5 | Nhân sự vận hành | Tiêu đề và mô tả | Danh sách câu phải sửa | Chưa đo riêng | Rà bằng mắt, hay bị bỏ khi gấp |
+| 6 | Nhân sự vận hành → sàn | Tin đăng hoàn chỉnh | Tin đăng chờ duyệt | Chưa đo riêng | 14/720 tin bị từ chối |
 
-**Bottleneck chính:**
+*Tổng:* 20–35 phút mỗi mặt hàng cho cả ba sàn; 240 mặt hàng ≈ 80–140 giờ công trong 4 ngày. Chưa tách thời gian theo bước.
+
+**Bottleneck chính:** Bước 3 — cùng một mặt hàng phải viết lại ba lần theo ba quy ước (và quy ước còn khác theo ngành hàng). Đây là suy đoán của nhóm, chưa chứng minh vì chưa bấm giờ từng bước.
 
 ### 4.2. Quy trình tương lai
 
-Ghi rõ bước nào **Rule**, bước nào **AI**, bước nào **con người**, **boundary** ở đâu, **phương án quay về** khi AI sai.
+![Quy trình tương lai — Lên Sàn](../assets/cp5-workflow-future.svg)
 
-```text
-
-```
+- **Bước do AI làm (dựng nháp):** đọc hồ sơ thành bản dữ liệu và báo chỗ lệch; gợi ý ngành hàng kèm mức chắc chắn 0–1; dựng tiêu đề và mô tả theo quy ước từng sàn.
+- **Bước do Rule làm:** soi độ dài, ký tự cấm, từ cấm; gạch chân câu có nguy cơ vi phạm; xuất tệp đăng hàng loạt.
+- **Bước do con người làm:** soát từng tin rồi bấm duyệt; chọn bên nào khi hai nguồn hồ sơ lệch nhau; điền các trường mà hồ sơ thiếu.
+- **Boundary:** máy không được tự đăng lên sàn; không tự chọn khi hai nguồn lệch nhau; không tự điền số công bố, xuất xứ, hạn dùng (thiếu thì để trống và ghi "cần hỏi lại nhãn hàng"); ngành hàng có mức chắc chắn dưới 0,8 bắt buộc hỏi người.
+- **Phương án quay về khi AI sai:** nếu model lỗi hoặc bản nháp quá kém, hệ thống vẫn xuất được tệp đăng hàng loạt với các ô lấy thẳng từ hồ sơ gốc; người điền tay phần còn lại. Không ai phải dừng việc.
 
 ### 4.3. Before / after
 
 | Chỉ số | Trước | Sau (kỳ vọng) | Ghi chú |
-|---|---:|---:|---|
-| Số bước | | | |
-| Tổng thời gian | | | |
-| Số bước thủ công | | | |
-| Bottleneck chính | | | |
-| Rủi ro mới phát sinh | | | |
+|---|---|---|---|
+| Số bước | 6 | 7 (thêm bước duyệt) | Phần lớn các bước thành tự động |
+| Tổng thời gian | 20–35 phút / mặt hàng (cả 3 sàn) | **〔đề xuất〕** giảm ít nhất 40% | Chưa có số "sau" vì chưa chạy thử với người thật; phải bấm giờ 20 mặt hàng trước và sau |
+| Số bước thủ công | 6 | 1–2 (duyệt, và điền phần hồ sơ thiếu) | Việc duyệt vẫn là thủ công có chủ đích |
+| Bottleneck chính | Viết tiêu đề lặp ba lần | Soát bản nháp | Nút thắt chuyển từ "viết" sang "soát" |
+| Rủi ro mới phát sinh | — | Người duyệt tin tưởng quá mức và bấm duyệt không đọc; máy bỏ sót câu vi phạm; dữ liệu nhãn hàng đi ra công cụ AI bên ngoài | Giải quyết bằng ngưỡng nghiêng về báo thừa, và hỏi trước về điều khoản bảo mật |
 
 ---
 
