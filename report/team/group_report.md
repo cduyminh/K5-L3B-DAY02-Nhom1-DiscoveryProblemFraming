@@ -88,49 +88,59 @@ Bảng tạm: 3/4 người đã chấm qua form (Minh, Phúc, Bào; còn Hải Q
 
 ### 3.1. Assumption Map
 
+![Bản đồ giả định — Lên Sàn](../assets/cp4-assumption-map.svg)
+
 | # | Giả định | Loại (Value / Usability / Feasibility / Viability) | Quan trọng (1–5) | Đã có bằng chứng (1–5) | Kiểm chứng trước? |
 |---:|---|---|---:|---:|---|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
-| 4 | | | | | |
-| 5 | | | | | |
-| 6 | | | | | |
+| 1 | Mức 20–35 phút mỗi mặt hàng (cả ba sàn) vẫn đúng với đơn vị vận hành đang chạy thật | Value | 5 | 2 | **Có** |
+| 2 | Phần mềm đa sàn sẵn có chưa tự viết được tiêu đề và mô tả riêng cho từng sàn | Viability | 5 | 2 | **Có** |
+| 3 | 14 tin bị từ chối là do câu chữ, không phải do ảnh hay giấy tờ | Value | 4 | 1 | **Có** |
+| 4 | Người vận hành muốn một bản nháp để sửa, không muốn giao hẳn cho máy | Usability | 4 | 2 | **Có** |
+| 5 | Lấy đủ được quy ước tiêu đề và trường bắt buộc của cả ba sàn (Shopee đã có, hai sàn kia chưa) | Feasibility | 5 | 2,6 | Có (phần TikTok Shop, Lazada) |
+| 6 | Đơn vị vận hành chịu đưa dữ liệu sản phẩm của nhãn hàng vào công cụ AI bên ngoài | Viability | 5 | 1 | **Có** |
 
-*Điền 4–6 giả định; xóa dòng thừa.*
-
-Giả định nhóm kiểm chứng trong buổi này:
+**Giả định nhóm kiểm chứng trong buổi này:** số 1 (hỏi lại người từng làm, cần bấm giờ lại với người đang làm), số 2 (đọc tài liệu của Sapo và BigSeller), số 5 (tìm quy ước của ba sàn). Số 3, 4, 6 cần người của đơn vị vận hành đang hoạt động nên để cho vòng sau.
 
 ### 3.2. Kiểm chứng
 
-Cách đã dùng: Phỏng vấn / Survey / Log, ticket, review
+**Cách đã dùng:** Phỏng vấn (1 người) + đọc tài liệu công khai của sàn và của các phần mềm đa sàn. Chưa dùng survey hay log/ticket/review.
 
-Interview snapshot (mỗi buổi phỏng vấn một bảng, hoặc đặt file trong `report/assets/cp4-interview-snapshot-N.md`):
+**Interview snapshot (buổi 1)**
 
 | Trường | Nội dung |
 |---|---|
-| Người được hỏi (vai trò, không ghi tên thật) | |
-| Câu nói đáng nhớ nhất (nguyên văn) | |
-| Lần gần nhất gặp vấn đề này: chuyện gì đã xảy ra? | |
-| Hiện đang xử lý bằng cách nào (workaround)? | |
-| Mất bao lâu, bao lần? | |
-| Insight / opportunity rút ra | |
+| Người được hỏi (vai trò, không ghi tên thật) | Người từng làm vận hành gian hàng thuê (đơn vị vận hành gian hàng cho nhãn hàng), đã rời ngành một thời gian. Không phải thành viên nhóm. Hỏi trực tiếp, 2 lần (lần 2 để hỏi lại thời gian mỗi mặt hàng) |
+| Câu nói đáng nhớ nhất | Làm sao để cạnh tranh được với những nền tảng đã tồn tại trong thời gian dài rồi? |
+| Lần gần nhất gặp vấn đề này: chuyện gì đã xảy ra? | Mở gian hàng mới cho một nhãn hàng có 240 mặt hàng, phải đưa lên cả ba sàn. Cùng một mặt hàng phải viết lại ba lần theo ba bộ quy ước khác nhau. Có 14 trong 720 tin bị sàn từ chối |
+| Hiện đang xử lý bằng cách nào (workaround)? | Làm tay: đối chiếu hồ sơ, chọn ngành hàng, viết tiêu đề, điền trường, rồi rà câu chữ bằng mắt trước khi đăng |
+| Mất bao lâu, bao lần? | 4 ngày, 80–140 giờ công cho một lần mở gian hàng mới (240 mặt hàng → 720 tin), tức 20–35 phút mỗi mặt hàng cho cả ba sàn. Tần suất: mỗi lần có nhãn hàng mới ký hợp đồng |
+| Insight / opportunity rút ra | Thời gian đi vào việc lặp lại ba lần; việc rà câu chữ dễ bị bỏ khi gấp và là chỗ sinh ra tin bị từ chối. Cơ hội: dựng sẵn bản nháp theo quy ước từng sàn để người chỉ còn soát |
 
-Tổng hợp:
+**Tổng hợp:**
 
 | Nguồn | Số người / số mẫu | Tín hiệu xác nhận | Tín hiệu phản bác |
 |---|---:|---|---|
-| | | | |
+| Phỏng vấn người từng làm vận hành | 1 người | 240 mặt hàng → 720 tin, 80–140 giờ công, 14/720 bị từ chối | Chưa có trực tiếp. **Đây là trí nhớ về một lần đã qua, không phải số đo hiện tại, và chỉ có một người** |
+| Trang hướng dẫn người bán của Shopee | 2 bài | Quy ước có nhiều ràng buộc: tối đa 120 ký tự, cấm viết hoa toàn bộ, cấm một loạt cụm quảng cáo, mỗi ngành hàng có cấu trúc đặt tên riêng | Không |
+| Bài của BigSeller | 1 bài | Bài không nhắc việc viết tiêu đề hay mô tả riêng cho từng sàn | **Đã tự điền danh mục, giá, tồn kho và phân loại theo quy tắc rồi đăng hàng loạt lên nhiều sàn: phủ bước 2, một phần bước 4 và bước 6** |
+| Bài của Sapo | 1 bài | — | **Sapo nói có "đăng bán đa sàn từ một hệ thống quản lý tập trung, đồng thời gợi ý mô tả sản phẩm phù hợp với yêu cầu riêng của Shopee, Lazada hay TikTok Shop" — đúng phần nhóm định làm.** Chưa dùng thử để biết thực tế đến đâu |
+| Tài liệu TikTok Shop, Lazada | 0 | — | Chưa kiểm được. Giới hạn ký tự và quy tắc "bắt đầu bằng thương hiệu" trong Problem Card lấy từ dữ liệu giả lập của bản chạy thử, không phải tài liệu sàn |
 
 **Nhóm đã sửa problem thế nào sau kiểm chứng:**
+
+1. Thu hẹp bottleneck từ "bước 3 và 4" xuống chủ yếu **bước 3 (viết tiêu đề và mô tả theo từng sàn)**, vì BigSeller đã tự điền danh mục, giá, phân loại theo quy tắc.
+2. Thêm chi tiết: quy ước khác nhau **theo từng ngành hàng**, không chỉ theo từng sàn. Điều này chỉ lộ ra khi đọc trang hướng dẫn của Shopee.
+3. Bỏ các con số quy ước của TikTok Shop và Lazada khỏi phần lập luận cho tới khi kiểm được từ tài liệu sàn.
+4. Đưa giả định số 2 lên ưu tiên cao nhất: nếu tính năng gợi ý mô tả của Sapo đã làm tốt bước 3, bài toán của nhóm chỉ còn bước rà câu chữ vi phạm.
 
 ### 3.3. Research giải pháp đã có
 
 | Công cụ / case / pattern | Link | Giải bước nào trong quy trình? | Điểm mạnh | Khoảng trống / rủi ro | Bài học cho nhóm |
 |---|---|---|---|---|---|
-| | | | | | |
-| | | | | | |
-| | | | | | |
+| BigSeller | [Phần mềm quản lý bán hàng đa kênh Shopee, Lazada, TikTok Shop](https://www.bigseller.com/blog/articleDetails/phan-mem-quan-ly-ban-hang-da-kenh-da-shop.4972.htm) | Bước 2 (ngành hàng), một phần bước 4 (phân loại), bước 6 (đăng) | Thiết lập quy tắc để tự điền danh mục, giá, tồn kho, phân loại rồi đăng hàng loạt lên nhiều gian hàng; đã có người dùng | Bài không nhắc việc viết tiêu đề, mô tả riêng từng sàn hay rà câu chữ vi phạm → bước 1, 3, 5 còn trống. Đây là bài tự giới thiệu, chưa dùng thử | Không cạnh tranh ở bước 2, 4, 6. Tập trung vào bước 3 và bước rà câu chữ |
+| Sapo | [Vận hành sàn thương mại điện tử đa kênh](https://www.sapo.vn/blog/van-hanh-san-thuong-mai-dien-tu) | Bước 6, có thể cả bước 3 | Đăng bán đa sàn từ một hệ thống; nói có gợi ý mô tả sản phẩm khớp yêu cầu riêng từng sàn | **Nếu đúng như bài viết thì trùng thẳng với ý tưởng của nhóm.** Chưa rõ gợi ý đến mức nào | Việc đầu tiên phải làm: dùng thử, chạy 5 mặt hàng thật, ghi lại nó viết ra gì |
+| Trang hướng dẫn người bán của Shopee | [Shopee Seller Education Hub, bài 13322](https://banhang.shopee.vn/edu/article/13322) | Bước 3, 5 (là nguồn quy ước, không phải công cụ) | Tài liệu gốc, rõ ràng, có công thức đặt tên sản phẩm | Chỉ là quy ước, không tự kiểm. Mỗi ngành hàng còn một cấu trúc riêng | Có thể mã hóa thành luật cố định để soi tự động, không cần AI cho phần này |
+| Bài Shopee về tên sản phẩm của gian hàng chính hãng | [Shopee Seller Education Hub, bài 3531](https://banhang.shopee.vn/edu/article/3531) | Bước 3 | Nêu độ dài tối thiểu của tên theo loại gian hàng (20 ký tự với gian hàng chính hãng, 10 ký tự với gian hàng thường) | Cùng hạn chế như trên | Luật độ dài khác nhau theo loại gian hàng, cần đưa vào bộ soi |
 
 ---
 
