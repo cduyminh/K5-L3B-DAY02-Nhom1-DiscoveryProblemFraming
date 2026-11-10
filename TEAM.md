@@ -128,4 +128,29 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 - Success metric cần baseline đo thật. Chỗ chưa đo thì ghi rõ "bấm giờ lại", không điền số ước.
 - Boundary nên đặt theo chỗ sai gây hại thật (số công bố, xuất xứ, hạn dùng), không viết chung chung.
 
+### NguyenKhacBao-2A202604072
+
+**Phần việc phụ trách:**
+
+- CP3 — Người phản biện, đặt câu hỏi cho các candidate (#1–#9) và chấm điểm shortlist
+- CP5 — Quy trình trước/sau (`4.1–4.3`) và Problem Statement v0 (mục 5)
+- Mục 9 — Hạn chế và hướng tiếp theo; tham gia thảo luận, rà soát và chốt cùng nhóm ở CP4, CP6
+
+**Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
+
+- CP3: pitch 3 card (#10 BOM, #11 VietQR, #12 Lỗi app) vào bảng `2.1`; đặt câu hỏi phản biện cho cả #1–#9 (câu hỏi về ảnh/video cho #4 thành 1 nhánh trong cây OST `2.3`; câu hỏi về #9, #8, #3 vào lý do loại ở `2.4`) và chấm 7 tiêu chí trên form nhóm
+- CP5: hoàn thiện mục `4.1–4.3` (quy trình hiện tại, tương lai, bảng before/after) và thêm 2 sơ đồ quy trình SVG; hoàn thiện mục 5 (`Problem Statement v0` và ghi nhận thực tế buổi pitch)
+- Mục 9 & rà soát nhóm: viết 7 hạn chế và 3 hướng tiếp theo; thảo luận nhanh và đồng thuận cùng nhóm ở CP4 (thu hẹp nút thắt về bước 3) và CP6 (chốt `Workflow` và quyết định `Not Yet`)
+
+**Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
+
+- `group_report.md` mục `2.1` (hàng #1–#12), `2.3`, `2.4`, `4.1–4.3`, `5`, `9`
+- `report/assets/cp5-workflow-current.svg`, `report/assets/cp5-workflow-future.svg`
+- Commit: `717b70c` (mục `4.1–4.3`, 2 SVG CP5), `a353471` (chuẩn hóa tên trong `TEAM.md` và `group_report.md`), `542375c` (mục 5 và mục 9), `3526846` (cập nhật ghi nhận pitching ở mục 5)
+
+**Điều mình học được từ phần nhóm:**
+
+- Thấy rõ sự khác biệt giữa số đo thật (như log Zalo hay dữ liệu onboard 240 SKU) với số liệu ước lượng từ đặc tả; bài toán dễ đo và có tín hiệu kiểm chứng rõ sẽ thuyết phục nhóm hơn.
+- Khi làm CP5 và đối chiếu kết quả CP4, tôi học được cách tách rạch ròi phần Rule cố định với phần AI, đồng thời luôn giữ ranh giới kiểm soát của con người và sẵn sàng kết luận `Not Yet` khi còn thiếu bằng chứng thực tế.
+
 

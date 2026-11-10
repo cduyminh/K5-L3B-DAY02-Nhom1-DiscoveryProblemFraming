@@ -7,7 +7,7 @@
 - Họ tên: Nguyễn Khắc Bào
 - MSSV: 2A202604072
 - Email trường (không bắt buộc, repo có thể để public):
-- Tên nhóm: Nhóm 1
+- Tên nhóm: Nhom1
 - Link repo nhóm: https://github.com/cduyminh/K5-L3B-DAY02-Nhom1-DiscoveryProblemFraming
 
 ---
@@ -132,16 +132,16 @@ HIỆN TẠI — 55 phút thao tác/ca lỗi (+ 2–4h chờ phản hồi)
 
 | Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
 |---|---|---|
-| Pitch Problem Card | | |
-| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: | |
-| Nhận phản biện | Câu hỏi tôi nhận được: | Tôi đã sửa gì: |
-| Gom cluster / cây OST | | |
-| Chọn candidate problem | | |
-| Kiểm chứng / research | | |
-| Quy trình nhóm | | |
-| Problem Statement | | |
-| Mức can thiệp AI | | |
-| Quyết định | | |
+| Pitch Problem Card | Pitch 3 card từ dự án `furnicore` (#10 BOM, #11 VietQR, #12 Lỗi app); ưu tiên pitch Card #10 | Bổ sung 3 candidate vào bảng `2.1`; #10 đạt 28đ (hạng 2 shortlist) |
+| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: Hỏi cả 9 candidate (#1–#9), nổi bật hỏi #4 nút thắt là viết text hay chỉnh ảnh/video, hỏi #9 đã thử `Ctrl+F` chưa, và chất vấn phương án No AI cho #1, #3, #8 | Câu hỏi ảnh/video ở #4 thành 1 nhánh Opportunity trên cây OST (`2.3`); câu hỏi cho #9, #8, #3 được đưa vào lý do loại ở `2.4` |
+| Nhận phản biện | Câu hỏi tôi nhận được: Phúc hỏi #10 (`120'`/`~8%` đo hay ước, template + Rule đủ chưa), #11 (vì sao QR sẵn mã vẫn sai 25%), #12 (`2–4h` hỏi ai, có nút xuất log rồi AI làm thêm gì) | Tôi đã sửa gì: Nhận rõ số đo #10–#12 mới ở mức đặc tả/ước lượng và Rule đã giải quyết phần lớn; ghi nhận hạn chế này khi chấm điểm CP3 để cùng nhóm chuyển sang ưu tiên #4 có bối cảnh cụ thể hơn |
+| Gom cluster / cây OST | Cùng nhóm phân 12 candidate thành 5 cluster A–E và dựng cây OST cho #4 | Hoàn thiện mục `2.2–2.3` trong `group_report.md` |
+| Chọn candidate problem | Chấm 7 tiêu chí trên form nhóm, đề xuất loại #9 và đồng thuận chọn #4 | Nhóm chốt #4 (35/35đ) |
+| Kiểm chứng / research | Thảo luận nhanh với nhóm, đóng vai người phản biện rà lại các giả định và hướng kiểm chứng (CP4) do Quân tổng hợp | Thống nhất thu hẹp nút thắt về bước 3 và tách rõ phần chưa kiểm chứng |
+| Quy trình nhóm | Phụ trách chính mục `4.1–4.3` và đưa 2 sơ đồ `cp5-workflow-current.svg`, `cp5-workflow-future.svg` vào repo | Khóa kiến trúc Workflow (AI dựng nháp / Rule soi / người duyệt + fallback) |
+| Problem Statement | Phụ trách chính mục 5 (`Problem Statement v0`), thảo luận nhanh cùng Phúc và nhóm khi nâng cấp lên `v1` (mục 7) | Tạo bản nền `v0` khớp với quy trình CP5 cho `v1` và bộ tiêu chí eval |
+| Mức can thiệp AI | Thảo luận nhanh và xác nhận cùng nhóm chọn mức `Workflow` (mục 6) | Thống nhất phân vai Rule soi luật – AI viết nháp – người duyệt |
+| Quyết định | Thảo luận nhanh 4 rủi ro (Value, Usability, Feasibility, Viability) cùng Quân/nhóm chốt `Not Yet`; phụ trách chính mục 9 (*Hạn chế & hướng tiếp theo*) | Thống nhất kết luận `Not Yet`, 4 việc cần kiểm chứng và 4 ngưỡng dừng |
 
 ---
 
@@ -151,10 +151,10 @@ HIỆN TẠI — 55 phút thao tác/ca lỗi (+ 2–4h chờ phản hồi)
 |---|---|---|---|---|
 | CP1 Scan | Rà lại danh sách vấn đề đã tự scan theo 4 lăng kính và chuẩn hóa Job Story. | Gom đúng 4 lăng kính, lọc các bài toán đo được thời gian/lỗi. | Gợi ý các ý ngoài phạm vi MVP (nesting CNC, thiết kế 3D) và thiếu số liệu thật. | Bỏ các ý lệch `constitution.md`; đối chiếu `furnicore` điền số liệu thật cho 5 dòng. |
 | CP2 Problem Card | Đóng vai PM hoài nghi phản biện 3 Problem Cards và kiểm sơ đồ quy trình. | Chỉ ra rủi ro bịa mã vật tư BOM và điểm thiếu nhất quán số phút ở Card #1. | Ban đầu thiên về Workflow/chatbot ở Card #2, #3 mà bỏ qua Rule. | Thêm boundary người duyệt chốt số, sửa số phút khớp 100%, bổ sung Rule làm mốc so sánh. |
-| CP4 Research | | | | |
-| CP5 Quy trình | | | | |
-| CP5–6 Problem Statement | | | | |
-| CP6 Mức can thiệp / quyết định | | | | |
+| CP4 Research | Không dùng AI trực tiếp (Quân phụ trách chính CP4); tham gia thảo luận nhanh cùng nhóm. | — | — | Rà lại các giả định và kết luận thu hẹp nút thắt về bước 3 cùng nhóm. |
+| CP5 Quy trình | Rà soát cấu trúc quy trình `4.1–4.3`, kiểm tra ranh giới AI/Rule/Người và đối chiếu 2 sơ đồ SVG `cp5-workflow-current/future.svg`. | Giúp rà nhanh luồng 3 tầng, làm rõ ranh giới bản nháp/đã duyệt và phương án quay về. | Sót việc bảng `4.1` chưa đo riêng từng bước; bản SVG hiện tại bị lệch nhãn `AI LÀM` ở quy trình thủ công và ghi nút thắt `bước 3 và 4`. | Ghi rõ cảnh báo `chưa đo riêng / mới là suy đoán` ở mục `4.1`, nhấn mạnh rủi ro ở `4.3`, giữ bản đồng thuận với nhóm. |
+| CP5–6 Problem Statement | Dùng AI kiểm tra khớp mạch giữa `4.2` với `Problem Statement v0` (mục 5) và rà cách diễn đạt mục 9 (*Hạn chế & hướng tiếp theo*). | Gợi ý cách giữ mạch thống nhất giữa boundary CP5 và v0. | Có xu hướng gợi ý viết dài hoặc tự thêm phản biện mẫu khi buổi pitch không có phản biện trực diện. | Không bịa phản biện; chỉ ghi ngắn gọn đúng thực tế buổi pitch và giữ nguyên các mốc nhóm đã thống nhất. |
+| CP6 Mức can thiệp / quyết định | Không dùng AI viết thay; tham gia thảo luận nhanh với nhóm để chốt mức `Workflow` (mục 6) và `Not Yet` (mục 8). | — | — | Đối chiếu 4 rủi ro (Value, Usability, Feasibility, Viability) cùng nhóm để giữ `Not Yet` khi chưa thử Sapo và chưa đo lại giờ công. |
 
 ---
 
@@ -164,17 +164,29 @@ Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ ch
 
 **6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
 
+Khi nghe các bạn pitch, tôi học được cách chứng minh nỗi đau bằng số đo thực tế thay vì chỉ dừng ở mô tả quy trình hay ước lượng từ tài liệu thiết kế. Minh có log Zalo thật giai đoạn 23/10–9/11 đo đến trung vị 0,1 phút và nhóm 10% chậm nhất chờ 80,6–783,9 phút; còn Quân đưa ra được quy mô công việc rõ ràng với 240 SKU tương đương 720 tin và 80–140 giờ công.
+
 **6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
+
+Có. Khi dựng cây OST cho bài toán #4 (Lên Sàn), nhóm từng đưa vào 3 ý thực chất là giải pháp đội lốt opportunity: *"Tool tạo listing đa sàn bằng AI"*, *"Phần mềm quản lý đa kênh"* và *"File đăng hàng loạt của sàn"*. Nhóm nhận ra đây là công cụ cụ thể chứ chưa phải pain gốc của người vận hành, nên đã gạch bỏ cả 3 ý này khỏi tầng opportunity.
 
 **6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
 
+Có. Ban đầu tôi ưu tiên bài toán bóc tách BOM nội thất (#10) từ dự án FurniCore vì tác động chi phí rõ ràng. Tuy nhiên, sau khi nhận phản biện về nguồn số đo (còn dựa nhiều vào đặc tả/ước lượng) và trao đổi thêm lúc chấm điểm nhóm, tôi đã chuyển sang đồng thuận chọn #4 (Lên Sàn) vì quy trình theo SKU × sàn dễ đo hơn và có số liệu thực tế rõ ràng.
+
 **6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
+
+Khá bất ngờ vì nhiều giả định ban đầu bị tín hiệu phản bác thu hẹp lại rất nhanh. BigSeller đã phủ sẵn bước 2 (ngành hàng), một phần bước 4 và bước 6 (đăng hàng loạt), còn Sapo tự giới thiệu có gợi ý mô tả riêng cho từng sàn. Đồng thời, con số 240 SKU hóa ra mới lấy từ trí nhớ của một người đã rời ngành, còn quy ước TikTok Shop và Lazada ban đầu lấy từ tệp giả lập chứ chưa phải tài liệu sàn.
 
 **6.5. Điều khó nhất khi viết Problem Statement là gì?**
 
+Khó nhất là tách rạch ròi phần việc xử lý được bằng Rule cố định (đếm ký tự, lọc từ cấm) với phần thật sự cần AI (xử lý nguồn lệch và viết tự nhiên). Bên cạnh đó, đặt Success Metric sao cho không chỉ giảm giờ công mà còn chặn được đánh đổi chất lượng cũng là điểm dễ bỏ sót.
+
 **6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
 
-**6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
+Nếu làm lại, tôi sẽ bấm giờ riêng từng bước trên vài mặt hàng mẫu trước khi vẽ quy trình CP5, tránh việc cả 6 ô đều ghi *"Chưa đo riêng"*. Tôi cũng sẽ phản biện nhóm mạnh hơn ở bước research để mở dùng thử trực tiếp Sapo và BigSeller trước khi đặt target giảm 40% giờ công.
+
+**6.7. Hiểu bài:** Problem: Nhân sự vận hành tại enabler mất 20–35 phút/mặt hàng (80–140 giờ cho 240 mặt hàng lên 3 sàn, 14/720 tin bị từ chối) do phải viết lại tiêu đề, mô tả nhiều lần theo quy ước từng sàn và ngành hàng. Quy trình: Sau khi trừ phần BigSeller đã làm (ngành hàng, trường cơ bản, đăng hàng loạt), nút thắt chính ở bước 3 (viết) và rủi ro bước 5 (sót câu vi phạm); quy trình mới chuyển từ "ngồi viết" sang "ngồi soát bản nháp". Metric & Boundary: Giảm ≥ 40% giờ công, tỷ lệ từ chối ≤ 1,9%, ≥ 50% nháp không cần sửa và 0 câu vi phạm bị sót; AI không tự đăng, không chọn khi hồ sơ lệch, không tự điền số công bố/xuất xứ/hạn dùng và phải hỏi người nếu ngành hàng dưới 0,8. Mức can thiệp: Chọn Workflow vì phần soi ký tự giải bằng Rule, phần viết cần AI nhưng quy trình cố định và người duyệt là chốt chặn cuối. Quyết định: Chọn Not Yet vì rủi ro Value và Viability còn Cao (số liệu từ 1 người đã rời ngành, chưa thử Sapo, chưa rõ phép đưa dữ liệu nhãn hàng ra AI ngoài).
 
 ---
 
