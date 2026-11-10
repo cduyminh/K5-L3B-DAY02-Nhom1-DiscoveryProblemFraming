@@ -190,19 +190,19 @@ Tôi thấy rằng tới từ các background khác nhau cho thấy problem rấ
 Tuy trong từng problem vẫn có những lúc được phrasing thành solution nhưng reframing đã giúp sửa thành opportunity instead
 
 **6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
-Việc phản biện và đổi ý là đương nhiên khi tôi vẫn chỉ đang học cách ứng dụng Diamond 1 và cụ thể là sau bài chấm điểm 1 - 5 rất khách quan của cả nhóm giúp tôi nhận ra vấn đề của mình
+Phúc có hỏi về 5 whys về phần lớn thời gian chờ lâu rơi ngoài giờ trực không cho đến việc phụ huynh có yêu cầu trung tâm phải trả lời ngoài giờ hay không và kết luận được là chỉ cần phân ca hợp lý trong giờ hành chính là đã đủ.
 
 **6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
-Kết quả research không làm tôi bất ngờ vì chúng tôi có bạn product owner nắm rất rõ domain của mình.
+Phát hiện ra 10% thời gian chờ là hơn 13 tiếng, tức là chỉ trả lời trong giờ hành chính là policy của trung tâm chứ không yêu cầu overtime.
 
 **6.5. Điều khó nhất khi viết Problem Statement là gì?**
 Khó khăn nhất của 1 problem statement theo tôi là sự đồng thuận của cả nhóm về scope của vấn đề.
 
 **6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
-Tôi có một trải nghiệm tốt với cả nhóm nên nếu làm lại tôi sẽ không đổi gì mà còn sẽ ứng dụng nguyên tắc học được đến các project sau này vì nó rất hữu ích và khách quan.
+Sẽ đổi lại là pain có bằng chứng dù có nhiều bằng chứng nhưng phải phù hợp với policy và procedure của trung tâm để nhận ra có cần xử lý hay không chứ không phải cứ xấu là phải sửa.
 
 **6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
-Chuỗi problem được đánh giá khách quan nhất và chốt bằng bài đánh giá từ các cá nhân khi hội tụ. Quy trình tới từ domain knowledge của product owner tuy vẫn thiếu sót nhưng đủ để cover workflow của customers.
+Chuỗi problem được đánh giá khách quan nhất và chốt bằng bài đánh giá từ các cá nhân khi hội tụ. Quy trình tới từ domain knowledge của product owner tuy vẫn thiếu sót nhưng đủ để cover workflow của customers. Metric success là thời gian viết content 100 mặt hàng, boundary là AI không được tự up content mà chưa có người duyệt. Nhóm chọn AI đọc mặt hàng và viết bài theo rules vì nó là pain point chính của khách hàng. Quyết định là Not Yet vì vẫn chưa giải được bài toán chi phí, legal của các sàn về việc sử dụng generated content và chưa rõ ai trả tiền.
 
 ---
 
