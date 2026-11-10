@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 930 556" width="930" height="556" font-family="Inter, 'Segoe UI', Arial, sans-serif">
+<rect width="930" height="556" fill="#FFFFFF"/>
+<text x="34" y="38" font-size="19" font-weight="700" fill="#16191D">Bản đồ giả định — Lên Sàn</text>
+<text x="34" y="62" font-size="13" fill="#4D545C">Ô trên bên trái là phải kiểm trước: quan trọng cao nhưng chưa có bằng chứng.</text>
+<rect x="118" y="86" width="345.0" height="150.0" fill="#FBECEB"/>
+<rect x="118" y="86" width="690" height="300" fill="none" stroke="#DDE0E3" stroke-width="1.5"/>
+<line x1="463.0" y1="86" x2="463.0" y2="386" stroke="#DDE0E3" stroke-width="1.5"/>
+<line x1="118" y1="236.0" x2="808" y2="236.0" stroke="#DDE0E3" stroke-width="1.5"/>
+<text x="130" y="224.0" font-size="11.5" font-weight="700" fill="#A3302B" letter-spacing="0.5">KIỂM TRƯỚC</text>
+<text x="475.0" y="224.0" font-size="11.5" font-weight="700" fill="#848B93" letter-spacing="0.5">ĐÃ KHÁ CHẮC</text>
+<text x="130" y="374" font-size="11.5" font-weight="700" fill="#848B93" letter-spacing="0.5">THEO DÕI THÊM</text>
+<text x="475.0" y="374" font-size="11.5" font-weight="700" fill="#848B93" letter-spacing="0.5">KHÔNG CẦN LO</text>
+<text x="100" y="236.0" font-size="12.5" font-weight="700" fill="#4D545C" text-anchor="middle" transform="rotate(-90 100 236.0)">SAI THÌ CÀNG HẠI →</text>
+<text x="463.0" y="416" font-size="12.5" font-weight="700" fill="#4D545C" text-anchor="middle">ĐÃ CÓ BẰNG CHỨNG →</text>
+<circle cx="299" cy="118" r="17" fill="#A3302B"/>
+<text x="299" y="123" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">A1</text>
+<circle cx="351" cy="118" r="17" fill="#A3302B"/>
+<text x="351" y="123" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">A2</text>
+<circle cx="187" cy="176" r="17" fill="#A3302B"/>
+<text x="187" y="181" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">A3</text>
+<circle cx="325" cy="176" r="17" fill="#A3302B"/>
+<text x="325" y="181" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">A4</text>
+<circle cx="408" cy="118" r="17" fill="#A3302B"/>
+<text x="408" y="123" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">A5</text>
+<circle cx="187" cy="118" r="17" fill="#A3302B"/>
+<text x="187" y="123" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">A6</text>
+<text x="34" y="446" font-size="12" font-weight="700" fill="#A3302B">A1</text>
+<text x="70" y="446" font-size="12" fill="#4D545C">Mức 20–35 phút mỗi mặt hàng vẫn đúng với đơn vị đang chạy thật  —  sai thì hại 5/5, bằng chứng 2/5</text>
+<text x="34" y="467" font-size="12" font-weight="700" fill="#A3302B">A2</text>
+<text x="70" y="467" font-size="12" fill="#4D545C">Phần mềm đa sàn sẵn có chưa tự viết được tiêu đề và mô tả riêng từng sàn  —  sai thì hại 5/5, bằng chứng 2/5</text>
+<text x="34" y="488" font-size="12" font-weight="700" fill="#A3302B">A3</text>
+<text x="70" y="488" font-size="12" fill="#4D545C">14 tin bị từ chối là do câu chữ, không phải do ảnh hay giấy tờ  —  sai thì hại 4/5, bằng chứng 1/5</text>
+<text x="34" y="509" font-size="12" font-weight="700" fill="#A3302B">A4</text>
+<text x="70" y="509" font-size="12" fill="#4D545C">Người vận hành muốn một bản nháp để sửa, chứ không muốn giao hẳn cho máy  —  sai thì hại 4/5, bằng chứng 2/5</text>
+<text x="34" y="530" font-size="12" font-weight="700" fill="#A3302B">A5</text>
+<text x="70" y="530" font-size="12" fill="#4D545C">Lấy đủ được quy ước tiêu đề và trường bắt buộc của cả ba sàn (Shopee đã có, hai sàn kia chưa)  —  sai thì hại 5/5, bằng chứng 2,6/5</text>
+<text x="34" y="551" font-size="12" font-weight="700" fill="#A3302B">A6</text>
+<text x="70" y="551" font-size="12" fill="#4D545C">Đơn vị vận hành chịu đưa dữ liệu sản phẩm của nhãn hàng vào công cụ AI bên ngoài  —  sai thì hại 5/5, bằng chứng 1/5</text>
+</svg>
