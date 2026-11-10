@@ -153,7 +153,7 @@ Trong lúc chờ: phụ huynh nhắn thêm 12 tin
 | Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
 |---|---|---|
 | Pitch Problem Card | Pitch 3 card về trung tâm Anh ngữ Chăm Chỉ: phụ huynh hỏi lịch / xin nghỉ (#1), phụ huynh mới hỏi đăng ký (#2), nhận xét giáo viên → phụ huynh (#3), có số liệu từ log Zalo 23/10–9/11/2026 | 3 candidate vào bảng pitch 2.1; #3 được 2 phiếu shortlist |
-| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: | |
+| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: không đặt câu hỏi, vì tôi đóng vai trò intermediator và facilitator | Tạo form để các bạn tự đặt câu hỏi phản biện cho card của nhau, rồi tổng hợp vào bảng 2.1 |
 | Nhận phản biện | Câu hỏi tôi nhận được: Phúc hỏi trong 10% tin chờ lâu nhất bao nhiêu tin đến ngoài giờ trực, nếu phần lớn ngoài giờ thì phân ca đã đủ (#1); số 80,6 và 820 phút ở card #3 có trùng với card #1 không (#3). Bào hỏi auto-reply Zalo hoặc Google Form báo nghỉ đã đủ chưa (#1) | Tôi đã sửa gì: đồng ý bottleneck của #1 là không có người trực chứ không phải tra cứu chậm; #1 được ghi vào danh sách loại với lý do đó |
 | Gom cluster / cây OST | Gom 12 candidate của 4 người thành 5 cluster theo dạng nỗi đau (A–E); dựng cây OST cho candidate dẫn đầu (#4) | Mục 2.2 và 2.3 |
 | Chọn candidate problem | Tạo Google Form để mỗi người tự chấm 7 tiêu chí và đặt câu hỏi phản biện; tổng hợp 3/4 phiếu vào bảng 2.4; ghi lựa chọn #4 và lý do loại #1, #9, #8, #3 | Nhóm chốt #4 (listing 3 sàn) |
