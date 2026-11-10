@@ -5,8 +5,8 @@
 ## Thông tin nhóm
 
 - Tên nhóm: Nhom1
-- Candidate problem nhóm chọn (1 câu):
-- Quyết định cuối (Go / Not Yet / No-Go):
+- Candidate problem nhóm chọn (1 câu): Nhân sự vận hành của đơn vị vận hành gian hàng thuê phải viết lại tiêu đề và mô tả cho cùng một mặt hàng ba lần theo quy ước của Shopee, TikTok Shop và Lazada.
+- Quyết định cuối (Go / Not Yet / No-Go): Not Yet
 
 ## Thành viên
 

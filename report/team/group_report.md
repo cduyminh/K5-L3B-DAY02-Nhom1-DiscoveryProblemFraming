@@ -7,8 +7,8 @@
 
 - Tên nhóm: Nhom1
 - Thành viên: xem `TEAM.md`
-- Candidate problem được chọn (1 câu):
-- Quyết định cuối: Go / Not Yet / No-Go
+- Candidate problem được chọn (1 câu): Nhân sự vận hành của đơn vị vận hành gian hàng thuê phải viết lại tiêu đề và mô tả cho cùng một mặt hàng ba lần theo quy ước của Shopee, TikTok Shop và Lazada.
+- Quyết định cuối: Not Yet
 
 ---
 
@@ -63,7 +63,7 @@ Những ý đã gạch bỏ vì là solution đội lốt opportunity:
 
 ### 2.4. Chấm điểm shortlist (1–5)
 
-Bảng tạm: 3/4 người đã chấm qua form (Minh, Phúc, Bào; còn Hải Quân). Điểm là trung bình 3 người. Chỉ ghi các candidate có ít nhất 1 phiếu vào shortlist.
+3/4 người chấm qua form (Minh, Phúc, Bào). Điểm là trung bình 3 người. Chỉ ghi các candidate có ít nhất 1 phiếu vào shortlist.
 
 | Candidate | Actor rõ | Quy trình rõ | Pain có bằng chứng | Impact đo được | Vừa sức lab | So sánh được No AI/Rule/Workflow/Agent | Nhóm hiểu domain | Tổng |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
@@ -74,13 +74,17 @@ Bảng tạm: 3/4 người đã chấm qua form (Minh, Phúc, Bào; còn Hải Q
 | #5 Ghi chú buổi học (1 phiếu) | 4 | 4 | 4 | 3,7 | 3,7 | 3,7 | 3,7 | 26,7 |
 | #12 Báo lỗi mơ hồ (1 phiếu) | 3,7 | 4 | 4,3 | 3,3 | 3,7 | 4 | 3,7 | 26,7 |
 
-**Candidate được chọn:** chờ đủ 4 người chấm.
+**Candidate được chọn:** #4 — Dựng listing đa sàn (Shopee, TikTok Shop, Lazada) từ catalog của nhãn hàng (Hải Quân).
 
-**Vì sao chọn:**
+**Vì sao chọn:** Cả 3 người chấm đều đưa #4 vào shortlist và cho điểm cao nhất (35/35, hơn candidate đứng thứ hai 7,3 điểm). Việc lặp theo từng mặt hàng × sàn nên quy trình vẽ được và đo được (240 mặt hàng → 720 tin, 14 tin bị từ chối). Nhóm có thành viên làm đúng nghề này nên tìm được người thật để kiểm chứng ở CP4.
 
-**Vì sao loại các candidate còn lại:** đề xuất (chưa chốt): loại #1, vì bottleneck là không có người đọc tin (khi có người trực, trả lời trung vị 0,1 phút), nên phân ca trực + ghim lịch lớp giải được mà không cần AI (Phúc). Loại #9, vì tìm thông tin trong tài liệu dài giải được bằng tìm kiếm văn bản (Ctrl+F, regex), khó chứng minh impact vượt trội (Bào).
+**Vì sao loại các candidate còn lại:**
+- #1 Phụ huynh hỏi lịch / xin nghỉ: bottleneck là không có người đọc tin (khi có người trực, trả lời trung vị 0,1 phút), nên phân ca trực + ghim lịch lớp giải được mà không cần AI (Phúc).
+- #9 Tìm phần cần cho lab trong tài liệu dài: giải được bằng tìm kiếm văn bản (Ctrl+F, regex), khó chứng minh impact vượt trội (Bào).
+- #8 Việc sau họp: chỉ 1 buổi/tuần, 30 phút/buổi; một mẫu biên bản có cột Việc / Người / Hạn điền ngay trong họp có thể đủ (câu hỏi của Bào).
+- #3 Nhận xét giáo viên → phụ huynh: bước hỏi giáo viên chưa đo nên chưa chứng minh được nghẽn ở đâu (Phúc); template checklist cho giáo viên có thể đã giảm phần lớn thời gian (Bào).
 
-**Xử lý bất đồng (nếu có):**
+**Xử lý bất đồng (nếu có):** Không có bất đồng về lựa chọn cuối. Hải Quân không chấm qua form; nhóm chốt trên 3 phiếu vì cả 3 đều chọn #4.
 
 ---
 
