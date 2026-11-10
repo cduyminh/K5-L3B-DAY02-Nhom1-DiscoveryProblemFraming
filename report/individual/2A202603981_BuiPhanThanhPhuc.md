@@ -147,25 +147,24 @@ Quy trình nháp hiện tại:
 ## 6. Reflection (CP7)
 
 **6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
-Nghe các bạn pitch, tôi nhận ra phần lớn card đều là việc "đọc rồi tóm lại" hoặc "nhắc việc", giống card của tôi. Lan pitch việc nhắc deadline nhóm, nhưng khi tôi hỏi bạn đo mất bao lâu thì Lan trả lời là ước chừng 20 phút. Điều đó làm tôi thấy card của mình cũng đang dựa nhiều vào ước chừng, nên sau buổi pitch tôi đi bấm giờ lại 3 lần mua.
+Ba nhóm khác làm: (1) Locket + food review, xem review quán ăn từ bạn bè đã kết bạn, AI gợi ý quán theo chủ đề và gợi ý đường đi; (2) chatbot tra cứu kiến thức cho bác sĩ, dựa trên báo cáo từ Mỹ cho thấy trung bình 0,5 câu hỏi mỗi bệnh nhân không được bác sĩ trả lời; (3) chatbot onboarding, trả lời câu hỏi lặp lại của nhân viên mới, huấn luyện trên dữ liệu công ty. Nhóm bác sĩ có số liệu ngoài để chứng minh pain, nhưng đó là số của Mỹ, chưa chắc đúng với bối cảnh khác. Nhóm onboarding có pain đếm được vì câu hỏi lặp lại. Số liệu của nhóm mình (80–140 giờ, 1,9% tin bị từ chối) chỉ đến từ một nguồn đã rời ngành, yếu hơn cả hai nhóm này. Rủi ro AI sai cũng khác nhau: sai quán ăn ở nhóm Locket thì nhẹ, sai câu trả lời cho bác sĩ thì hại thật, còn ở nhóm mình sai số công bố, xuất xứ hoặc hạn dùng trên tin đăng công khai cũng hại thật.
 
 **6.2. Nhóm có lúc nào bị "solution-first" không? Lúc đó nhóm nhận ra và xử lý thế nào?**
-Có. Lúc đầu nhóm gọi vấn đề là "cần một công cụ tóm tắt đánh giá Shopee". Khi vẽ cây OST, Minh Anh chỉ ra cụm đó là giải pháp chứ không phải pain, và nhóm gạch nó đi, thay bằng "thông tin đánh giá người bán nằm rải rác, khó so sánh". Sau đó nhóm mới quay lại viết Problem Statement.
+〔Có/Không. Lúc nào nhóm viết vấn đề dưới dạng giải pháp (ví dụ "công cụ AI viết tiêu đề"), ai chỉ ra, và nhóm sửa thành pain gì.〕
 
 **6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
-Có. Tôi định làm một công cụ tự động tóm tắt đánh giá. Huy hỏi: "Sàn đã có tóm tắt đánh giá rồi, mình làm thêm gì?". Tôi mở thử app, thấy sàn có tóm tắt nhưng chỉ cho từng sản phẩm, không so được giữa các shop. Tôi đổi hướng sang bảng so sánh có ngưỡng lọc cố định và đưa việc đó vào mức Rule.
+Có. Ở v0 tôi đặt bottleneck ở bước 3 và 4. Khi kiểm tra giải pháp có sẵn, tôi thấy BigSeller đã lo ghép ngành hàng và điền trường (bước 4), nên ở v1 tôi thu hẹp về chủ yếu bước 3, viết tiêu đề và mô tả. Tôi cũng sửa "ba quy ước theo sàn" thành "theo sàn và theo ngành hàng", vì trang hướng dẫn Shopee cho thấy mỗi ngành hàng có cấu trúc đặt tên riêng. 〔Ai hoặc câu hỏi nào thúc đẩy việc kiểm tra này.〕
 
 **6.4. Kết quả kiểm chứng có làm tôi bất ngờ không? Điều gì?**
-Có. Tôi tưởng ai cũng mất thời gian ở bước đọc đánh giá. Nhưng anh Đạt nói chỉ nhìn số sao và số đơn là đủ, anh chưa từng mua nhầm. Hai người còn lại mất 20–40 phút. Vì vậy nhóm thêm phương án No AI cho người mua ít và ghi lại đây là tín hiệu phản bác.
+Có. Tôi tưởng bước điền thông tin sản phẩm cũng là chỗ nghẽn, nhưng BigSeller đã phủ phần đó, chỉ còn bước viết tiêu đề và mô tả là để người tự làm. Ngoài ra số liệu baseline đến từ nguồn đã rời ngành, nên nhóm phải ghi "cần đo lại" thay vì dùng số đó làm baseline. 〔Thêm kết quả phỏng vấn/survey nếu có.〕
 
 **6.5. Điều khó nhất khi viết Problem Statement là gì?**
-Khó nhất là Success Metric. Tôi viết "nhanh hơn" nhưng nhóm yêu cầu có baseline, nên tôi phải bấm giờ thật mới có con số 35 phút. Phần Boundary cũng khó vì tôi phải quyết định rõ công cụ không được làm gì.
+Khó nhất là Success Metric. Chỉ số chính (giờ công/100 mặt hàng) chưa có baseline đo thật, nên tôi ghi "〔bấm giờ lại〕" thay vì điền số ước. Tôi cũng phải thêm hai chỉ số (tỷ lệ bản nháp được duyệt không sửa, số câu vi phạm bị sót) để biết soát bản nháp có thật sự nhanh hơn tự viết hay không. Boundary cũng khó vì phải chọn đúng chỗ sai gây hại thật: số công bố, xuất xứ, hạn dùng.
 
 **6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
-Nếu làm lại, tôi sẽ bấm giờ trước khi pitch thay vì sau. Tôi cũng sẽ phản biện mạnh hơn ở bước chấm điểm: nhóm cho điểm "Pain có bằng chứng" khá cao dù chưa có phỏng vấn, tôi nên hỏi "bằng chứng ở đâu" ngay lúc đó.
+Tôi sẽ bấm giờ đo baseline sớm hơn, vì đến lúc chốt Not Yet chỉ số chính vẫn chưa có số thật. Ở bước chấm điểm (mục 2.4), tôi sẽ hỏi mạnh hơn "số liệu này lấy từ đâu và còn đúng không", vì nguồn của nhóm đã rời ngành.
 
-**6.7. Hiểu bài:** Vấn đề là khi mua đồ trên Shopee, tôi mất khoảng 35 phút mỗi lần vì phải đọc đánh giá của từng shop, trong đó bước đọc đánh giá chiếm 17 phút. Quy trình có 5 bước và nghẽn ở bước 3. Metric là đưa thời gian xuống ≤50% baseline (≤17 phút) mà số lần mua nhầm không tăng, đo bằng tự bấm giờ. Boundary: công cụ không chọn hay đặt hàng thay tôi, và tôi đọc ít nhất 5 đánh giá thấp sao tận gốc trước khi đặt. Mức can thiệp là Rule: bộ lọc cố định và bảng so sánh, có thể dùng thêm tóm tắt có sẵn của sàn. Quyết định là Not Yet vì chưa đủ baseline từ người khác. Nếu đo xong mà dưới 10 phút mỗi lần thì No-Go và kết luận không cần AI.
-
+**6.7. Hiểu bài:** Nhân sự vận hành của đơn vị vận hành gian hàng thuê phải viết lại tiêu đề và mô tả cho cùng một mặt hàng ba lần theo quy ước của Shopee, TikTok Shop và Lazada. 240 mặt hàng thành 720 tin, mất 80–140 giờ công trong 4 ngày (số từ nguồn đã rời ngành, cần đo lại). Quy trình đưa hàng của một nhãn hàng lên ba sàn có 〔N〕 bước, nghẽn chủ yếu ở bước 3 (viết tiêu đề và mô tả) vì BigSeller đã lo bước ghép ngành hàng và điền trường. Metric: giờ công/100 mặt hàng giảm ≥ 40% so với baseline 〔bấm giờ lại〕; tỷ lệ tin bị từ chối lần đầu không tăng so với 1,9%; ≥ 50% bản nháp được duyệt không sửa; 0 câu vi phạm bị sót trên 100 tin. Boundary: AI không tự đăng; không tự điền số công bố, xuất xứ, hạn dùng; không tự chọn khi hai nguồn lệch; ngành hàng dưới 0,8 phải hỏi người; người duyệt từng tin trước khi đăng. Mức can thiệp là Workflow, AI ở ba chỗ: đọc hồ sơ thành bản dữ liệu, gợi ý ngành hàng, dựng tiêu đề và mô tả theo từng sàn. Quyết định là Not Yet vì 〔lý do của nhóm〕. 〔Điều kiện chuyển sang Go hoặc No-Go.〕
 ---
 
 ## 7. Tài liệu tham khảo
