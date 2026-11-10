@@ -184,18 +184,25 @@ Trong lúc chờ: phụ huynh nhắn thêm 12 tin
 Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ cho các câu 6.1–6.6 (không tính 6.7, câu này được chấm riêng ở tiêu chí C5). **Không dùng AI để viết thay.**
 
 **6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
+Tôi thấy rằng tới từ các background khác nhau cho thấy problem rất đa dạng và đúng theo tinh thần của Diamond 1 thì để phân tích được ra problem underlying thật sự là gì cần open-minded và framework như 5 whys để tránh lối tư duy mòn đưa thẳng ra solution - giải pháp
 
 **6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
+Tuy trong từng problem vẫn có những lúc được phrasing thành solution nhưng reframing đã giúp sửa thành opportunity instead
 
 **6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
+Việc phản biện và đổi ý là đương nhiên khi tôi vẫn chỉ đang học cách ứng dụng Diamond 1 và cụ thể là sau bài chấm điểm 1 - 5 rất khách quan của cả nhóm giúp tôi nhận ra vấn đề của mình
 
 **6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
+Kết quả research không làm tôi bất ngờ vì chúng tôi có bạn product owner nắm rất rõ domain của mình.
 
 **6.5. Điều khó nhất khi viết Problem Statement là gì?**
+Khó khăn nhất của 1 problem statement theo tôi là sự đồng thuận của cả nhóm về scope của vấn đề.
 
 **6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
+Tôi có một trải nghiệm tốt với cả nhóm nên nếu làm lại tôi sẽ không đổi gì mà còn sẽ ứng dụng nguyên tắc học được đến các project sau này vì nó rất hữu ích và khách quan.
 
 **6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
+Chuỗi problem được đánh giá khách quan nhất và chốt bằng bài đánh giá từ các cá nhân khi hội tụ. Quy trình tới từ domain knowledge của product owner tuy vẫn thiếu sót nhưng đủ để cover workflow của customers.
 
 ---
 
