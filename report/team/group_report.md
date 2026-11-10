@@ -203,7 +203,7 @@ Bảng tạm: 3/4 người đã chấm qua form (Minh, Phúc, Bào; còn Hải Q
 | "BigSeller và Sapo đã đăng đa sàn rồi, sao nhóm cần làm?" | Tự rà khi nghiên cứu đối thủ | Đồng ý một phần: BigSeller phủ bước 2/4/6 nhưng để người tự viết tiêu đề và mô tả. Sapo thì **chưa kiểm được**. Đã thu hẹp bài toán vào bước 3 |
 | "Các con số 240 / 80–140 giờ chỉ từ một người đã rời ngành" | Tự rà | Đồng ý hoàn toàn. Đã ghi vào mục Hạn chế và đưa thành giả định số 1 cần kiểm trước |
 | "Giới hạn ký tự TikTok Shop và Lazada lấy từ đâu?" | Tự rà | Đồng ý: lấy từ tệp giả lập của bản chạy thử. Đã bỏ khỏi phần lập luận |
-| 〔NHÓM ĐIỀN — phản biện từ nhóm khác / giảng viên〕 | | |
+| Khi pitching, các nhóm khác và giảng viên chủ yếu đặt câu hỏi để hiểu rõ ý tưởng/sản phẩm, chưa phản biện trực diện | Nhóm khác / giảng viên | Ghi nhận |
 
 ---
 
