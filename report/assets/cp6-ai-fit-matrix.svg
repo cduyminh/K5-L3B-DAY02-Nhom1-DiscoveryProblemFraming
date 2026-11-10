@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 930 560" width="930" height="560" font-family="Inter, 'Segoe UI', Arial, sans-serif">
+<rect width="930" height="560" fill="#FFFFFF"/>
+<text x="34" y="38" font-size="19" font-weight="700" fill="#16191D">Ma trận độ mơ hồ × độ phức tạp — Lên Sàn</text>
+<text x="34" y="62" font-size="13" fill="#4D545C">Bài của nhóm nằm ở giữa: độ mơ hồ trung bình × độ phức tạp trung bình → mức chọn Workflow.</text>
+
+<rect x="150" y="90" width="330" height="170" fill="#F7F8F9"/>
+<rect x="480" y="90" width="330" height="170" fill="#F7F8F9"/>
+<rect x="150" y="260" width="330" height="170" fill="#F7F8F9"/>
+<rect x="480" y="260" width="330" height="170" fill="#F7F8F9"/>
+<rect x="150" y="90" width="660" height="340" fill="none" stroke="#DDE0E3" stroke-width="1.5"/>
+<line x1="480" y1="90" x2="480" y2="430" stroke="#DDE0E3" stroke-width="1.5"/>
+<line x1="150" y1="260" x2="810" y2="260" stroke="#DDE0E3" stroke-width="1.5"/>
+
+<text x="164" y="114" font-size="11.5" font-weight="700" fill="#848B93" letter-spacing="0.5">MƠ HỒ CAO · ĐƠN GIẢN</text>
+<text x="164" y="134" font-size="13" fill="#4D545C">Workflow có AI ở một bước</text>
+<text x="796" y="114" font-size="11.5" font-weight="700" fill="#848B93" letter-spacing="0.5" text-anchor="end">MƠ HỒ CAO · PHỨC TẠP</text>
+<text x="796" y="134" font-size="13" fill="#4D545C" text-anchor="end">Agent, kèm boundary, người kiểm tra,</text>
+<text x="796" y="152" font-size="13" fill="#4D545C" text-anchor="end">phương án quay về</text>
+<text x="164" y="398" font-size="11.5" font-weight="700" fill="#848B93" letter-spacing="0.5">MƠ HỒ THẤP · ĐƠN GIẢN</text>
+<text x="164" y="418" font-size="13" fill="#4D545C">Rule hoặc Workflow đơn giản</text>
+<text x="796" y="398" font-size="11.5" font-weight="700" fill="#848B93" letter-spacing="0.5" text-anchor="end">MƠ HỒ THẤP · PHỨC TẠP</text>
+<text x="796" y="418" font-size="13" fill="#4D545C" text-anchor="end">Workflow nhiều bước rõ ràng</text>
+
+<rect x="380" y="200" width="200" height="120" rx="10" fill="#FBECEB" stroke="#A3302B" stroke-width="1.5" stroke-dasharray="5 4"/>
+<circle cx="480" cy="260" r="11" fill="#A3302B"/>
+<text x="480" y="232" font-size="14" font-weight="700" fill="#A3302B" text-anchor="middle">Lên Sàn (#4)</text>
+<text x="480" y="292" font-size="12.5" font-weight="700" fill="#A3302B" text-anchor="middle">Trung bình × trung bình</text>
+<text x="480" y="309" font-size="12.5" fill="#A3302B" text-anchor="middle">→ Workflow</text>
+
+<text x="120" y="260" font-size="12.5" font-weight="700" fill="#4D545C" text-anchor="middle" transform="rotate(-90 120 260)">ĐỘ MƠ HỒ CỦA TÁC VỤ →</text>
+<text x="480" y="456" font-size="12.5" font-weight="700" fill="#4D545C" text-anchor="middle">ĐỘ PHỨC TẠP VẬN HÀNH →</text>
+
+<text x="34" y="496" font-size="12.5" fill="#4D545C"><tspan font-weight="700" fill="#16191D">Độ mơ hồ trung bình:</tspan> quy ước từng sàn có văn bản rõ ràng, nhưng cách viết tiêu đề và mô tả thì mở, nhiều đáp án đúng.</text>
+<text x="34" y="520" font-size="12.5" fill="#4D545C"><tspan font-weight="700" fill="#16191D">Độ phức tạp trung bình:</tspan> mỗi mặt hàng vài bước cố định, nhưng khó ở chọn ngành hàng trong cây nhiều nhánh</text>
+<text x="34" y="538" font-size="12.5" fill="#4D545C">và xử lý khi hai nguồn hồ sơ lệch nhau.</text>
+</svg>

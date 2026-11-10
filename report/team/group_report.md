@@ -217,6 +217,8 @@ Những ý đã gạch bỏ vì là solution đội lốt opportunity:
 
 ### 6.1. Ma trận độ mơ hồ × độ phức tạp
 
+![Ma trận độ mơ hồ × độ phức tạp](../assets/cp6-ai-fit-matrix.svg)
+
 **Bài của nhóm nằm ở ô:** độ mơ hồ **trung bình** × độ phức tạp **trung bình**.
 
 **Vì sao:** quy ước của từng sàn có văn bản rõ ràng (ít mơ hồ ở phần luật), nhưng cách diễn đạt tiêu đề và mô tả thì mở, có nhiều đáp án đúng. Về độ phức tạp, mỗi mặt hàng chỉ cần vài bước cố định, không phải một chuỗi quyết định dài; nhưng có chỗ khó thật là chọn ngành hàng trong cây rất nhiều nhánh, và xử lý khi hai nguồn hồ sơ lệch nhau.
