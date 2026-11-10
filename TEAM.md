@@ -101,3 +101,29 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 **Điều mình học được từ phần nhóm:**
 
 - Qua quá trình làm việc nhóm, tôi học được cách lắng nghe, tiếp nhận những góc nhìn khác nhau và phản biện để nhìn nhận vấn đề khách quan hơn. Tôi nhận ra rằng việc xác định đúng nỗi đau của người dùng quan trọng hơn việc nhanh chóng đưa ra một giải pháp. Bên cạnh đó, tôi cũng học được cách phối hợp, chia sẻ thông tin và sử dụng các công cụ AI để hỗ trợ quá trình nghiên cứu, kiểm chứng vấn đề.
+
+### BuiPhanThanhPhuc-2A202603981
+
+**Phần việc phụ trách:**
+
+- CP3 — Đưa card vào bảng pitch, điền thông tin chấm điểm, đặt câu hỏi phản biện
+- CP6 — Problem Statement v1 và tiêu chí đánh giá (chính); người phản biện
+
+**Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
+
+- CP3: thêm các card vào bảng pitch (2.1); điền thông tin chấm điểm (2.4) và câu hỏi phản biện trên Google Form
+- CP6: viết Problem Statement v1 (mục 7) gồm Actor, quy trình, bottleneck, impact, success metric, boundary, AI intervention point, mức chọn (Workflow), rủi ro và người kiểm tra; viết bảng thay đổi so với v0 và lý do
+- CP6: viết 5 tiêu chí đánh giá đầu ra của AI (đúng quy ước sàn, đúng hồ sơ gốc, không tự bịa trường bắt buộc, ngành hàng đúng hoặc được đánh dấu, khác nhau đúng chỗ giữa ba sàn)
+
+**Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
+
+- `group_report.md` mục 7
+- Commit: `a1949ae` (mục 7)
+
+**Điều mình học được từ phần nhóm:**
+
+- Viết v1 cho thấy v0 đặt bottleneck chưa đúng: BigSeller đã lo bước điền trường, nên nút thắt chỉ còn ở viết tiêu đề và mô tả. Phải kiểm tra giải pháp có sẵn trước khi chốt bottleneck.
+- Success metric cần baseline đo thật. Chỗ chưa đo thì ghi rõ "bấm giờ lại", không điền số ước.
+- Boundary nên đặt theo chỗ sai gây hại thật (số công bố, xuất xứ, hạn dùng), không viết chung chung.
+
+
