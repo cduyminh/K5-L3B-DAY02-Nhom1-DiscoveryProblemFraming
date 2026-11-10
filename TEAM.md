@@ -54,3 +54,27 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 **Điều mình học được từ phần nhóm:**
 
 -
+
+### CaoDuyMinh-2A202603988
+
+**Phần việc phụ trách:**
+
+- Nhóm trưởng: fork repo, mời thành viên, điều phối thời gian
+- CP3 — Hội tụ nhóm (chính)
+- CP6 — Mức can thiệp AI (mục 6) và tài liệu tham khảo (mục 10)
+
+**Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
+
+- Gom 12 candidate của 4 thành viên vào bảng pitch (2.1), gom thành 5 cluster (2.2), dựng cây OST cho candidate dẫn đầu (2.3)
+- Tạo Google Form để từng người tự chấm 7 tiêu chí và đặt câu hỏi phản biện; tổng hợp kết quả vào bảng chấm điểm (2.4), ghi lựa chọn #4 và lý do loại #1, #9, #8, #3
+- Điền mục 6 (ma trận, so sánh 4 mức, AI Canvas, hai câu hỏi PAIR) và mục 10 (tài liệu tham khảo)
+- Điền thông tin nhóm, vai trò và phân công trong `TEAM.md`
+
+**Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
+
+- `group_report.md` mục 1, 2.1–2.4, 6, 10
+- Commit: `d3ab908`, `f6aa824`, `820a366`, `90d92a4` (pitch, cluster); `4a25ca9`, `10472ad` (câu hỏi phản biện, chấm điểm); `f1e9bac` (cây OST); `5ffb8af` (chốt candidate); `a3026f1` (mục 6, 10); `3f8f187` (`TEAM.md`)
+
+**Điều mình học được từ phần nhóm:**
+
+-
