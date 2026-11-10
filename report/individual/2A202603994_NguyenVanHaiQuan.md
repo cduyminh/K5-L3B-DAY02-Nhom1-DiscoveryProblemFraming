@@ -174,31 +174,31 @@ Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ ch
 
 **6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
 
-> Trong thời gian ngắn thôi nhưng các bạn đều đưa ra các vấn rất hay và thực sự tồn tại. Tôi học được kỹ năng tìm kiếm, đọc tài liệu và kỹ năng dùng AI để tìm kiếm, xác thực vấn đề.
+> Dù thời gian trao đổi không dài, các bạn đã đưa ra nhiều vấn đề thú vị và có tính thực tiễn cao. Tôi học được cách tiếp cận một vấn đề từ nhiều góc độ, kỹ năng tìm kiếm và đọc tài liệu, cũng như cách sử dụng AI để hỗ trợ tìm kiếm và xác thực thông tin. Đặc biệt, tôi nhận ra rằng một vấn đề tốt không nhất thiết phải mới, mà quan trọng là nó có thực sự tồn tại và gây khó khăn cho người dùng hay không.
 
 **6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
 
-> Không
+> Theo tôi, nhóm không gặp tình trạng solution-first một cách rõ rệt. Nhóm cố gắng bắt đầu từ việc xác định đối tượng sử dụng, tìm hiểu khó khăn thực tế và phân tích nguyên nhân trước khi nghĩ đến giải pháp. Điều này giúp nhóm tránh việc cố gắng tìm một vấn đề để phù hợp với giải pháp đã có sẵn.
 
 **6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
 
-> Không
+> Tôi không thay đổi quan điểm chính sau các lần phản biện. Tuy nhiên, những câu hỏi phản biện giúp tôi nhìn nhận vấn đề toàn diện hơn, nhận ra những giả định cần kiểm chứng và những khía cạnh trước đó có thể chưa được chú ý đầy đủ.
 
 **6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
 
-> Không, vì đây là vấn đề tôi đã có dự tính làm từ lâu, nên những hiểu biết trước đây giúp tôi cũng cố niềm tin cho đề tài.
+> Kết quả kiểm chứng nhìn chung không quá bất ngờ vì đây là vấn đề tôi đã có ý định tìm hiểu và phát triển từ trước. Những hiểu biết ban đầu phần nào được củng cố thông qua quá trình research. Tuy nhiên, tôi cũng nhận ra rằng niềm tin cá nhân không thể thay thế bằng chứng thực tế, vì vậy cần tiếp tục kiểm chứng với đúng nhóm người dùng mục tiêu.
 
 **6.5. Điều khó nhất khi viết Problem Statement là gì?**
 
-> Dẫn chứng thực tế.
+> Khó khăn lớn nhất là tìm được những dẫn chứng thực tế đủ tin cậy để chứng minh vấn đề thực sự tồn tại và có ảnh hưởng đến người dùng. Ngoài ra, việc diễn đạt vấn đề sao cho ngắn gọn, đúng trọng tâm, phản ánh được nỗi đau của người dùng mà không vô tình đưa giải pháp vào Problem Statement cũng là một thách thức.
 
 **6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
 
-> Không thay đổi. Sẽ phản biện mạnh hơn ở nhóm nỗi đau thật sự của những đối tượng sử dụng nền tảng này.
+> Tôi chưa thấy cần thay đổi lớn trong cách tiếp cận hiện tại. Tuy nhiên, nếu làm lại, tôi sẽ tập trung phản biện sâu hơn vào việc xác định nỗi đau thực sự của từng nhóm đối tượng sử dụng nền tảng. Cụ thể, tôi muốn làm rõ mức độ thường xuyên, mức độ ảnh hưởng và những bất tiện mà người dùng đang thực sự gặp phải, thay vì chỉ dừng lại ở việc xác định một vấn đề có tồn tại.
 
-**6.7. Hiểu bài:** giải thích bằng 5–8.  câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình**
+**6.7. Hiểu bài:** giải thích bằng 5–8.  câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình
 
->Problem: Nhân sự vận hành của đơn vị vận hành gian hàng thuê tốn nhiều thời gian để đăng bán các sản phẩm của mình trên nhiều sàn thương mại điện tử khác nhau -> Quy trình hiện tại có 6 bước, trong đó viết và rà sát nội dung tốn nhiều thời gian -> Nhóm đo thành công bằng thời gian rút ngắn được, target giảm ≥40% (đề xuất), đo bằng bấm giờ 20 mặt hàng. Còn có tỷ lệ tin bị từ chối 1,9% không được tăng -> AI không được tự đăng lên sàn khi chưa qua kiểm duyệt nhà bán, AI không tự điền số công bố, xuất xứ, hạn dùng; không tự chọn khi hai nguồn hồ sơ lệch -> Chọn mức workflow -> Nhóm kết luận Not Yet
+>P roblem: Nhân sự vận hành của đơn vị vận hành gian hàng thuê tốn nhiều thời gian để đăng bán các sản phẩm của mình trên nhiều sàn thương mại điện tử khác nhau -> Quy trình hiện tại có 6 bước, trong đó viết và rà sát nội dung tốn nhiều thời gian -> Nhóm đo thành công bằng thời gian rút ngắn được, target giảm ≥40% (đề xuất), đo bằng bấm giờ 20 mặt hàng. Còn có tỷ lệ tin bị từ chối 1,9% không được tăng -> AI không được tự đăng lên sàn khi chưa qua kiểm duyệt nhà bán, AI không tự điền số công bố, xuất xứ, hạn dùng; không tự chọn khi hai nguồn hồ sơ lệch -> Chọn mức workflow -> Nhóm kết luận Not Yet
 
 ---
 
