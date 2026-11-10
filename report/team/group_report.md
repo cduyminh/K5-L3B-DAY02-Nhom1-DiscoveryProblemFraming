@@ -211,38 +211,46 @@ Bảng tạm: 3/4 người đã chấm qua form (Minh, Phúc, Bào; còn Hải Q
 
 ### 6.1. Ma trận độ mơ hồ × độ phức tạp
 
-Bài của nhóm nằm ở ô:
+**Bài của nhóm nằm ở ô:** độ mơ hồ **trung bình** × độ phức tạp **trung bình**.
 
-Vì sao:
+**Vì sao:** quy ước của từng sàn có văn bản rõ ràng (ít mơ hồ ở phần luật), nhưng cách diễn đạt tiêu đề và mô tả thì mở, có nhiều đáp án đúng. Về độ phức tạp, mỗi mặt hàng chỉ cần vài bước cố định, không phải một chuỗi quyết định dài; nhưng có chỗ khó thật là chọn ngành hàng trong cây rất nhiều nhánh, và xử lý khi hai nguồn hồ sơ lệch nhau.
 
 ### 6.2. So sánh 4 mức
 
 | Mức | Phương án cho bài của nhóm | Đủ khi nào | Rủi ro | Chọn? |
 |---|---|---|---|---|
-| **No AI** (sửa quy trình) | | | | |
-| **Rule** | | | | |
-| **Workflow** | | | | |
-| **Agent** | | | | |
+| No AI (sửa quy trình) | Lập bảng quy ước ba sàn theo ngành hàng và mẫu tiêu đề điền sẵn; người vẫn tự viết | Khi khối lượng nhỏ hoặc quy ước ít đổi | Giữ nguyên nút thắt viết lại ba lần; không đo được cải thiện lớn | Không |
+| Rule | Ghép trường, soi độ dài / ký tự cấm / từ cấm, xuất tệp đăng hàng loạt | Khi tiêu đề có thể lắp từ các trường có sẵn theo công thức | Không viết được câu tự nhiên; chính là phần BigSeller đã làm | Không đủ, nhưng **dùng làm một phần** |
+| Workflow | Chuỗi bước cố định, AI chỉ làm bước ngôn ngữ (đọc hồ sơ, gợi ý ngành hàng, dựng tiêu đề), Rule soi lại, người duyệt | Khi các bước biết trước và AI cần giúp ở vài điểm | AI viết sai giọng hoặc bỏ sót câu vi phạm; xử lý bằng ngưỡng và người duyệt | **Chọn** |
+| Agent | AI tự đọc, tự chọn, tự đăng, tự xử lý khi bị từ chối | Khi bước đi thay đổi theo từng trường hợp và sai không đắt | Sai thì tin bị từ chối hoặc gian hàng bị phạt; người vận hành cũng chịu trách nhiệm trước nhãn hàng, không giao hẳn quyền đăng | Không |
 
-**Mức chọn:**
+**Mức chọn:** Workflow.
 
-**Vì sao không chọn mức đơn giản hơn:**
+**Vì sao không chọn mức đơn giản hơn:** Rule đã đủ cho phần soi ký tự và xuất tệp, nhưng nút thắt chính là viết tiêu đề và mô tả theo từng sàn — Rule không viết được câu tự nhiên, và đúng phần đó BigSeller cũng chưa làm. No AI thì giữ nguyên nút thắt. Vậy cần AI cho đúng bước viết, còn lại để Rule và người.
 
 ### 6.3. AI Canvas rút gọn
 
 | Thành phần | Nội dung |
 |---|---|
-| **Prediction** — AI dự đoán / tạo ra gì? | |
-| **Judgment** — con người cân nhắc, quyết định gì? | |
-| **Action** — hành động cuối cùng là gì, ai làm? | |
-| **Outcome** — đo kết quả bằng gì? | |
-| **Input** — AI cần dữ liệu đầu vào gì mỗi lần chạy? Có sẵn không? | |
-| **Feedback** — lấy phản hồi ở đâu để cải thiện? | |
+| Prediction — AI dự đoán / tạo ra gì? | Cho mỗi mặt hàng và mỗi sàn: tiêu đề, mô tả, ngành hàng gợi ý (kèm mức chắc chắn), các trường điền được |
+| Judgment — con người cân nhắc, quyết định gì? | Bản nháp đã đúng hàng chưa, đúng quy ước chưa, có dám đăng không; chọn nguồn nào khi hồ sơ lệch |
+| Action — hành động cuối cùng là gì, ai làm? | Nhân sự vận hành bấm duyệt (hoặc sửa rồi duyệt, hoặc trả lại hỏi nhãn hàng), rồi đăng |
+| Outcome — đo kết quả bằng gì? | Giờ công cho mỗi 100 mặt hàng; tỷ lệ tin bị từ chối lần đầu |
+| Input — AI cần dữ liệu đầu vào gì mỗi lần chạy? Có sẵn không? | Hồ sơ sản phẩm của nhãn hàng (có, nhưng nhiều định dạng và hay lệch); quy ước và cây ngành hàng từng sàn (Shopee có từ tài liệu; TikTok Shop và Lazada **chưa có**); các tin đã đăng thành công (cần xin) |
+| Feedback — lấy phản hồi ở đâu để cải thiện? | Mỗi chỗ người sửa tay được ghi lại; mỗi tin bị sàn từ chối ghi kèm lý do. Hai thứ này dùng để sửa lời nhắc và bổ sung luật |
 
 ### 6.4. Hai câu hỏi của Google PAIR
 
-- Người dùng muốn **được hỗ trợ (augment)** hay **giao hẳn việc (automate)**? Bằng chứng:
-- AI sai kiểu nào tệ hơn, **báo nhầm** hay **bỏ sót**? Vì sao, và thiết kế đã xử lý thế nào:
+**Người dùng muốn được hỗ trợ (augment) hay giao hẳn việc (automate)? Bằng chứng:** Hỗ trợ (augment). Bằng chứng hiện có yếu: chỉ từ ràng buộc nghề (đơn vị vận hành chịu trách nhiệm trước nhãn hàng, nên không thể giao hẳn việc đăng) và từ việc sàn có thể phạt gian hàng. **Chưa có bằng chứng từ người đang làm nghề rằng họ muốn nháp hơn là tự động** — đây là giả định số 4, cần kiểm.
+
+**AI sai kiểu nào tệ hơn, báo nhầm hay bỏ sót? Vì sao, và thiết kế đã xử lý thế nào:**
+
+| Kiểu sai | Chuyện gì xảy ra | Chi phí |
+|---|---|---|
+| Báo nhầm — gạch chân câu thực ra không vi phạm | Người liếc qua rồi bỏ qua | Thấp: vài giây |
+| Bỏ sót — không gạch chân câu thật sự vi phạm | Tin bị từ chối, nặng hơn thì gian hàng bị trừ điểm | Cao: làm lại, mất ngày bán |
+
+**Bỏ sót tệ hơn.** Thiết kế nghiêng về báo nhầm: thà gạch nhầm mười câu hơn sót một câu. Ngành hàng dưới mức chắc chắn 0,8 thì bắt buộc hỏi người, không được tự chọn. Người duyệt luôn là chốt chặn cuối.
 
 ---
 
@@ -334,4 +342,16 @@ Vì sao:
 
 ## 10. Tài liệu tham khảo
 
--
+*Chỉ liệt kê những nguồn đã mở và đọc.*
+
+| # | Nguồn | Link | Dùng cho |
+|---|---|---|---|
+| 1 | Shopee — Hướng dẫn đặt tên sản phẩm | https://banhang.shopee.vn/edu/article/13322 | Giới hạn 120 ký tự, ký tự và cụm bị cấm, công thức tiêu đề |
+| 2 | Shopee — Đặt tên sản phẩm cho gian hàng chính hãng | https://banhang.shopee.vn/edu/article/3531 | Độ dài tối thiểu 20 ký tự (chính hãng) và 10 ký tự (gian hàng thường) |
+| 3 | BigSeller — Hướng dẫn đăng sản phẩm hàng loạt | https://www.bigseller.com/blog/articleDetails/3717 | Phạm vi chức năng của BigSeller |
+| 4 | Sapo — Vận hành sàn thương mại điện tử | https://www.sapo.vn/blog/van-hanh-san-thuong-mai-dien-tu | Tín hiệu phản bác |
+| 5 | Google — Bảng giá Gemini API | https://ai.google.dev/gemini-api/docs/pricing | Ước tính chi phí máy |
+| 6 | Bản chạy thử của nhóm | https://github.com/haiquanng/demo | Quy trình, kiến trúc, đặc tả minh họa |
+| 7 | Phỏng vấn 1 người từng làm vận hành gian hàng thuê | — | Con số 240 / 720 / 80–140 giờ / 14 |
+
+**Đã tìm nhưng không ra:** giới hạn ký tự tên sản phẩm của TikTok Shop; quy định tiêu đề bắt đầu bằng thương hiệu của Lazada. Cần vào Trung tâm người bán của từng sàn bằng tài khoản thật.
