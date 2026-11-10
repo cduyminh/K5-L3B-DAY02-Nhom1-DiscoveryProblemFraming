@@ -189,16 +189,21 @@ Bảng tạm: 3/4 người đã chấm qua form (Minh, Phúc, Bào; còn Hải Q
 
 | Trường | Nội dung |
 |---|---|
-| **Actor** | |
-| **Quy trình** | |
-| **Bottleneck** | |
-| **Impact** | |
-| **Success Metric** (baseline → target, cách đo) | |
-| **Boundary** (AI không được làm gì; khi nào cần con người kiểm tra — HITL) | |
+| **Actor** | Nhân sự vận hành của đơn vị vận hành gian hàng thuê (làm cho nhãn hàng trên Shopee, TikTok Shop, Lazada) |
+| **Quy trình** | Đưa hàng của một nhãn hàng lên cả ba sàn, từ nhận hồ sơ đến lúc tin chờ duyệt |
+| **Bottleneck** | Bước 3 và 4: cùng một mặt hàng phải viết lại ba lần theo ba quy ước và ba bộ trường bắt buộc khác nhau |
+| **Impact** | 240 mặt hàng → 720 tin đăng, tốn 80–140 giờ công trong 4 ngày; 14/720 tin (1,9%) bị từ chối. *(Nguồn: một người đã rời ngành, chưa đo lại)* |
+| **Success Metric** (baseline → target, cách đo) | Giờ công cho mỗi 100 mặt hàng: baseline **〔phải bấm giờ lại〕** → giảm ít nhất 40% 〔đề xuất〕, đo bằng bấm giờ 20 mặt hàng trước/sau. Tỷ lệ tin bị từ chối lần đầu: 1,9% → không tăng, đo bằng đếm thông báo từ chối trên 100 tin đầu |
+| **Boundary** (AI không được làm gì; khi nào cần con người kiểm tra — HITL) | AI không tự đăng, không tự điền số công bố/xuất xứ/hạn dùng, không tự chọn khi hai nguồn lệch. Con người duyệt từng tin trước khi đăng; hỏi lại nhãn hàng khi hồ sơ thiếu |
 
-Phản biện nhận được (từ AI hoặc nhóm khác) và nhóm có đồng ý không:
+**Phản biện nhận được (từ AI hoặc nhóm khác) và nhóm có đồng ý không:**
 
--
+| Phản biện | Từ ai | Nhóm có đồng ý? |
+|---|---|---|
+| "BigSeller và Sapo đã đăng đa sàn rồi, sao nhóm cần làm?" | Tự rà khi nghiên cứu đối thủ | Đồng ý một phần: BigSeller phủ bước 2/4/6 nhưng để người tự viết tiêu đề và mô tả. Sapo thì **chưa kiểm được**. Đã thu hẹp bài toán vào bước 3 |
+| "Các con số 240 / 80–140 giờ chỉ từ một người đã rời ngành" | Tự rà | Đồng ý hoàn toàn. Đã ghi vào mục Hạn chế và đưa thành giả định số 1 cần kiểm trước |
+| "Giới hạn ký tự TikTok Shop và Lazada lấy từ đâu?" | Tự rà | Đồng ý: lấy từ tệp giả lập của bản chạy thử. Đã bỏ khỏi phần lập luận |
+| 〔NHÓM ĐIỀN — phản biện từ nhóm khác / giảng viên〕 | | |
 
 ---
 
@@ -305,7 +310,19 @@ Vì sao:
 
 ## 9. Hạn chế và hướng tiếp theo
 
--
+**Hạn chế**
+1. **Chỉ có một người được hỏi, và người đó đã rời ngành.** Con số 240 / 80–140 giờ / 14 trên 720 là trí nhớ, chưa đo lại; giao diện ba sàn có thể đã đổi.
+2. **Quy ước TikTok Shop và Lazada chưa kiểm được.** Các con số trong Problem Card ban đầu ("TikTok Shop 100 ký tự", "Lazada bắt đầu bằng thương hiệu") lấy từ tệp `api/_specs.ts` của bản chạy thử, mà chính tệp đó ghi là "đặc tả rút gọn để minh họa". Chỉ riêng Shopee có tài liệu gốc.
+3. **Chưa mở bản dùng thử của đối thủ.** Nhận định về BigSeller và Sapo đều lấy từ bài họ tự đăng, tức là lời quảng cáo.
+4. **Chưa đo công soát.** Lợi ích phụ thuộc vào việc soát nhanh hơn tự viết bao nhiêu; chưa ai đo.
+5. **Thời gian từng bước chưa tách riêng**, nên việc bước 3 là chỗ tốn nhất mới là suy đoán.
+6. **Các ngưỡng 40%, 50%, 30% là 〔đề xuất〕** do bản nháp này đặt, không phải số nhóm đã chốt hay đo.
+7. **Bản chạy thử dùng dữ liệu bịa**: nhãn hàng, mặt hàng, luật, phản hồi của sàn trong `github.com/haiquanng/demo` đều là ví dụ.
+
+**Hướng tiếp theo**
+- Làm bốn việc kiểm chứng ở mục 8.2 (Not Yet) trước khi viết thêm mã.
+- Nếu qua được, chạy pilot 20 mặt hàng cho Shopee như mục 8.2 (Go).
+- Phỏng vấn thêm ít nhất 2 người **đang** làm vận hành (không phải thành viên nhóm) để có thêm tín hiệu phản bác.
 
 ## 10. Tài liệu tham khảo
 
