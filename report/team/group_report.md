@@ -253,6 +253,8 @@ Những ý đã gạch bỏ vì là solution đội lốt opportunity:
 
 **AI sai kiểu nào tệ hơn, báo nhầm hay bỏ sót? Vì sao, và thiết kế đã xử lý thế nào:**
 
+![Hai kiểu sai: báo nhầm và bỏ sót](../assets/cp6-confusion-matrix.svg)
+
 | Kiểu sai | Chuyện gì xảy ra | Chi phí |
 |---|---|---|
 | Báo nhầm — gạch chân câu thực ra không vi phạm | Người liếc qua rồi bỏ qua | Thấp: vài giây |
