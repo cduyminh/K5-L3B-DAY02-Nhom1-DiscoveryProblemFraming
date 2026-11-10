@@ -77,7 +77,9 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 
 **Điều mình học được từ phần nhóm:**
 
--
+- Làm phần nhóm chủ yếu cần nhiều framework để thực hiện đúng nhiệm vụ phân công công việc và đưa ra kết quả khách quan nhất.
+- Làm nhóm là cần có tinh thần trách nhiệm cao.
+- Làm nhóm là cần có nhiều công cụ hỗ trợ giúp cả nhóm hoàn thành công việc được giao.
 
 ### NguyenVanHaiQuan-2A202603994
 
