@@ -244,29 +244,34 @@ Vì sao:
 
 | Trường | Nội dung |
 |---|---|
-| **Actor** | |
-| **Quy trình** | |
-| **Bottleneck** | |
-| **Impact** | |
-| **Success Metric** (baseline → target, cách đo) | |
-| **Boundary** | |
-| **AI intervention point** | |
-| **Mức chọn** | No AI / Rule / Workflow / Agent |
-| **Rủi ro & người kiểm tra** | |
+| Actor | Nhân sự vận hành của đơn vị vận hành gian hàng thuê |
+| Quy trình | Đưa hàng của một nhãn hàng lên cả ba sàn |
+| Bottleneck | Bước viết tiêu đề và mô tả: phải viết lại ba lần, quy ước khác nhau theo từng sàn **và theo từng ngành hàng**. Phần mềm đa sàn sẵn có (BigSeller) đã lo bước ghép ngành hàng và điền trường nhưng để người tự viết tiêu đề |
+| Impact | 240 mặt hàng → 720 tin, 80–140 giờ công trong 4 ngày; 14/720 tin (1,9%) bị từ chối *(nguồn đã rời ngành, cần đo lại)* |
+| Success Metric (baseline → target, cách đo) | Giờ công / 100 mặt hàng: 〔bấm giờ lại〕 → giảm ≥ 40% 〔đề xuất〕, bấm giờ 20 mặt hàng. Tỷ lệ tin bị từ chối lần đầu: 1,9% → không tăng, đếm trên 100 tin. Tỷ lệ bản nháp được duyệt không sửa: → ≥ 50% 〔đề xuất〕. Số câu vi phạm bị sót trên 100 tin: 0, người độc lập đọc lại |
+| Boundary | AI không tự đăng; không tự điền số công bố, xuất xứ, hạn dùng; không tự chọn khi hai nguồn lệch; ngành hàng dưới 0,8 phải hỏi người. Người duyệt từng tin trước khi đăng |
+| AI intervention point | Ba chỗ: đọc hồ sơ thành bản dữ liệu (báo chỗ lệch); gợi ý ngành hàng; dựng tiêu đề và mô tả theo từng sàn |
+| Mức chọn | Workflow |
+| Rủi ro & người kiểm tra | Bỏ sót câu vi phạm → Rule soi + nhân sự vận hành duyệt. Gợi ý sai ngành hàng → mức chắc chắn < 0,8 thì hỏi người. Dữ liệu nhãn hàng ra ngoài → xin phép nhãn hàng trước khi chạy thật |
 
 **Thay đổi so với v0 và lý do:**
 
 | Trường | v0 | v1 | Vì sao đổi |
 |---|---|---|---|
-| | | | |
+| Bottleneck | Bước 3 và 4 | Chủ yếu bước 3 (viết tiêu đề và mô tả) | BigSeller đã phủ phần ghép ngành hàng và điền trường (bước 4) |
+| Bottleneck | Ba quy ước khác nhau theo sàn | Khác theo sàn **và theo ngành hàng** | Trang hướng dẫn Shopee cho thấy mỗi ngành hàng có cấu trúc đặt tên riêng |
+| Success Metric | Hai chỉ số | Thêm tỷ lệ bản nháp không sửa và số câu vi phạm bị sót | Cần đo xem soát bản nháp có thật sự nhanh hơn tự viết hay không |
+| Boundary | Chung chung | Thêm ngưỡng 0,8 cho ngành hàng; không tự điền số công bố, xuất xứ, hạn dùng | Hai chỗ này sai là hại thật |
 
 **Tiêu chí đánh giá đầu ra của AI (3–5 tiêu chí):**
 
 | # | Tiêu chí | Đạt khi | Không đạt khi |
-|---:|---|---|---|
-| 1 | | | |
-| 2 | | | |
-| 3 | | | |
+|---|---|---|---|
+| 1 | Đúng quy ước của sàn | Tiêu đề trong giới hạn độ dài, không ký tự cấm, không cụm cấm, theo công thức của ngành hàng | Vượt độ dài, viết hoa toàn bộ, có cụm như "Sản phẩm hot" hoặc "Giảm giá" |
+| 2 | Đúng với hồ sơ gốc | Mọi thông số trong tiêu đề và mô tả đều truy ngược được về hồ sơ nhãn hàng | Có thông tin máy tự thêm vào mà hồ sơ không có |
+| 3 | Không tự bịa trường bắt buộc | Trường thiếu để trống và ghi "cần hỏi lại nhãn hàng" | Tự điền số công bố, xuất xứ hoặc hạn dùng |
+| 4 | Ngành hàng đúng hoặc được đánh dấu | Đúng ngành, hoặc mức chắc chắn < 0,8 và đã chuyển cho người | Sai ngành mà mức chắc chắn ≥ 0,8 |
+| 5 | Khác nhau đúng chỗ giữa ba sàn | Mỗi sàn một bản theo đúng quy ước, không nhắc tới sàn khác trong mô tả | Ba bản giống hệt nhau, hoặc mô tả dẫn sang sàn khác |
 
 ---
 
