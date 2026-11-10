@@ -5,7 +5,7 @@
 
 ## 1. Thông tin nhóm
 
-- Tên nhóm:
+- Tên nhóm: Nhom1
 - Thành viên: xem `TEAM.md`
 - Candidate problem được chọn (1 câu):
 - Quyết định cuối: Go / Not Yet / No-Go
@@ -18,55 +18,67 @@
 
 | # | Người đưa ra | Candidate (Job Story ngắn) | Actor | Bottleneck | Câu hỏi phản biện nhận được (ai hỏi) |
 |---:|---|---|---|---|---|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
-| 4 | | | | | |
-| 5 | | | | | |
-| 6 | | | | | |
-| 7 | | | | | |
-| 8 | | | | | |
-| 9 | | | | | |
-| 10 | | | | | |
-| 11 | | | | | |
-| 12 | | | | | |
+| 1 | Cao Duy Minh | Khi phụ huynh nhắn Zalo hỏi lịch học hay xin cho con nghỉ (kể cả tối muộn, cuối tuần), tôi muốn trả lời đúng và ngay, để phụ huynh không phải nhắn lại | Quản lý trung tâm trực Zalo của trung tâm Anh ngữ | Chờ người trực đọc tin: trả lời tay trung vị 0,1–0,7 phút nhưng 10% chậm nhất chờ 80,6 phút (lịch) và 374 phút (xin nghỉ); log Zalo 23/10–9/11/2026 | Trong 10% tin chờ lâu nhất, bao nhiêu tin đến ngoài giờ trực (21h–7h, cuối tuần)? Nếu phần lớn là ngoài giờ thì phân ca đã đủ? (Phúc)<br>Lần gần nhất xử lý tin xin nghỉ ngoài giờ là khi nào, mất bao lâu? Auto-reply Zalo hoặc Google Form báo nghỉ đã đủ chưa? (Bào) |
+| 2 | Cao Duy Minh | Khi phụ huynh mới hỏi đăng ký, học thử hay kiểm tra đầu vào, tôi muốn trả lời đủ thông tin ngay lần đầu, để họ không chờ rồi tìm trung tâm khác | Quản lý trung tâm phụ trách tuyển sinh qua Zalo | Chờ người trực đọc tin: 10% chậm nhất chờ 783,9 phút (≈13 giờ); 8 cuộc hỏi, trung vị 104 tin mỗi cuộc | Phụ huynh bỏ đi vì chờ trả lời hay vì bị hỏi lại quá nhiều? Trong 8 cuộc tuyển sinh, bao nhiêu cuộc chốt học thử? (Phúc)<br>Khách rời đi vì trả lời chậm hay vì kịch bản tư vấn chưa đủ thuyết phục? Trung tâm khác có xác nhận đây là nỗi đau lớn nhất không? (Bào) |
+| 3 | Cao Duy Minh | Khi giáo viên dạy xong một buổi và phụ huynh muốn biết bài tập, nhận xét của con, tôi muốn thông tin tới đúng phụ huynh trong ngày, để họ không phải nhắn hỏi lại | Giáo viên đứng lớp + quản lý trung tâm | Chờ người trực đọc và hỏi giáo viên: 10% chậm nhất chờ 80,6 phút; phụ huynh nhắn lại 12 lần trong 16,9 ngày | Bước 3 (hỏi giáo viên) ghi "chưa đo", vậy sao biết nghẽn ở bước 2 chứ không phải bước 3? (Phúc)<br>Tổng hợp nhận xét cho một lớp 20 học sinh mất bao lâu? Template Google Sheets có checklist cho giáo viên tick có giảm được 80% thời gian không? (Bào) |
+| 4 | Nguyễn Văn Hải Quân | Khi nhận catalog của một brand mới, tôi muốn có listing đúng quy ước của từng sàn Shopee, TikTok Shop, Lazada cho mọi SKU, để mở bán đúng hẹn mà không bị sàn từ chối | Nhân sự vận hành tại enabler (vận hành gian hàng thay brand) | Bước 3–4: viết lại tiêu đề và điền thuộc tính 3 lần cho 3 sàn; ước tính 10–20 phút/SKU/sàn (nguồn ngoài, chưa bấm giờ); lần onboard gần nhất 240 SKU × 3 sàn = 720 listing trong 4 ngày, 14 listing bị từ chối | Lần onboard 240 SKU thực tế mấy người làm, tổng bao nhiêu giờ? 14 listing bị từ chối do lỗi gì? (Phúc)<br>Nút thắt là format text cho từng sàn hay chỉnh ảnh/video đúng chuẩn? Lần gần nhất listing 100 sản phẩm lên 3 sàn mất bao nhiêu giờ? (Bào) |
+| 5 | Nguyễn Văn Hải Quân | Khi vừa học xong một buổi ở lớp AI Thực Chiến 20K, tôi muốn ghi chú của buổi đó được sắp xếp gọn vào đúng chỗ, để tuần sau tra lại được mà không phải xem lại cả buổi | Học viên lớp 20K | Bước 3, viết lại ghi chú có cấu trúc, trong tổng 45 phút/buổi (chưa tách phút của bước); hơn 10 lần/tuần phải mở lại slide/recording | Trong 45 phút, bao nhiêu phút gom slide, bao nhiêu phút viết lại? Template Notion cố định đã thử chưa? (Phúc)<br>Ghi chú phục vụ mục đích cuối cùng gì? Có bằng chứng học viên thật sự đọc lại, hay bottleneck là thiếu động lực học? (Bào) |
+| 6 | Nguyễn Văn Hải Quân | Khi viết phần tài liệu liên quan cho bài CAR, tôi muốn nắm nhanh phương pháp, dữ liệu và hạn chế của từng bài báo, để so sánh được với hướng của mình | Sinh viên làm nghiên cứu và thầy hướng dẫn | Bước 3–4, đọc sâu phương pháp và thực nghiệm, trong tổng 30 phút/bài (chưa tách phút của bước); 7–10 bài; 2–3 lần mở lại bài đã đọc | Còn bao nhiêu bài phải đọc nữa? 30 phút/bài là bấm giờ hay ước chừng? (Phúc)<br>Lần gần nhất làm bảng so sánh là khi nào? Nút thắt là lập bảng hay đọc hiểu sâu từng paper? (Bào) |
+| 7 | Bùi Phan Thanh Phúc | Khi cần mua một món trên Shopee có nhiều shop cùng bán, tôi muốn biết shop nào đáng mua nhất, để không mua nhầm hàng kém hoặc giá cao | Người mua cá nhân | Bước 3, đọc đánh giá từng shop: 20–50 phút trong tổng 30–60 phút/lần; 2–3 lần/tháng | Lọc đánh giá 1–2 sao và đánh giá có ảnh/video đã đủ để quyết định chưa? Bottleneck là đọc quá nhiều hay review seeding/giả? (Bào) |
+| 8 | Bùi Phan Thanh Phúc | Khi vừa họp nhóm xong, tôi muốn có danh sách việc, người phụ trách và hạn, để không ai bỏ sót | Thành viên nhóm ghi chú sau họp | Bước 2, tách việc cụ thể từ ghi chú lộn xộn: 10 phút trong tổng 30 phút/buổi; 1 buổi/tuần | Ai ngoài bạn gặp vấn đề này? Cử thư ký gõ ngay vào template "Task – Assignee – Deadline" trong lúc họp có nhanh hơn không? (Bào) |
+| 9 | Bùi Phan Thanh Phúc | Khi phải đọc tài liệu dài của khóa, tôi muốn tìm nhanh phần liên quan tới lab, để không phải lục lại từng phần | Học viên làm lab | Bước 3, tìm phần liên quan tới lab: 20 phút trong tổng 45 phút/lần; 2 lần/tuần ≈ 90 phút/tuần | Lần gần nhất tìm không thấy thông tin lab mất bao lâu? Ctrl+F với từ khoá "lab" đã giải quyết được chưa? (Bào) |
+| 10 | Nguyễn Khắc Bảo | Khi nhận bản vẽ/đặc tả nội thất (PDF scan, Excel tự do) từ khách hoặc KTS, tôi muốn trích đúng danh mục vật tư và định mức, để lập bảng dự toán BOM báo giá không sót linh kiện hay lỗ chi phí | Chủ xưởng nội thất / kỹ sư dự toán báo giá | Bước 3, nhập tay định mức BOM: 50 phút, và bước 5, rà soát chéo: 25 phút, trong tổng 120 phút/hồ sơ; 3–4 hồ sơ/tuần; lệch giá vốn ~190k–400k/md khi sai | 120 phút/hồ sơ và ~8% dòng sai lấy từ hồ sơ nào, bấm giờ hay ước? Nếu khách điền template Excel chuẩn thì Rule đã đủ chưa? (Phúc) |
+| 11 | Nguyễn Khắc Bảo | Khi khách chuyển khoản cọc (40%) hoặc nghiệm thu (60%) qua VietQR của xưởng, tôi muốn đối chiếu nhanh giao dịch với đúng mã đơn và đợt trả, để gạch nợ chính xác | Chủ xưởng nội thất / thu ngân xưởng | Bước 2–3, dò tay mã đơn và hỏi lại ca thiếu mã: 22 phút trong tổng 30 phút/ngày; 15–25 giao dịch/tuần; ~25% giao dịch phải hỏi lại | 30 phút/ngày là bấm giờ ngày nào? QR đã có sẵn mã đơn thì khách sai mã khi nào, chiếm bao nhiêu trong ~25%? (Phúc) |
+| 12 | Nguyễn Khắc Bảo | Khi người dùng xưởng hoặc tester báo lỗi mơ hồ, tôi muốn gom đủ ngữ cảnh và đối chiếu đúng FR trong spec ngay lần đầu, để khoanh vùng lỗi mà không hỏi lại nhiều vòng | Lập trình viên bảo trì app FurniCore (cùng chủ xưởng, tester báo lỗi) | Bước 2, hỏi lại bối cảnh và xin log: 20 phút + chờ 2–4 giờ, và bước 4, đối chiếu spec: 15 phút, trong tổng 55 phút/ca; ~60% ca phải hỏi vòng 2 | "Chờ 2–4 giờ hỏi lại" là hỏi ai? Có nút "Xuất gói chẩn đoán" rồi thì bước nào còn cần AI? (Phúc) |
 
 ### 2.2. Cluster
 
+Nhóm 4 người, 12 candidate.
+
 | Cluster | Các candidate | Pattern chung |
 |---|---|---|
-| A | | |
-| B | | |
-| C | | |
+| A — Trả lời câu hỏi lặp lại | Phụ huynh hỏi lịch / xin nghỉ (#1), phụ huynh mới hỏi đăng ký (#2) | Câu trả lời đã có sẵn nhưng phải chờ người trực mới gửi được |
+| B — Hỏi lại vì thiếu thông tin | Nhận xét giáo viên → phụ huynh (#3), báo lỗi mơ hồ → dev (#12) | Một bên có ngữ cảnh, bên kia phải hỏi lại và chờ |
+| C — Chuyển nguồn thô sang khuôn chuẩn | Listing 3 sàn (#4), ghi chú buổi học (#5), việc sau họp (#8), bảng BOM báo giá (#10) | Đọc nguồn lộn xộn rồi nhập lại bằng tay theo một khuôn |
+| D — Đọc nhiều để tìm, so sánh | So sánh paper (#6), so sánh shop Shopee (#7), tìm phần cần cho lab (#9) | Thông tin nằm rải trong nhiều nguồn hoặc một tài liệu dài |
+| E — Đối soát chuyển khoản | Khớp chuyển khoản VietQR với mã đơn (#11) | Nội dung chuyển khoản thiếu hoặc sai mã nên phải dò tay |
 
 ### 2.3. Opportunity Solution Tree rút gọn
 
-Gốc là **1 outcome**. Nhánh là **opportunity** (nhu cầu, pain), không phải tính năng hay công cụ.
+Dựng theo candidate đang dẫn đầu (#4 Listing 3 sàn, 3/3 phiếu); sẽ cập nhật nếu nhóm chốt candidate khác.
 
 ```text
-OUTCOME: 
-├── Opportunity A: 
-├── Opportunity B: 
-└── Opportunity C: 
+OUTCOME: Giảm thời gian từ lúc nhận catalog brand tới lúc mở bán đủ SKU trên 3 sàn, mà tỷ lệ listing bị sàn từ chối không tăng
+├── Opportunity: Catalog brand lộn xộn và lệch nhau giữa các file (PDF, Excel, ảnh), phải đối chiếu tay
+├── Opportunity: Cùng một SKU phải viết lại tiêu đề và thuộc tính 3 lần theo 3 quy ước sàn khác nhau
+├── Opportunity: Câu quảng cáo vi phạm bị bỏ sót, listing bị từ chối hoặc đình chỉ (14/720 listing ở lần onboard gần nhất)
+└── Opportunity: Ảnh, video phải chỉnh lại cho đúng chuẩn từng sàn (câu hỏi của Bào, chưa có số liệu)
 ```
 
 Những ý đã gạch bỏ vì là solution đội lốt opportunity:
 
--
+- "Tool tạo listing đa sàn bằng AI"
+- "Phần mềm quản lý đa kênh"
+- "File đăng hàng loạt của sàn"
 
 ### 2.4. Chấm điểm shortlist (1–5)
 
+Bảng tạm: 3/4 người đã chấm qua form (Minh, Phúc, Bào; còn Hải Quân). Điểm là trung bình 3 người. Chỉ ghi các candidate có ít nhất 1 phiếu vào shortlist.
+
 | Candidate | Actor rõ | Quy trình rõ | Pain có bằng chứng | Impact đo được | Vừa sức lab | So sánh được No AI/Rule/Workflow/Agent | Nhóm hiểu domain | Tổng |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| | | | | | | | | |
-| | | | | | | | | |
-| | | | | | | | | |
+| #4 Listing 3 sàn (3 phiếu) | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 35 |
+| #8 Việc sau họp (1 phiếu) | 4,3 | 4,3 | 4 | 3,3 | 4 | 3,7 | 4 | 27,7 |
+| #10 Bảng BOM báo giá (1 phiếu) | 4,3 | 4 | 4,3 | 3,3 | 3,7 | 4 | 3,7 | 27,3 |
+| #3 Nhận xét giáo viên → phụ huynh (2 phiếu) | 4 | 4 | 4 | 3,7 | 4 | 3,7 | 3,7 | 27 |
+| #5 Ghi chú buổi học (1 phiếu) | 4 | 4 | 4 | 3,7 | 3,7 | 3,7 | 3,7 | 26,7 |
+| #12 Báo lỗi mơ hồ (1 phiếu) | 3,7 | 4 | 4,3 | 3,3 | 3,7 | 4 | 3,7 | 26,7 |
 
-**Candidate được chọn:**
+**Candidate được chọn:** chờ đủ 4 người chấm.
 
 **Vì sao chọn:**
 
-**Vì sao loại các candidate còn lại:**
+**Vì sao loại các candidate còn lại:** đề xuất (chưa chốt): loại #1, vì bottleneck là không có người đọc tin (khi có người trực, trả lời trung vị 0,1 phút), nên phân ca trực + ghim lịch lớp giải được mà không cần AI (Phúc). Loại #9, vì tìm thông tin trong tài liệu dài giải được bằng tìm kiếm văn bản (Ctrl+F, regex), khó chứng minh impact vượt trội (Bào).
 
 **Xử lý bất đồng (nếu có):**
 
