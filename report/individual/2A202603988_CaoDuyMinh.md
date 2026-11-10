@@ -171,10 +171,11 @@ Trong lúc chờ: phụ huynh nhắn thêm 12 tin
 |---|---|---|---|---|
 | CP1 Scan | Viết các việc lặp lại khi vận hành Zalo của trung tâm thành Job Story, và đếm số liệu trên log Zalo (2.143 tin, 23/10–9/11/2026) | Đếm nhanh số tin, giờ đến, thời gian trả lời mà tự đếm tay không kịp | Bản đầu để trống ô dấu hiệu thật hoặc ghi chung chung ("vài phút") | Thay bằng số đo từ log; ghi "ước lượng" cho các chủ đề lọc bằng từ khoá; ghi "chưa đo" cho số không có trong Zalo |
 | CP2 Problem Card | Soạn 3 Problem Card và đóng vai PM hoài nghi để phản biện | Chỉ ra bottleneck thật là chờ người trực đọc tin, không phải bước tra cứu (trả lời tay trung vị 0,1–0,7 phút) | Đếm các câu trả lời mẫu dùng lại thành "thông báo gửi hàng loạt"; card chuyển khoản không có số liệu | Bỏ card thông báo và card chuyển khoản, chọn lại top 3 theo số liệu |
+| CP3 Hội tụ nhóm (chấm điểm) | Dựng Google Form để mỗi người tự chấm 7 tiêu chí, rồi tổng hợp kết quả vào bảng 2.4. Không dùng AI cho phần pitch và câu hỏi phản biện | Tính trung bình 7 tiêu chí của 3 người và xếp hạng shortlist | Bảng điểm ít phân biệt vì nhiều người chấm 4–5 đồng loạt; AI chỉ tổng hợp được, không quyết thay | Nhóm chốt #4 dựa trên số phiếu shortlist và lý do loại từng candidate, không chỉ dựa trên tổng điểm |
 | CP4 Research | Không dùng (Hải Quân phụ trách) | — | — | — |
 | CP5 Quy trình | Không dùng (Bào phụ trách) | — | — | — |
 | CP5–6 Problem Statement | Không dùng (Bào, Phúc phụ trách) | — | — | — |
-| CP6 Mức can thiệp / quyết định | Dựng Google Form chấm điểm, tổng hợp kết quả vào bảng 2.4, đưa nội dung mục 6 và 10 vào báo cáo nhóm | Tính trung bình 7 tiêu chí của 3 người và xếp hạng shortlist | Bảng điểm ít phân biệt vì nhiều người chấm 4–5 đồng loạt; AI chỉ tổng hợp được, không quyết thay | Nhóm chốt #4 dựa trên số phiếu shortlist và lý do loại từng candidate, không chỉ dựa trên tổng điểm |
+| CP6 Mức can thiệp / quyết định | Đưa bản nháp mục 6 (ma trận, so sánh 4 mức, AI Canvas, PAIR) và mục 10 vào báo cáo nhóm | | | |
 
 ---
 
