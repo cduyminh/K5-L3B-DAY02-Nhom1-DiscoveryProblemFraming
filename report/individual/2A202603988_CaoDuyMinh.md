@@ -152,16 +152,16 @@ Trong lúc chờ: phụ huynh nhắn thêm 12 tin
 
 | Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
 |---|---|---|
-| Pitch Problem Card | | |
+| Pitch Problem Card | Pitch 3 card về trung tâm Anh ngữ Chăm Chỉ: phụ huynh hỏi lịch / xin nghỉ (#1), phụ huynh mới hỏi đăng ký (#2), nhận xét giáo viên → phụ huynh (#3), có số liệu từ log Zalo 23/10–9/11/2026 | 3 candidate vào bảng pitch 2.1; #3 được 2 phiếu shortlist |
 | Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: | |
-| Nhận phản biện | Câu hỏi tôi nhận được: | Tôi đã sửa gì: |
-| Gom cluster / cây OST | | |
-| Chọn candidate problem | | |
-| Kiểm chứng / research | | |
-| Quy trình nhóm | | |
-| Problem Statement | | |
-| Mức can thiệp AI | | |
-| Quyết định | | |
+| Nhận phản biện | Câu hỏi tôi nhận được: Phúc hỏi trong 10% tin chờ lâu nhất bao nhiêu tin đến ngoài giờ trực, nếu phần lớn ngoài giờ thì phân ca đã đủ (#1); số 80,6 và 820 phút ở card #3 có trùng với card #1 không (#3). Bào hỏi auto-reply Zalo hoặc Google Form báo nghỉ đã đủ chưa (#1) | Tôi đã sửa gì: đồng ý bottleneck của #1 là không có người trực chứ không phải tra cứu chậm; #1 được ghi vào danh sách loại với lý do đó |
+| Gom cluster / cây OST | Gom 12 candidate của 4 người thành 5 cluster theo dạng nỗi đau (A–E); dựng cây OST cho candidate dẫn đầu (#4) | Mục 2.2 và 2.3 |
+| Chọn candidate problem | Tạo Google Form để mỗi người tự chấm 7 tiêu chí và đặt câu hỏi phản biện; tổng hợp 3/4 phiếu vào bảng 2.4; ghi lựa chọn #4 và lý do loại #1, #9, #8, #3 | Nhóm chốt #4 (listing 3 sàn) |
+| Kiểm chứng / research | Không phụ trách (Hải Quân làm CP4) | — |
+| Quy trình nhóm | Không phụ trách (Bào làm CP5) | — |
+| Problem Statement | Không phụ trách (Bào viết v0, Phúc viết v1) | — |
+| Mức can thiệp AI | Điền mục 6: ma trận độ mơ hồ × độ phức tạp, so sánh 4 mức, AI Canvas, hai câu hỏi PAIR | Mức chọn Workflow |
+| Quyết định | Không phụ trách (Hải Quân làm mục 8); điền quyết định Not Yet vào mục 1 và `TEAM.md` cho khớp mục 8 | — |
 
 ---
 
@@ -169,12 +169,12 @@ Trong lúc chờ: phụ huynh nhắn thêm 12 tin
 
 | Checkpoint | Tôi dùng AI để làm gì? | AI hữu ích ở đâu? | AI sai hoặc hời hợt ở đâu? | Tôi sửa gì bằng nhận định của mình? |
 |---|---|---|---|---|
-| CP1 Scan | | | | |
-| CP2 Problem Card | | | | |
-| CP4 Research | | | | |
-| CP5 Quy trình | | | | |
-| CP5–6 Problem Statement | | | | |
-| CP6 Mức can thiệp / quyết định | | | | |
+| CP1 Scan | Viết các việc lặp lại khi vận hành Zalo của trung tâm thành Job Story, và đếm số liệu trên log Zalo (2.143 tin, 23/10–9/11/2026) | Đếm nhanh số tin, giờ đến, thời gian trả lời mà tự đếm tay không kịp | Bản đầu để trống ô dấu hiệu thật hoặc ghi chung chung ("vài phút") | Thay bằng số đo từ log; ghi "ước lượng" cho các chủ đề lọc bằng từ khoá; ghi "chưa đo" cho số không có trong Zalo |
+| CP2 Problem Card | Soạn 3 Problem Card và đóng vai PM hoài nghi để phản biện | Chỉ ra bottleneck thật là chờ người trực đọc tin, không phải bước tra cứu (trả lời tay trung vị 0,1–0,7 phút) | Đếm các câu trả lời mẫu dùng lại thành "thông báo gửi hàng loạt"; card chuyển khoản không có số liệu | Bỏ card thông báo và card chuyển khoản, chọn lại top 3 theo số liệu |
+| CP4 Research | Không dùng (Hải Quân phụ trách) | — | — | — |
+| CP5 Quy trình | Không dùng (Bào phụ trách) | — | — | — |
+| CP5–6 Problem Statement | Không dùng (Bào, Phúc phụ trách) | — | — | — |
+| CP6 Mức can thiệp / quyết định | Dựng Google Form chấm điểm, tổng hợp kết quả vào bảng 2.4, đưa nội dung mục 6 và 10 vào báo cáo nhóm | Tính trung bình 7 tiêu chí của 3 người và xếp hạng shortlist | Bảng điểm ít phân biệt vì nhiều người chấm 4–5 đồng loạt; AI chỉ tổng hợp được, không quyết thay | Nhóm chốt #4 dựa trên số phiếu shortlist và lý do loại từng candidate, không chỉ dựa trên tổng điểm |
 
 ---
 
@@ -200,4 +200,6 @@ Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ ch
 
 ## 7. Tài liệu tham khảo
 
--
+- Log tin nhắn Zalo của Trung tâm Anh ngữ Chăm Chỉ, 23/10–9/11/2026 (nội bộ, chỉ dùng số liệu tổng hợp, không trích nội dung tin nhắn)
+- `docs/01-worksheet.md` và `docs/02-deliverable-example.md` trong repo đề bài
+- Slide bài giảng "Ngày 2 — Discovery & Problem Framing", AI20K Cohort 5
