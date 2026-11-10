@@ -118,16 +118,16 @@ Quy trình nháp hiện tại:
 
 | Hoạt động                  | Tôi đã làm gì?                                                                                         | Kết quả / ảnh hưởng tới bài nhóm                                                                   |
 | -------------------------- | ------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------- |
-| Pitch Problem Card | | |
-| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: | |
-| Nhận phản biện | Câu hỏi tôi nhận được: | Tôi đã sửa gì: |
-| Gom cluster / cây OST | | |
-| Chọn candidate problem | | |
-| Kiểm chứng / research | | |
-| Quy trình nhóm | | |
-| Problem Statement | | |
-| Mức can thiệp AI | | |
-| Quyết định | | |
+| Pitch Problem Card | Thêm 3 Problem Card của tôi vào bảng pitch (`group_report.md` 2.1) | Card của tôi nằm trong 12 candidate để nhóm gom cluster và chấm điểm |
+| Phản biện bài của bạn khác | Đặt câu hỏi phản biện trên Google Form. Câu hỏi tôi đã đặt: 〔câu hỏi cụ thể〕 | 〔ảnh hưởng tới bài nhóm〕 |
+| Nhận phản biện | Câu hỏi tôi nhận được: 〔câu hỏi〕 | Tôi đã sửa gì: 〔sửa gì〕 |
+| Gom cluster / cây OST | Không phụ trách (Minh làm, mục 2.2–2.3) | — |
+| Chọn candidate problem | Chấm 7 tiêu chí cho các candidate trên Google Form (mục 2.4) | Điểm của tôi nằm trong bảng chấm điểm nhóm dùng để chọn candidate #4 |
+| Kiểm chứng / research | Không phụ trách (Quân, CP4) | — |
+| Quy trình nhóm | Không phụ trách (Bảo, CP5) | — |
+| Problem Statement | Viết Problem Statement v1 (mục 7) và 5 tiêu chí đánh giá đầu ra của AI | v1 thu hẹp bottleneck về bước viết tiêu đề và mô tả vì BigSeller đã phủ bước điền trường; thêm 2 chỉ số; thêm ngưỡng 0,8 cho ngành hàng. Commit `a1949ae` |
+| Mức can thiệp AI | Không phụ trách mục 6 (Minh làm). Ghi mức Workflow và 3 điểm AI can thiệp trong v1 | Mức chọn trong v1: Workflow |
+| Quyết định | Không phụ trách (Quân, CP6) | — |
 
 ---
 
