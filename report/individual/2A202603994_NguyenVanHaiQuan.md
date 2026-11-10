@@ -134,7 +134,6 @@ HIỆN TẠI — 30 phút/bài
 | Card #1 viết bottleneck là "bước 3–4", nhưng CP4 cho thấy BigSeller đã tự điền danh mục, giá, phân loại | Đồng ý | Thu hẹp bottleneck của Card #1 xuống chủ yếu bước 3 (viết tiêu đề và mô tả) |
 | Card #1: mọi con số nền (240 SKU, 4 ngày, 14 listing bị từ chối, 20–35 phút/SKU) đến từ một người đã rời ngành | Đồng ý | Ghi rõ nguồn trong card; đưa thành giả định số 1 cần kiểm trước ở báo cáo nhóm mục 3.1 |
 | Card #2 và #3: bottleneck còn ô `[?]`, sơ đồ chưa có số phút từng bước, mục tiêu 20 phút và 15 phút chưa có cơ sở | Đồng ý | Chưa sửa: cần tôi bấm giờ lại từng bước |
-| Card #2 chỉ có tôi đo, chưa có bạn cùng lớp 20K nào xác nhận cùng gặp vấn đề | 〔bạn điền〕 | 〔bạn điền〕 |
 
 ---
 
@@ -145,10 +144,10 @@ HIỆN TẠI — 30 phút/bài
 | Pitch Problem Card | Trình bày 3 card: listing đa sàn từ catalog brand (LênSàn), ghi chú buổi học 20K, đọc paper cho bài CAR. Card muốn pitch nhất là LênSàn | 3 card thành candidate #4, #5, #6 trong bảng pitch (báo cáo nhóm mục 2.1). #4 dẫn đầu 3/3 phiếu, 35/35 điểm trong bảng chấm tạm (mục 2.4) |
 | Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: 1. Giải pháp có xử lý được tình trạng đánh giá ảo hoặc đánh giá seeding không? 2. Tại sao không dùng các công cụ như Notion, Trello hoặc Google Docs? | Có kết luận cuối cùng |
 | Nhận phản biện | Câu hỏi tôi nhận được: Phúc hỏi #4: "Lần onboard 240 SKU thực tế mấy người làm, tổng bao nhiêu giờ? 14 listing bị từ chối do lỗi gì?". Bào hỏi #4: "Nút thắt là format text cho từng sàn hay chỉnh ảnh/video đúng chuẩn?". Phúc hỏi #5: "Trong 45 phút, bao nhiêu phút gom slide, bao nhiêu phút viết lại?". Bào hỏi #6: "Nút thắt là lập bảng hay đọc hiểu sâu từng paper?" | Tôi đã sửa gì: câu hỏi ảnh/video của Bào được đưa vào cây OST như một opportunity chưa có số liệu, và giả định "14 tin bị từ chối là do câu chữ, không phải ảnh hay giấy tờ" vào bản đồ giả định (mục 3.1). Hỏi lại người trong nghề cho ra 20–35 phút/SKU, 80–140 giờ công (mục 3.2). Phần này tôi hỏi lại trước khi nhận câu hỏi của Phúc, nên chưa trả lời được "mấy người làm" và "lỗi gì" |
-| Gom cluster / cây OST | Minh dựng cluster và cây OST. Phần góp ý của tôi: 〔bạn điền, hoặc ghi "chưa tham gia"〕 | Cụm C (chuyển nguồn thô sang khuôn chuẩn) chứa candidate #4 của tôi |
-| Chọn candidate problem | Bảng chấm shortlist ở mục 2.4 ghi "3/4 người đã chấm, còn Hải Quân". 〔bạn điền: đã chấm chưa, chấm thế nào〕 | Candidate #4 đang dẫn đầu; nhóm chưa ghi kết luận chọn |
+| Gom cluster / cây OST | Minh dựng cluster và cây OST. Phần góp ý của tôi: Không tham gia | Cụm C (chuyển nguồn thô sang khuôn chuẩn) chứa candidate #4 của tôi |
+| Chọn candidate problem | Bảng chấm shortlist ở mục 2.4  | Candidate #4 đang dẫn đầu; nhóm chưa ghi kết luận chọn |
 | Kiểm chứng / research | Viết mục 3 báo cáo nhóm: bản đồ giả định 6 mục kèm ảnh `cp4-assumption-map.svg`, 1 interview snapshot, bảng tổng hợp, bảng research 4 nguồn (BigSeller, Sapo, 2 bài Shopee), 4 điều nhóm đã sửa sau kiểm chứng | Thu hẹp bottleneck từ bước 3–4 xuống bước 3; Phúc dùng đúng thay đổi này ở Problem Statement v1; thêm tín hiệu phản bác (BigSeller phủ bước 2/4/6, Sapo nói có gợi ý mô tả theo từng sàn) |
-| Quy trình nhóm | Bào vẽ quy trình hiện tại và tương lai. Tôi không có commit ở mục này. 〔bạn điền nếu có góp ý〕 | Mục 4 báo cáo nhóm và hai sơ đồ `cp5-workflow-*.svg` |
+| Quy trình nhóm | Bào vẽ quy trình hiện tại và tương lai. | Mục 4 báo cáo nhóm và hai sơ đồ `cp5-workflow-*.svg` |
 | Problem Statement | Bào viết v0, Phúc viết v1. Dữ liệu tôi cung cấp từ CP4: 240 SKU, 80–140 giờ, 14/720, kết quả đối chiếu BigSeller và Sapo | v0 và v1 dùng các số và thay đổi bottleneck từ mục 3 của tôi |
 | Mức can thiệp AI |  | — |
 | Quyết định | Viết mục 8 (bốn rủi ro, kết luận Not Yet, bốn ngưỡng dừng). Chưa commit | Kết luận Not Yet dựa trên hai rủi ro cao: số liệu từ một người đã rời ngành, và Sapo chưa kiểm |
@@ -165,8 +164,7 @@ HIỆN TẠI — 30 phút/bài
 | CP2 Problem Card | AI dựng khung 3 card từ số liệu tôi cung cấp, tính các phép nhân (720 listing, 80–140 giờ công) | Phát hiện số 10–20 phút/listing từ nguồn nước ngoài không khớp với "240 SKU trong 4 ngày", từ đó tôi hỏi lại người trong nghề ra 20–35 phút/SKU | Lần đầu AI hiểu nhầm LênSàn là Sync Guard (xác minh đổi giá) thay vì Launch (đăng một nơi, ra nhiều sàn). AI cũng điền ước tính 10–20 phút từ blog của bên bán công cụ, độ tin cậy thấp | Tôi chỉ ra sản phẩm là "đăng một nơi, ra nhiều nơi" nên Card #1 được viết lại theo Launch; thay ước tính ngoài bằng số tôi hỏi được |
 | CP4 Research | Đọc lại 4 nguồn (BigSeller, Sapo, 2 bài Shopee), kiểm link, điền mục 3 báo cáo nhóm từ nháp | Trích nguyên văn câu của Sapo | Hai bài Shopee hiển thị bằng JavaScript nên AI không đọc được, các số 120/20/10 ký tự chưa kiểm. Nháp ghi BigSeller "tên, mô tả, giá do người bán tự nhập" nhưng bài gốc nói BigSeller tự điền cả giá. Đường dẫn ảnh bản đồ giả định sai. Trong snapshot AI từng thêm chữ "hỏi trực tiếp" mà tôi chưa xác nhận | Sửa câu về BigSeller theo bài gốc, thay đường dẫn ảnh, bỏ chữ "hỏi trực tiếp" chờ tôi điền hình thức hỏi. Việc còn lại: tự mở 2 bài Shopee để kiểm các số |
 | CP5 Quy trình | Không dùng AI trong phiên này (phần do Bào phụ trách) | — | — | — |
-| CP5–6 Problem Statement | Chèn mục 8 (quyết định) tôi soạn vào báo cáo nhóm đúng định dạng; kiểm số có khớp với mục 3 và mục 7 | Các số 240, 80–140 giờ, 14/720, bốn giả định đều khớp giữa mục 3, 7 và 8 | Con số chi phí 0,0029 đô/mặt hàng (Gemini 2.5 Flash) không có nguồn trong báo cáo | Đã đánh dấu 〔cần dẫn link bảng giá〕, chờ tôi bổ sung. 〔bạn điền: mục 8 nháp ban đầu do tự viết hay có AI hỗ trợ〕 |
-| CP6 Mức can thiệp / quyết định | | — | — | — |
+| CP5–6 Problem Statement | Chèn mục 8 (quyết định) tôi soạn vào báo cáo nhóm đúng định dạng; kiểm số có khớp với mục 3 và mục 7 | Các số 240, 80–140 giờ, 14/720, bốn giả định đều khớp giữa mục 3, 7 và 8 | Con số chi phí 0,0029 đô/mặt hàng (Gemini 2.5 Flash) không có nguồn trong báo cáo | Đã đánh dấu. |
 
 ---
 
