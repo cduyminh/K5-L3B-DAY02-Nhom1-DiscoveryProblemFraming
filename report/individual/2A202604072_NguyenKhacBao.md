@@ -134,7 +134,7 @@ HIỆN TẠI — 55 phút thao tác/ca lỗi (+ 2–4h chờ phản hồi)
 |---|---|---|
 | Pitch Problem Card | Pitch 3 card từ dự án `furnicore` (#10 BOM, #11 VietQR, #12 Lỗi app); ưu tiên pitch Card #10 | Bổ sung 3 candidate vào bảng `2.1`; #10 đạt 28đ (hạng 2 shortlist) |
 | Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: Hỏi cả 9 candidate (#1–#9), nổi bật hỏi #4 nút thắt là viết text hay chỉnh ảnh/video, hỏi #9 đã thử `Ctrl+F` chưa, và chất vấn phương án No AI cho #1, #3, #8 | Câu hỏi ảnh/video ở #4 thành 1 nhánh Opportunity trên cây OST (`2.3`); câu hỏi cho #9, #8, #3 được đưa vào lý do loại ở `2.4` |
-| Nhận phản biện | Câu hỏi tôi nhận được: Phúc hỏi #10 (`120'`/`~8%` đo hay ước, template + Rule đủ chưa), #11 (vì sao QR sẵn mã vẫn sai 25%), #12 (`2–4h` hỏi ai, có nút xuất log rồi AI làm thêm gì) | Tôi đã sửa gì: Nhận rõ số đo #10–#12 mới ở mức đặc tả/ước lượng và Rule đã giải quyết phần lớn; ghi nhận hạn chế này khi chấm điểm CP3 để cùng nhóm chuyển sang ưu tiên #4 có bối cảnh cụ thể hơn |
+| Nhận phản biện | Câu hỏi tôi nhận được: Phúc hỏi #10 (`120'`/`~8%` đo hay ước, template + Rule đủ chưa), #11 (vì sao QR sẵn mã vẫn sai 25%), #12 (`2–4h` hỏi ai, có nút xuất log rồi AI làm thêm gì); Quân hỏi #10 (bản vẽ thiếu/lệch thì BOM có tin cậy không), #11 (xử lý khi sai/thiếu mã đơn), #12 (vì sao tester chưa dùng Jira/công cụ bug) | Tôi đã sửa gì: Nhận rõ số đo #10–#12 mới ở mức đặc tả/ước lượng, cần bước người kiểm chứng khi thiếu dữ liệu và phần lớn giải được bằng Rule; ghi nhận hạn chế này khi chấm điểm CP3 để cùng nhóm chuyển sang ưu tiên #4 có bối cảnh cụ thể hơn |
 | Gom cluster / cây OST | Cùng nhóm phân 12 candidate thành 5 cluster A–E và dựng cây OST cho #4 | Hoàn thiện mục `2.2–2.3` trong `group_report.md` |
 | Chọn candidate problem | Chấm 7 tiêu chí trên form nhóm, đề xuất loại #9 và đồng thuận chọn #4 | Nhóm chốt #4 (35/35đ) |
 | Kiểm chứng / research | Thảo luận nhanh với nhóm, đóng vai người phản biện rà lại các giả định và hướng kiểm chứng (CP4) do Quân tổng hợp | Thống nhất thu hẹp nút thắt về bước 3 và tách rõ phần chưa kiểm chứng |
@@ -192,4 +192,6 @@ Nếu làm lại, tôi sẽ bấm giờ riêng từng bước trên vài mặt h
 
 ## 7. Tài liệu tham khảo
 
--
+- Tài liệu dự án FurniCore (`spec.md`, `DESKTOP_SALES_SPEC.md`, `claude-desktop-tests.md`, `SESSION_HANDOFF.md`) — số liệu thực tế cho phần scan CP1 và 3 Problem Card CP2.
+- [docs/01-worksheet.md](../../docs/01-worksheet.md) và [docs/02-deliverable-example.md](../../docs/02-deliverable-example.md) — hướng dẫn quy trình khung và bài mẫu trong repo.
+- [Báo cáo nhóm (group_report.md)](../team/group_report.md) — dữ liệu hội tụ CP3, đối chiếu CP4 (Shopee Seller Education Hub, BigSeller, Sapo), CP5–CP6 cho bài #4 Lên Sàn.
