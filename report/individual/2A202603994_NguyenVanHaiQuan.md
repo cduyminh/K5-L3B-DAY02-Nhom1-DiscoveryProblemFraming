@@ -50,7 +50,7 @@ Lăng kính: **Lặp lại** · **Tốn thời gian** · **Cần đọc, tổng 
 | Actor | Nhân sự vận hành tại enabler, giai đoạn onboard brand mới hoặc brand mở thêm sàn |
 | Thời điểm / bối cảnh | Mỗi lần ký brand mới hoặc brand mở thêm sàn; thường có hạn mở bán cố định, dày nhất trước các kỳ sale lớn |
 | Quy trình hiện tại (3–7 bước) | 1. Nhận catalog, đối chiếu các file khi giá hoặc quy cách lệch nhau · 2. Chọn danh mục cho từng SKU trên từng sàn · 3. Viết tiêu đề theo quy ước riêng từng sàn (Shopee tối đa 120 ký tự; TikTok Shop tối đa 100 ký tự, không nhắc sàn khác; Lazada bắt đầu bằng thương hiệu) · 4. Điền thuộc tính bắt buộc của từng sàn, thiếu thì hỏi brand · 5. Rà câu quảng cáo có nguy cơ vi phạm (ví dụ mỹ phẩm không được nói "trị dứt điểm") · 6. Đăng (thủ công hoặc file hàng loạt) và chờ sàn duyệt |
-| Bottleneck (bước nào, mất bao nhiêu phút) | Bước 3–4: cùng một SKU phải viết lại tiêu đề 3 lần theo 3 quy ước và điền 3 bộ thuộc tính khác nhau. Toàn bộ việc đăng mất 20–35 phút/SKU cho 3 sàn (≈ 7–12 phút/listing), chưa tách riêng bước 3–4. Bước 5 là điểm rủi ro: bỏ sót một câu vi phạm thì listing bị từ chối hoặc đình chỉ |
+| Bottleneck (bước nào, mất bao nhiêu phút) | Chủ yếu bước 3: cùng một SKU phải viết lại tiêu đề và mô tả 3 lần theo 3 quy ước. Bước 4 (điền thuộc tính) đã được phần mềm đa sàn như BigSeller tự điền theo quy tắc, nên không còn là điểm nghẽn chính (xem báo cáo nhóm mục 3.2). Toàn bộ việc đăng mất 20–35 phút/SKU cho 3 sàn (≈ 7–12 phút/listing), chưa tách riêng bước 3–4. Bước 5 là điểm rủi ro: bỏ sót một câu vi phạm thì listing bị từ chối hoặc đình chỉ |
 | Impact (nếu không giải thì sao) | Lần onboard gần nhất: 240 SKU × 3 sàn = 720 listing. Với 20–35 phút/SKU cho 3 sàn, đó là 80–140 giờ công dồn vào 4 ngày, tức cần khoảng 3–4 người làm toàn thời gian chỉ để đăng hàng. 14 listing bị sàn từ chối (≈ 1,9%) phải làm lại. Nếu không kịp thì mở bán trễ hạn với brand |
 | Success metric (baseline → target) | Baseline: 20–35 phút/SKU cho 3 sàn (cần bấm giờ lại trên 5 SKU thật); 4 ngày cho 240 SKU; 14/720 ≈ 1,9% listing bị từ chối ở lần đăng đầu. Target: giảm ≥ 60% thời gian, tỉ lệ bị từ chối không tăng; 100% giá trị do hệ thống tự suy ra được đánh dấu và có người xác nhận. Cách đo: so 2 lần onboard trước/sau |
 | Phương án không dùng AI | Template tiêu đề theo từng sàn + file Excel đăng hàng loạt của sàn + checklist thuộc tính bắt buộc + danh sách từ cấm. Giảm được công nhập liệu; cần kiểm ở CP4 xem phần mềm quản lý đa kênh có sẵn đã sao chép listing giữa các sàn tới đâu. Phần chưa giải được: đọc catalog lộn xộn, chọn danh mục và viết tiêu đề cho SKU chưa từng gặp |
@@ -131,7 +131,10 @@ HIỆN TẠI — 30 phút/bài
 
 | Điểm yếu AI chỉ ra | Đồng ý? | Đã sửa gì |
 |---|---|---|
-| | | |
+| Card #1 viết bottleneck là "bước 3–4", nhưng CP4 cho thấy BigSeller đã tự điền danh mục, giá, phân loại | Đồng ý | Thu hẹp bottleneck của Card #1 xuống chủ yếu bước 3 (viết tiêu đề và mô tả) |
+| Card #1: mọi con số nền (240 SKU, 4 ngày, 14 listing bị từ chối, 20–35 phút/SKU) đến từ một người đã rời ngành | Đồng ý | Ghi rõ nguồn trong card; đưa thành giả định số 1 cần kiểm trước ở báo cáo nhóm mục 3.1 |
+| Card #2 và #3: bottleneck còn ô `[?]`, sơ đồ chưa có số phút từng bước, mục tiêu 20 phút và 15 phút chưa có cơ sở | Đồng ý | Chưa sửa: cần tôi bấm giờ lại từng bước |
+| Card #2 chỉ có tôi đo, chưa có bạn cùng lớp 20K nào xác nhận cùng gặp vấn đề | 〔bạn điền〕 | 〔bạn điền〕 |
 
 ---
 
@@ -139,29 +142,31 @@ HIỆN TẠI — 30 phút/bài
 
 | Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
 |---|---|---|
-| Pitch Problem Card | | |
-| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: | |
-| Nhận phản biện | Câu hỏi tôi nhận được: | Tôi đã sửa gì: |
-| Gom cluster / cây OST | | |
-| Chọn candidate problem | | |
-| Kiểm chứng / research | | |
-| Quy trình nhóm | | |
-| Problem Statement | | |
-| Mức can thiệp AI | | |
-| Quyết định | | |
+| Pitch Problem Card | Trình bày 3 card: listing đa sàn từ catalog brand (LênSàn), ghi chú buổi học 20K, đọc paper cho bài CAR. Card muốn pitch nhất là LênSàn | 3 card thành candidate #4, #5, #6 trong bảng pitch (báo cáo nhóm mục 2.1). #4 dẫn đầu 3/3 phiếu, 35/35 điểm trong bảng chấm tạm (mục 2.4) |
+| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: 1. Giải pháp có xử lý được tình trạng đánh giá ảo hoặc đánh giá seeding không? 2. Tại sao không dùng các công cụ như Notion, Trello hoặc Google Docs? | Có kết luận cuối cùng |
+| Nhận phản biện | Câu hỏi tôi nhận được: Phúc hỏi #4: "Lần onboard 240 SKU thực tế mấy người làm, tổng bao nhiêu giờ? 14 listing bị từ chối do lỗi gì?". Bào hỏi #4: "Nút thắt là format text cho từng sàn hay chỉnh ảnh/video đúng chuẩn?". Phúc hỏi #5: "Trong 45 phút, bao nhiêu phút gom slide, bao nhiêu phút viết lại?". Bào hỏi #6: "Nút thắt là lập bảng hay đọc hiểu sâu từng paper?" | Tôi đã sửa gì: câu hỏi ảnh/video của Bào được đưa vào cây OST như một opportunity chưa có số liệu, và giả định "14 tin bị từ chối là do câu chữ, không phải ảnh hay giấy tờ" vào bản đồ giả định (mục 3.1). Hỏi lại người trong nghề cho ra 20–35 phút/SKU, 80–140 giờ công (mục 3.2). Phần này tôi hỏi lại trước khi nhận câu hỏi của Phúc, nên chưa trả lời được "mấy người làm" và "lỗi gì" |
+| Gom cluster / cây OST | Minh dựng cluster và cây OST. Phần góp ý của tôi: 〔bạn điền, hoặc ghi "chưa tham gia"〕 | Cụm C (chuyển nguồn thô sang khuôn chuẩn) chứa candidate #4 của tôi |
+| Chọn candidate problem | Bảng chấm shortlist ở mục 2.4 ghi "3/4 người đã chấm, còn Hải Quân". 〔bạn điền: đã chấm chưa, chấm thế nào〕 | Candidate #4 đang dẫn đầu; nhóm chưa ghi kết luận chọn |
+| Kiểm chứng / research | Viết mục 3 báo cáo nhóm: bản đồ giả định 6 mục kèm ảnh `cp4-assumption-map.svg`, 1 interview snapshot, bảng tổng hợp, bảng research 4 nguồn (BigSeller, Sapo, 2 bài Shopee), 4 điều nhóm đã sửa sau kiểm chứng | Thu hẹp bottleneck từ bước 3–4 xuống bước 3; Phúc dùng đúng thay đổi này ở Problem Statement v1; thêm tín hiệu phản bác (BigSeller phủ bước 2/4/6, Sapo nói có gợi ý mô tả theo từng sàn) |
+| Quy trình nhóm | Bào vẽ quy trình hiện tại và tương lai. Tôi không có commit ở mục này. 〔bạn điền nếu có góp ý〕 | Mục 4 báo cáo nhóm và hai sơ đồ `cp5-workflow-*.svg` |
+| Problem Statement | Bào viết v0, Phúc viết v1. Dữ liệu tôi cung cấp từ CP4: 240 SKU, 80–140 giờ, 14/720, kết quả đối chiếu BigSeller và Sapo | v0 và v1 dùng các số và thay đổi bottleneck từ mục 3 của tôi |
+| Mức can thiệp AI |  | — |
+| Quyết định | Viết mục 8 (bốn rủi ro, kết luận Not Yet, bốn ngưỡng dừng). Chưa commit | Kết luận Not Yet dựa trên hai rủi ro cao: số liệu từ một người đã rời ngành, và Sapo chưa kiểm |
 
 ---
 
 ## 5. Dùng AI
 
+> Lập từ phiên Claude Code ngày 9–10/11/2026. Chưa gồm các phiên AI khác (ví dụ lượt nghiên cứu trước khi dán nháp vào phiên này). Nếu có, bổ sung thêm dòng.
+
 | Checkpoint | Tôi dùng AI để làm gì? | AI hữu ích ở đâu? | AI sai hoặc hời hợt ở đâu? | Tôi sửa gì bằng nhận định của mình? |
 |---|---|---|---|---|
-| CP1 Scan | | | | |
-| CP2 Problem Card | | | | |
-| CP4 Research | | | | |
-| CP5 Quy trình | | | | |
-| CP5–6 Problem Statement | | | | |
-| CP6 Mức can thiệp / quyết định | | | | |
+| CP1 Scan | Sau khi tự scan, nhờ AI gợi ý thêm problem theo tình hình Việt Nam và tìm nguồn kiểm chứng cho từng dòng | Tìm được nghiên cứu 255 bệnh nhân ở BV Lê Văn Việt (dòng 5), gợi ý được lăng kính "pain từ người khác" tôi chưa nghĩ tới | Gợi ý có số "60 giây/CV" và "37% Pearson-AWS" mà không tìm được nguồn (VietnamWorks chỉ ghi 20–30 giây). Gợi ý DataMate là sản phẩm của cuộc thi Zalo AI nên không dùng được | Bỏ hai con số không có nguồn, bỏ dòng DataMate, thay bằng problem tôi tự đo được; tự điền số thật (45 phút/buổi, 22 CV nộp, 15 phản hồi) |
+| CP2 Problem Card | AI dựng khung 3 card từ số liệu tôi cung cấp, tính các phép nhân (720 listing, 80–140 giờ công) | Phát hiện số 10–20 phút/listing từ nguồn nước ngoài không khớp với "240 SKU trong 4 ngày", từ đó tôi hỏi lại người trong nghề ra 20–35 phút/SKU | Lần đầu AI hiểu nhầm LênSàn là Sync Guard (xác minh đổi giá) thay vì Launch (đăng một nơi, ra nhiều sàn). AI cũng điền ước tính 10–20 phút từ blog của bên bán công cụ, độ tin cậy thấp | Tôi chỉ ra sản phẩm là "đăng một nơi, ra nhiều nơi" nên Card #1 được viết lại theo Launch; thay ước tính ngoài bằng số tôi hỏi được |
+| CP4 Research | Đọc lại 4 nguồn (BigSeller, Sapo, 2 bài Shopee), kiểm link, điền mục 3 báo cáo nhóm từ nháp | Trích nguyên văn câu của Sapo | Hai bài Shopee hiển thị bằng JavaScript nên AI không đọc được, các số 120/20/10 ký tự chưa kiểm. Nháp ghi BigSeller "tên, mô tả, giá do người bán tự nhập" nhưng bài gốc nói BigSeller tự điền cả giá. Đường dẫn ảnh bản đồ giả định sai. Trong snapshot AI từng thêm chữ "hỏi trực tiếp" mà tôi chưa xác nhận | Sửa câu về BigSeller theo bài gốc, thay đường dẫn ảnh, bỏ chữ "hỏi trực tiếp" chờ tôi điền hình thức hỏi. Việc còn lại: tự mở 2 bài Shopee để kiểm các số |
+| CP5 Quy trình | Không dùng AI trong phiên này (phần do Bào phụ trách) | — | — | — |
+| CP5–6 Problem Statement | Chèn mục 8 (quyết định) tôi soạn vào báo cáo nhóm đúng định dạng; kiểm số có khớp với mục 3 và mục 7 | Các số 240, 80–140 giờ, 14/720, bốn giả định đều khớp giữa mục 3, 7 và 8 | Con số chi phí 0,0029 đô/mặt hàng (Gemini 2.5 Flash) không có nguồn trong báo cáo | Đã đánh dấu 〔cần dẫn link bảng giá〕, chờ tôi bổ sung. 〔bạn điền: mục 8 nháp ban đầu do tự viết hay có AI hỗ trợ〕 |
+| CP6 Mức can thiệp / quyết định | | — | — | — |
 
 ---
 
@@ -171,17 +176,31 @@ Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ ch
 
 **6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
 
+> Trong thời gian ngắn thôi nhưng các bạn đều đưa ra các vấn rất hay và thực sự tồn tại. Tôi học được kỹ năng tìm kiếm, đọc tài liệu và kỹ năng dùng AI để tìm kiếm, xác thực vấn đề.
+
 **6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
+
+> Không
 
 **6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
 
+> Không
+
 **6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
+
+> Không, vì đây là vấn đề tôi đã có dự tính làm từ lâu, nên những hiểu biết trước đây giúp tôi cũng cố niềm tin cho đề tài.
 
 **6.5. Điều khó nhất khi viết Problem Statement là gì?**
 
+> Dẫn chứng thực tế.
+
 **6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
 
-**6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
+> Không thay đổi. Sẽ phản biện mạnh hơn ở nhóm nỗi đau thật sự của những đối tượng sử dụng nền tảng này.
+
+**6.7. Hiểu bài:** giải thích bằng 5–8.  câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình**
+
+>Problem: Nhân sự vận hành của đơn vị vận hành gian hàng thuê tốn nhiều thời gian để đăng bán các sản phẩm của mình trên nhiều sàn thương mại điện tử khác nhau -> Quy trình hiện tại có 6 bước, trong đó viết và rà sát nội dung tốn nhiều thời gian -> Nhóm đo thành công bằng thời gian rút ngắn được, target giảm ≥40% (đề xuất), đo bằng bấm giờ 20 mặt hàng. Còn có tỷ lệ tin bị từ chối 1,9% không được tăng -> AI không được tự đăng lên sàn khi chưa qua kiểm duyệt nhà bán, AI không tự điền số công bố, xuất xứ, hạn dùng; không tự chọn khi hai nguồn hồ sơ lệch -> Chọn mức workflow -> Nhóm kết luận Not Yet
 
 ---
 
